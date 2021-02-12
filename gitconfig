@@ -1,0 +1,9 @@
+[user]
+	name = hbreckenridge
+	email = hans@upstrem.dev
+[color]
+	ui = auto
+[merge]
+	conflictStyle = diff3
+[core]
+	editor = code --wait

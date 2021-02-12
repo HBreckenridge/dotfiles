@@ -1,3 +1,14 @@
-- clean: []
-- link: {}
-- shell: []
+- clean: ['~']
+
+- link:
+    ~/.dotfiles: ~/pR1sM/dotfiles
+    ~/.alacritty.yml: alacritty.yml
+    ~/.terminal-config: terminal-config/
+    ~/.bashrc: bashrc
+    ~/.zshrc: zshrc
+    ~/.oh-my-zsh: oh-my-zsh/
+    ~/.bash_profile: bash_profile
+    ~/.gitignore: gitignore  
+
+- shell:
+  - [git submodule update --init --recursive, Installing submodules]
