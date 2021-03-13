@@ -73,6 +73,19 @@ ZSH_THEME="xiong-chiamiov-plus"
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(git)
+# Zsh Auto Suggestions
+
+# Load zsh-syntax-highlighting.
+source ~/pR1sM/dotfiles/oh-my-zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+
+# Load zsh-autosuggestions.
+source ~/pR1sM/dotfiles/oh-my-zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
+
+# Enable autosuggestions automatically.
+zle-line-init() {
+    zle autosuggest-start
+    }
+    zle -N zle-line-init
 
 source $ZSH/oh-my-zsh.sh
 
@@ -106,6 +119,7 @@ export PATH="$PATH:$HOME/pR1sM/myTools/apps/code_portable/VSCode-linux-x64/bin/"
 
 ###___###__Add my shortcut aliases to bash shell config file
 # Directory Shortcuts
+
 alias projects="cd ~/pR1sM/implement/projects"
 alias apps="cd ~/pR1sM/myTools/apps"
 alias implement="cd ~/pR1sM/implement"
@@ -118,7 +132,13 @@ alias todo="gedit ~/pR1sM/__brain__/todo.txt"
 # TURN touchpad on/off
 alias touchoff='''xinput set-prop 16 "Device Enabled" 0'''
 alias touchon='''xinput set-prop 16 "Device Enabled" 1'''
-# Activate ssh-keys
+# 
+# SSH
+#  Logon to user : root @ 138.68.63.8  system : svr-microservice-staging ssh root@138.68.63.8
+alias svrstage-root='''ssh root@138.68.63.8'''
+alias svrstage-svrms='''ssh svr-ms@138.68.63.8'''
+# soundscapeVR
+alias ssh-svr='''eval $(ssh-agent -s) && ssh-add /home/nach0/pR1sM/.keys/.ssh/soundscape'''
 # git
 alias ssh-git='''eval $(ssh-agent -s) && ssh-add /home/nach0/pR1sM/.keys/.ssh/ssh.git'''
 # git repo aliases
@@ -127,6 +147,4 @@ alias gc="git commit -m"
 alias gpom="git push origin master"
 alias gs="git status"
 alias gl="git log"
-alias wally="~/pR1sM/_moonlander/./wally"
-#Print aliases for reminder:
-#alias
+#Print aliases for reminder
