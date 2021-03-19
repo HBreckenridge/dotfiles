@@ -73,13 +73,15 @@ ZSH_THEME="xiong-chiamiov-plus"
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(git)
+plugins=(dotfiles/ohmyzsh/plugins/zsh-autosuggestions)
+plugins=(dotfiles/ohmyzsh/plugins/zsh-syntax-highlighting)
 # Zsh Auto Suggestions
 
 # Load zsh-syntax-highlighting.
-source ~/pR1sM/dotfiles/oh-my-zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+source ~/pR1sM/dotfiles/ohmyzsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
 # Load zsh-autosuggestions.
-source ~/pR1sM/dotfiles/oh-my-zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
+source ~/pR1sM/dotfiles/ohmyzsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
 
 # Enable autosuggestions automatically.
 zle-line-init() {

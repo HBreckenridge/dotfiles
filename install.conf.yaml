@@ -6,7 +6,7 @@
     ~/.terminal-config: terminal-config/
     ~/.bashrc: bashrc
     ~/.zshrc: zshrc
-    ~/.oh-my-zsh: oh-my-zsh/
+    ~/.ohmyzsh: ohmyzsh/
     ~/.bash_profile: bash_profile
     ~/.gitignore: gitignore
     
