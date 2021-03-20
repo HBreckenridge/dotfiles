@@ -8,7 +8,6 @@
     ~/.zshrc: zshrc
     ~/.ohmyzsh: ohmyzsh/
     ~/.bash_profile: bash_profile
-    ~/.gitignore: gitignore
     ~/.fonts: fonts
     ~/.vimrc: vimrc    
 - create:
