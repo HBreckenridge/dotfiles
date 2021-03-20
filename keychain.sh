@@ -1,4 +1,11 @@
 KEYCHAIN=".KEYCHAIN"
+
+n=$(wc -l < $KEYCHAIN)
+buffer=1
+
+rlines=$(($n + $buffer))
+
+
 while getopts n:T: option
 do
 case "${option}"
@@ -10,24 +17,39 @@ done
 
 if [ "$TOGGLE" = "enable" ];
 then
-    echo " $N Keychain Enabled!"
-    cp zshrc zshrc_deactivated
-        while IFS= read -r line;
-    do
-        echo $line >> zshrc
+    etag=$( tail -n 1 zshrc )
+    if [ "$etag" = "# End of ZSHRC" ];
+    then
+        echo " $N Keychain Enabled!"
+        cp zshrc zshrc_deactivated
+            while IFS= read -r line;
+        do
+            echo $line >> zshrc
+        done <$KEYCHAIN
 
-    done <$KEYCHAIN
-    echo "Restarting Terminal for changes to take effect...."
+        echo "# EOF" >> zshrc
+        echo "Restarting Terminal for changes to take effect...."
+    fi
+    . ~/.bashrc
+    resets
 fi
 
 if [ "$TOGGLE" = "disable" ];
 then
-    echo "$N Keychain Disabled"
-    rm zshrc
-    cp zshrc_deactivated zshrc
-    rm zshrc_deactivated
-    echo "Restarting Terminal for changes to take effect...."
+    tag=$( tail -n 1 zshrc )
+    if [ "$tag" = "# EOF" ];
+    then
+        for i in $(seq 1 $rlines); do sed -i '$d' zshrc; done;
+        echo "$N Keychain Disabled"
+        echo "Restarting Terminal for changes to take effect...."
+    fi
+    . ~/.bashrc
+    reset
 fi
+
+
+
+
 
 
 
