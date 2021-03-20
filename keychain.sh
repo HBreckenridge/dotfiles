@@ -1,5 +1,7 @@
-KEYCHAIN=".KEYCHAIN"
 
+WD=$PZ/dotfiles
+KEYCHAIN=$WD/".KEYCHAIN"
+ZSHRC=$WD/'zshrc'
 n=$(wc -l < $KEYCHAIN)
 buffer=1
 
@@ -17,39 +19,44 @@ done
 
 if [ "$TOGGLE" = "enable" ];
 then
-    etag=$( tail -n 1 zshrc )
+    etag=$( tail -n 1 $ZSHRC )
     if [ "$etag" = "# End of ZSHRC" ];
     then
         echo " $N Keychain Enabled!"
-        cp zshrc zshrc_deactivated
             while IFS= read -r line;
         do
-            echo $line >> zshrc
+            echo $line >> $ZSHRC
         done <$KEYCHAIN
 
-        echo "# EOF" >> zshrc
+        echo "# EOF" >> $ZSHRC
         echo "Restarting Terminal for changes to take effect...."
     fi
-    . ~/.bashrc
-    resets
+    source ~/.bashrc
+    reset
 fi
 
 if [ "$TOGGLE" = "disable" ];
 then
-    tag=$( tail -n 1 zshrc )
+    tag=$( tail -n 1 $ZSHRC )
     if [ "$tag" = "# EOF" ];
     then
-        for i in $(seq 1 $rlines); do sed -i '$d' zshrc; done;
+        for i in $(seq 1 $rlines); do sed -i '$d' $ZSHRC ; done;
         echo "$N Keychain Disabled"
         echo "Restarting Terminal for changes to take effect...."
     fi
-    . ~/.bashrc
+    source  ~/.bashrc
     reset
 fi
+#  getting the window size to open it back in the same spot
+# wininfo -id $WINDOWID
+# wininfo -id $WINDOWID | grep "upper-left X"
+# wininfo -id $WINDOWID | grep "upper-left Y"
+# wininfo -id $WINDOWID | grep "Width"
+# wininfo -id $WINDOWID | grep "Height"
+# wininfo -id $WINDOWID | grep "Corners"
 
-
-
-
-
+alacritty & disown
+PPPID=$(awk '{print $4}' "/proc/$PPID/stat")
+kill $PPPID
 
 

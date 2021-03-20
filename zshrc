@@ -117,7 +117,7 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.ohmyzsh"
 ###Add path variable to bash shell
-export PATH="$PATH:$PZ/myTools/apps/code_portable/VSCode-linux-x64/bin/"
+export PATH="$PATH:$PZ/myTools/apps/code_portable/VSCode-linux-x64/bin/"    
 
 ###___###__Add my shortcut aliases to bash shell config file
 # Directory Shortcuts
@@ -128,7 +128,8 @@ alias production="cd $PZ/production"
 alias sandbox="cd $PZ/sandbox"
 # Other Dir/File Shortcuts
 alias ..="cd .."
-
+alias keychain-off="$PZ/dotfiles/./keychain.sh -n ssh -T disable"
+alias keychain-on="$PZ/dotfiles/./keychain.sh -n ssh -T enable"
 # TURN touchpad on/off
 alias touchoff='''xinput set-prop 16 "Device Enabled" 0'''
 alias touchon='''xinput set-prop 16 "Device Enabled" 1'''
