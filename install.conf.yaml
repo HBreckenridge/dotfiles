@@ -10,7 +10,7 @@
     ~/.bash_profile: bash_profile
     ~/.gitignore: gitignore
     ~/.fonts: fonts
-    
+    ~/.vimrc: vimrc    
 - create:
     - ~/pR1sM
     - ~/.vim/undo-history    
