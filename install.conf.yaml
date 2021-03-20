@@ -9,6 +9,7 @@
     ~/.ohmyzsh: ohmyzsh/
     ~/.bash_profile: bash_profile
     ~/.gitignore: gitignore
+    ~/.fonts: fonts
     
 - create:
     - ~/pR1sM
@@ -17,3 +18,4 @@
 
 - shell:
   - [git submodule update --init --recursive, Installing submodules]
+  - [fc-cache -f -v]

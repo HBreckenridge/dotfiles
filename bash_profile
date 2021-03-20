@@ -17,3 +17,8 @@ export GIT_PS1_SHOWDIRTYSTATE=1
 # '\W' adds the name of the current directory
 export PS1="$red\u$green\$(__git_ps1)$blue \W
 $ $reset"
+if type "pyenv" > /dev/null 2>&1; then
+    export PYENV_ROOT="$HOME/.pyenv"
+    PATH="$PYENV_ROOT/bin:$PATH"
+    eval "$(pyenv init - --no-rehash bash)"
+fi

@@ -2,7 +2,7 @@
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
-export ZSH=$HOME/.oh-my-zsh
+export ZSH=$HOME/.ohmyzsh
 
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
@@ -12,7 +12,8 @@ export ZSH=$HOME/.oh-my-zsh
 #ZSH_THEME="crcandy"
 #ZSH_THEME="suvash"
 #ZSH_THEME="ys"
-ZSH_THEME="xiong-chiamiov-plus"
+#ZSH_THEME="xiong-chiamiov-plus"
+ZSH_THEME="agnoster"
 
 # Set list of themes to pick from when loading at random
 # Setting this variable when ZSH_THEME=random will cause zsh to load
@@ -73,15 +74,14 @@ ZSH_THEME="xiong-chiamiov-plus"
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(git)
-plugins=(dotfiles/ohmyzsh/plugins/zsh-autosuggestions)
-plugins=(dotfiles/ohmyzsh/plugins/zsh-syntax-highlighting)
-# Zsh Auto Suggestions
+plugins=(zsh-autosuggestions)
+plugins=(zsh-syntax-highlighting)
 
 # Load zsh-syntax-highlighting.
-source ~/pR1sM/dotfiles/ohmyzsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+source ~/.ohmyzsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
 # Load zsh-autosuggestions.
-source ~/pR1sM/dotfiles/ohmyzsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
+source ~/.ohmyzsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
 
 # Enable autosuggestions automatically.
 zle-line-init() {
@@ -115,7 +115,7 @@ source $ZSH/oh-my-zsh.sh
 #
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
-# alias ohmyzsh="mate ~/.oh-my-zsh"
+# alias ohmyzsh="mate ~/.ohmyzsh"
 ###Add path variable to bash shell
 export PATH="$PATH:$HOME/pR1sM/myTools/apps/code_portable/VSCode-linux-x64/bin/"
 
