@@ -5,3 +5,4 @@
 [submodule "ohmyzsh"]
 	path = ohmyzsh
 	url = git@github.com:ohmyzsh/ohmyzsh.git
+	

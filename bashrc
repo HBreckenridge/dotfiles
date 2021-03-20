@@ -141,32 +141,21 @@ export PS1="$red\u$green\$(__git_ps1)$blue \W
 $ $reset"
 
 ###Add path variable to bash shell
-export PATH="$PATH:$HOME/pR1sM/myTools/apps/code_portable/VSCode-linux-x64/bin/"
+export PATH="$PATH:$HOME/$PZ/myTools/apps/code_portable/VSCode-linux-x64/bin/"
 
 ###___###__Add my shortcut aliases to bash shell config file
 # Directory Shortcuts
-alias projects="cd ~/pR1sM/implement/projects"
-alias apps="cd ~/pR1sM/myTools/apps"
-alias implement="cd ~/pR1sM/implement"
-alias tools="cd ~/pR1sM/myTools"
-alias working="cd ~/pR1sM/working"
-alias snippets="cd ~/pR1sM/resources/code_snippets"
+alias todo="gedit $PZ/todo.txt"
+alias practice="cd $PZ/practice"
+alias tools="cd $PZ/myTools"
+alias production="cd $PZ/production"
+alias sandbox="cd $PZ/sandbox"
 # Other Dir/File Shortcuts
 alias ..="cd .."
-alias todo="gedit ~/pR1sM/__brain__/todo.txt"
 # TURN touchpad on/off
 alias touchoff='''xinput set-prop 16 "Device Enabled" 0'''
 alias touchon='''xinput set-prop 16 "Device Enabled" 1'''
 # 
-
-# SSH
-#  Logon to user : root @ 138.68.63.8  system : svr-microservice-staging ssh root@138.68.63.8
-alias svrstage-root='''ssh root@138.68.63.8'''
-alias svrstage-svrms='''ssh svr-ms@138.68.63.8'''
-# soundscapeVR
-alias ssh-svr='''eval $(ssh-agent -s) && ssh-add /home/nach0/pR1sM/.keys/.ssh/soundscape'''
-# git
-alias ssh-git='''eval $(ssh-agent -s) && ssh-add /home/nach0/pR1sM/.keys/.ssh/ssh.git'''
 # git repo aliases
 alias ga="git add"
 alias gc="git commit -m"
