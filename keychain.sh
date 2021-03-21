@@ -31,8 +31,10 @@ then
         echo "# EOF" >> $ZSHRC
         echo "Restarting Terminal for changes to take effect...."
     fi
-    source ~/.bashrc
-    reset
+    source ~/.zshrc
+    alacritty & disown
+    PPPID=$(awk '{print $4}' "/proc/$PPID/stat")
+    kill $PPPID
 fi
 
 if [ "$TOGGLE" = "disable" ];
@@ -44,9 +46,29 @@ then
         echo "$N Keychain Disabled"
         echo "Restarting Terminal for changes to take effect...."
     fi
-    source  ~/.bashrc
-    reset
+    source  ~/.zshrc
+    alacritty & disown
+    PPPID=$(awk '{print $4}' "/proc/$PPID/stat")
+    kill $PPPID
 fi
+
+if [ "$TOGGLE" = "exit" ];
+then
+    tag=$( tail -n 1 $ZSHRC )
+    if [ "$tag" = "# EOF" ];
+    then
+        for i in $(seq 1 $rlines); do sed -i '$d' $ZSHRC ; done;
+        echo "$N Keychain Disabled"
+        echo "Restarting Terminal for changes to take effect...."
+    fi
+    # $PZ/dotfiles/cleanup.sh 
+    disown
+    PPPID=$(awk '{print $4}' "/proc/$PPID/stat")
+    kill $PPPID
+    
+fi
+
+
 #  getting the window size to open it back in the same spot
 # wininfo -id $WINDOWID
 # wininfo -id $WINDOWID | grep "upper-left X"
@@ -54,9 +76,8 @@ fi
 # wininfo -id $WINDOWID | grep "Width"
 # wininfo -id $WINDOWID | grep "Height"
 # wininfo -id $WINDOWID | grep "Corners"
+# PARENT_COMMAND=$(ps -o comm= $PPID)
+# echo $PARENT_COMMAND >> test.txt
 
-alacritty & disown
-PPPID=$(awk '{print $4}' "/proc/$PPID/stat")
-kill $PPPID
 
 
