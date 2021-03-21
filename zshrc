@@ -148,15 +148,3 @@ alias gl="git log"
 ##### Remove to here  #######
 ##########################
 # End of ZSHRC
-#
-#SSH LOGIN
-# Logon to user : root @ 138.68.63.8 system : svr-microservice-staging ssh root@138.68.63.8
-alias svrstage-root='''ssh root@138.68.63.8'''
-alias svrstage-svrms='''ssh svr-ms@138.68.63.8'''
-# SSH-ADD
-# soundscapeVR
-alias ssh-svr='''eval $(ssh-agent -s) && ssh-add $PZ/.keys/.ssh/soundscape'''
-# git
-alias ssh-git='''eval $(ssh-agent -s) && ssh-add $PZ/.keys/.ssh/ssh.git'''
-#
-# EOF
