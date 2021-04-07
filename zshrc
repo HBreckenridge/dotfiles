@@ -29,10 +29,10 @@ ZSH_THEME="agnoster"
 # HYPHEN_INSENSITIVE="true"
 
 # Uncomment the following line to disable bi-weekly auto-update checks.
-# DISABLE_AUTO_UPDATE="true"
+DISABLE_AUTO_UPDATE="false"
 
 # Uncomment the following line to automatically update without prompting.
-# DISABLE_UPDATE_PROMPT="true"
+DISABLE_UPDATE_PROMPT="true"
 
 # Uncomment the following line to change how often to auto-update (in days).
 # export UPDATE_ZSH_DAYS=13
@@ -118,8 +118,8 @@ trap "$PZ/dotfiles/keychain.sh -n ssh -T exit" EXIT
 # alias ohmyzsh="mate ~/.ohmyzsh"
 ###Add path variable to bash shell
 export PATH="$PATH:$PZ/myTools/apps/code_portable/VSCode-linux-x64/bin/"    
+alias wally="$PZ/conf//local_config/moonlander_config/wally"
 
-###___###__Add my shortcut aliases to bash shell config file
 # Directory Shortcuts
 alias todo="gedit $PZ/todo.txt"
 alias practice="cd $PZ/practice"
@@ -148,15 +148,3 @@ alias gl="git log"
 ##### Remove to here  #######
 ##########################
 # End of ZSHRC
-#
-#SSH LOGIN
-# Logon to user : root @ 138.68.63.8 system : svr-microservice-staging ssh root@138.68.63.8
-alias svrstage-root='''ssh root@138.68.63.8'''
-alias svrstage-svrms='''ssh svr-ms@138.68.63.8'''
-# SSH-ADD
-# soundscapeVR
-alias ssh-svr='''eval $(ssh-agent -s) && ssh-add $PZ/.keys/.ssh/soundscape'''
-# git
-alias ssh-git='''eval $(ssh-agent -s) && ssh-add $PZ/.keys/.ssh/ssh.git'''
-#
-# EOF

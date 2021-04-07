@@ -1,4 +1,4 @@
-
+exec &> logfile.txt
 WD=$PZ/dotfiles
 KEYCHAIN=$WD/".KEYCHAIN"
 ZSHRC=$WD/'zshrc'
@@ -62,7 +62,7 @@ then
         echo "Restarting Terminal for changes to take effect...."
     fi
     # $PZ/dotfiles/cleanup.sh 
-    disown
+    #disown
     PPPID=$(awk '{print $4}' "/proc/$PPID/stat")
     kill $PPPID
     
