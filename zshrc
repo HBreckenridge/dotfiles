@@ -91,7 +91,7 @@ zle-line-init() {
 
 source $ZSH/oh-my-zsh.sh
 
-trap "$PZ/dotfiles/keychain.sh -n ssh -T exit" EXIT
+trap "$PZ/dotfiles/cleanup.sh -n ssh -T exit" EXIT
 
 # export MANPATH="/usr/local/man:$MANPATH"
 

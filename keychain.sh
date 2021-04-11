@@ -1,4 +1,4 @@
-exec &> logfile.txt
+#!/bin/sh
 WD=$PZ/dotfiles
 KEYCHAIN=$WD/".KEYCHAIN"
 ZSHRC=$WD/'zshrc'
@@ -31,8 +31,9 @@ then
         echo "# EOF" >> $ZSHRC
         echo "Restarting Terminal for changes to take effect...."
     fi
-    source ~/.zshrc
-    alacritty & disown
+    #source ~/.zshrc
+    exit
+    alacritty
     PPPID=$(awk '{print $4}' "/proc/$PPID/stat")
     kill $PPPID
 fi
@@ -46,10 +47,10 @@ then
         echo "$N Keychain Disabled"
         echo "Restarting Terminal for changes to take effect...."
     fi
-    source  ~/.zshrc
-    alacritty & disown
-    PPPID=$(awk '{print $4}' "/proc/$PPID/stat")
-    kill $PPPID
+    #source  ~/.zshrc
+    exit & alacritty
+    #PPPID=$(awk '{print $4}' "/proc/$PPID/stat")
+    #kill $PPPID
 fi
 
 if [ "$TOGGLE" = "exit" ];
@@ -63,8 +64,9 @@ then
     fi
     # $PZ/dotfiles/cleanup.sh 
     #disown
-    PPPID=$(awk '{print $4}' "/proc/$PPID/stat")
-    kill $PPPID
+    #PPPID=$(awk '{print $4}' "/proc/$PPID/stat")
+    #kill $PPPID
+    exit
     
 fi
 
