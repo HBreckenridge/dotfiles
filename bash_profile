@@ -1,3 +1,6 @@
+PATH=$PATH:~$PZ/bin/sbin
+export PATH
+
 # Enable tab completion
 source ~/.udacity-terminal-config/git-completion.bash
 
@@ -22,3 +25,5 @@ if type "pyenv" > /dev/null 2>&1; then
     PATH="$PYENV_ROOT/bin:$PATH"
     eval "$(pyenv init - --no-rehash bash)"
 fi
+
+

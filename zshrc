@@ -91,7 +91,7 @@ zle-line-init() {
 
 source $ZSH/oh-my-zsh.sh
 
-trap "$PZ/dotfiles/cleanup.sh -n ssh -T exit" EXIT
+trap keychain_cleanup_on_exit EXIT
 
 # export MANPATH="/usr/local/man:$MANPATH"
 
@@ -118,29 +118,28 @@ trap "$PZ/dotfiles/cleanup.sh -n ssh -T exit" EXIT
 # alias ohmyzsh="mate ~/.ohmyzsh"
 ###Add path variable to bash shell
 export PATH="$PATH:$PZ/myTools/apps/code_portable/VSCode-linux-x64/bin/"    
+export PATH="$PATH:$PZ/bin/sbin"
 alias wally="$PZ/conf//local_config/moonlander_config/wally"
-
+alias lsa="ls -la"
 # Directory Shortcuts
 alias todo="gedit $PZ/todo.txt"
 alias practice="cd $PZ/practice"
-alias tools="cd $PZ/myTools"
 alias production="cd $PZ/production"
 alias sandbox="cd $PZ/sandbox"
 # Other Dir/File Shortcuts
 alias ..="cd .."
-alias keychain-off="$PZ/dotfiles/./keychain.sh -n ssh -T disable"
-alias keychain-on="$PZ/dotfiles/./keychain.sh -n ssh -T enable"
+alias keychain-off="keychain -n ssh -T disable"
+alias keychain-on="keychain -n ssh -T enable"
 # TURN touchpad on/off
 alias touchoff='''xinput set-prop 16 "Device Enabled" 0'''
 alias touchon='''xinput set-prop 16 "Device Enabled" 1'''
-# 
 # git repo aliases
 alias ga="git add"
 alias gc="git commit -m"
 alias gpom="git push origin master"
 alias gs="git status"
 alias gl="git log"
-#####EOF of ZSHRC
+################
 #
 #
 #

@@ -1,9 +1,9 @@
 - clean: ['~']
 
 - link:
-    ~/.dotfiles: ~/pR1sM/dotfiles
+    ~/.dotfiles: ./
     ~/.alacritty.yml: alacritty.yml
-    ~/.terminal-config: terminal-config/
+    #~/.terminal-config: terminal-config/
     ~/.bashrc: bashrc
     ~/.zshrc: zshrc
     ~/.ohmyzsh: ohmyzsh/
@@ -11,10 +11,12 @@
     ~/.fonts: fonts
     ~/.vimrc: vimrc    
 - create:
-    - ~/pR1sM
-    - ~/.vim/undo-history    
+    - ~/
+    - ~/.vim/undo-history 
 
 
 - shell:
+# REINIT SUBMODULES
   - [git submodule update --init --recursive, Installing submodules]
+  # REINIT FONTS
   - [fc-cache -f -v]

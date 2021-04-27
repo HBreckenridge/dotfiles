@@ -142,6 +142,7 @@ $ $reset"
 
 ###Add path variable to bash shell
 export PATH="$PATH:$HOME/$PZ/myTools/apps/code_portable/VSCode-linux-x64/bin/"
+export PATH="$PATH:$HOME/$PZ/bin/sbin"
 
 ###___###__Add my shortcut aliases to bash shell config file
 # Directory Shortcuts
