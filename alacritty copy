@@ -91,7 +91,7 @@ window:
   #
   # Override the variant of the GTK theme. Commonly supported values are `dark`
   # and `light`. Set this to `None` to use the default theme variant.
-gtk_theme_variant: dark
+  gtk_theme_variant: dark
 
 #scrolling:
   # Maximum number of lines in the scrollback buffer.
@@ -173,7 +173,7 @@ font:
   #use_thin_strokes: true
 
 # If `true`, bold text is drawn using the bright color variants.
-#draw_bold_text_with_bright_colors: false
+draw_bold_text_with_bright_colors: false
 
 # Colors (Tomorrow Night)
 #colors:
@@ -432,14 +432,14 @@ live_config_reload: true
 # You can set `shell.program` to the path of your favorite shell, e.g.
 # `/bin/fish`. Entries in `shell.args` are passed unmodified as arguments to the
 # shell.
-
+#
 Default:
-- (Windows) powershell
+
 - (Linux/BSD) user login shell
 shell:
   program: /usr/bin/zsh
   args:
-      --login
+    - --login
 
 # Startup directory
 #
@@ -460,15 +460,15 @@ mouse:
   #triple_click: { threshold: 300 }
 
   # If this is `true`, the cursor is temporarily hidden when typing.
-  hide_when_typing: true  
+  hide_when_typing: true
 
 # Regex hints
 #
 # Terminal hints can be used to find text in the visible part of the terminal
 # and pipe it to other applications.
-hints:
+#hints:
   # Keys used for the hint labels.
-  bet: "jfkdls;ahgurieowpq"
+  # alphabet: "jfkdls;ahgurieowpq"
 
   # List with all available hints
   #
@@ -737,15 +737,15 @@ hints:
 # If the same trigger is assigned to multiple actions, all of them are executed
 # in the order they were defined in.
 key_bindings:
-- { key: V,        mods: Super, action: Paste}
-- { key: C,        mods: Super, action: Copy }
-- { key: Q,        mods: Super, action: Quit }
-- { key: W,        mods: Super, action: Quit }
-- { key: Equals,   mods: Super, action: IncreaseFontSize     }
-- { key: Minus,    mods: Super, action: DecreaseFontSize     }
-- { key: Key0,     mods: Super, action: ResetFontSize        }
-- { key: End,      mods: Shift, action: ScrollToBottom       }
-- { key: Home,     mods: Shift, action: ScrollToTop          }
+  - { key: V,        mods: Super, action: Paste}
+  - { key: C,        mods: Super, action: Copy }
+  - { key: Q,        mods: Super, action: Quit }
+  - { key: W,        mods: Super, action: Quit }
+  - { key: Equals,   mods: Super, action: IncreaseFontSize     }
+  - { key: Minus,    mods: Super, action: DecreaseFontSize     }
+  - { key: Key0,     mods: Super, action: ResetFontSize        }
+  - { key: End,      mods: Shift, action: ScrollToBottom       }
+  - { key: Home,     mods: Shift, action: ScrollToTop          }
 
   # Vi Mode
   #- { key: Space,  mods: Shift|Control, mode: Vi|~Search, action: ScrollToBottom          }

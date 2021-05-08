@@ -14,43 +14,43 @@
 # Any items in the `env` entry below will be added as
 # environment variables. Some entries may override variables
 # set by alacritty itself.
-env:
+#env:
   # TERM variable
   #
   # This value is used to set the `$TERM` environment variable for
   # each instance of Alacritty. If it is not present, alacritty will
   # check the local terminfo database and use `alacritty` if it is
   # available, otherwise `xterm-256color` is used.
-  TERM: alacritty
+  #TERM: alacritty
 
-window:
+#window:
   # Window dimensions (changes require restart)
   #
   # Number of lines/columns (not pixels) in the terminal. The number of columns
   # must be at least `2`, while using a value of `0` for columns and lines will
   # fall back to the window manager's recommended size.
-  dimensions:
-    columns: 160
-    lines: 40
+  #dimensions:
+  #  columns: 0
+  #  lines: 0
 
   # Window position (changes require restart)
   #
   # Specified in number of pixels.
   # If the position is not set, the window manager will handle the placement.
-  position:
-    x: 0
-    y: 0
+  #position:
+  #  x: 0
+  #  y: 0
 
   # Window padding (changes require restart)
   #
   # Blank space added around the window in pixels. This padding is scaled
   # by DPI and the specified value is always added at both opposing sides.
-  padding:
-    x: 0
-    y: 0
+  #padding:
+  #  x: 0
+  #  y: 0
 
   # Spread additional padding evenly around the terminal content.
-  dynamic_padding: true
+  #dynamic_padding: false
 
   # Window decorations
   #
@@ -61,7 +61,7 @@ window:
   # Values for `decorations` (macOS only):
   #     - transparent: Title bar, transparent background and title bar buttons
   #     - buttonless: Title bar, transparent background and no title bar buttons
-  # decorations: none
+  #decorations: full
 
   # Startup Mode (changes require restart)
   #
@@ -91,7 +91,7 @@ window:
   #
   # Override the variant of the GTK theme. Commonly supported values are `dark`
   # and `light`. Set this to `None` to use the default theme variant.
-gtk_theme_variant: dark
+  #gtk_theme_variant: None
 
 #scrolling:
   # Maximum number of lines in the scrollback buffer.
@@ -102,62 +102,62 @@ gtk_theme_variant: dark
   #multiplier: 3
 
 # Font configuration
-font:
+#font:
   # Normal (roman) font face
-  normal:
+  #normal:
     # Font family
     #
     # Default:
     #   - (macOS) Menlo
     #   - (Linux/BSD) monospace
     #   - (Windows) Consolas
-    family: Input Mono Black
+    #family: monospace
 
     # The `style` can be specified to pick a specific face.
-    style: Regular
+    #style: Regular
 
   # Bold font face
-  bold:
+  #bold:
     # Font family
     #
     # If the bold family is not specified, it will fall back to the
     # value specified for the normal font.
-    family: Input Mono Black
+    #family: monospace
 
     # The `style` can be specified to pick a specific face.
-    style: Italic
+    #style: Bold
 
-  
   # Italic font face
-  italic:
+  #italic:
     # Font family
     #
     # If the italic family is not specified, it will fall back to the
     # value specified for the normal font.
-    family: Input Mono Black
+    #family: monospace
 
     # The `style` can be specified to pick a specific face.
-    style: Italic
+    #style: Italic
 
   # Bold italic font face
-  bold_italic:
+  #bold_italic:
     # Font family
     #
     # If the bold italic family is not specified, it will fall back to the
     # value specified for the normal font.
-    family: Input Mono Black
+    #family: monospace
 
     # The `style` can be specified to pick a specific face.
-    style: Bold Italic
+    #style: Bold Italic
 
   # Point size
-  size: 11.5
+  #size: 11.0
 
-  # Offset is the extra space around each character. `offset.y` can be thought of
-  # as modifying the line spacing, and `offset.x` as modifying the letter spacing.
-  offset:
-    x: 0
-    y: 4
+  # Offset is the extra space around each character. `offset.y` can be thought
+  # of as modifying the line spacing, and `offset.x` as modifying the letter
+  # spacing.
+  #offset:
+  #  x: 0
+  #  y: 0
 
   # Glyph offset determines the locations of the glyphs within their cells with
   # the default being at the bottom. Increasing `x` moves the glyph to the
@@ -181,11 +181,7 @@ font:
   #primary:
   #  background: '#1d1f21'
   #  foreground: '#c5c8c6'
-#colors:
-#    primary:
-#        background: '#24272e'
-#        foreground: '#abb2bf'
-#
+
     # Bright and dim foreground colors
     #
     # The dimmed foreground color is calculated automatically if it is not
@@ -196,50 +192,14 @@ font:
     #bright_foreground: '#eaeaea'
 
   # Cursor colors
-    cursor:
-        text: '#0b0b0b'    # black
-        cursor: '#528bff'
-    vi_mode_cursor:
-        text: '#abb2bf'
-        cursor: '#333841'
-    selection:
-        text: '#abb2bf'
-        background: '#3e4452'
-    search:
-        matches:
-            foreground: '#3e4452'
-            background: '#e5c07b'
-        bar:
-            background: '#282c34'
-            foreground: '#abb2bf'
-
-
-    normal:
-        black:   '#24272e'
-        red:     '#e06c75'
-        green:   '#98c379'
-        yellow:  '#e5c07b'
-        blue:    '#61afef'
-        magenta: '#c678dd'
-        cyan:    '#56b6c2'
-        white:   '#abb2bf'
-    bright:
-        black:   '#3e4452'
-        red:     '#be5046'
-        green:   '#98c379'
-        yellow:  '#d19a66'
-        blue:    '#61afef'
-        magenta: '#c678dd'
-        cyan:    '#56b6c2'
-        white:   '#5c6370'
-
+  #
   # Colors which should be used to draw the terminal cursor.
   #
   # Allowed values are CellForeground/CellBackground, which reference the
   # affected cell, or hexadecimal colors like #ff00ff.
-#cursor:
-#  text: CellBackground
-#  cursor: CellForeground
+  #cursor:
+  #  text: CellBackground
+  #  cursor: CellForeground
 
   # Vi mode cursor colors
   #
@@ -264,38 +224,38 @@ font:
     #  foreground: '#ffffff'
     #  background: '#000000'
 
-#r:
-#background: '#c5c8c6'
-#foreground: '#1d1f21'
+    #bar:
+    #  background: '#c5c8c6'
+    #  foreground: '#1d1f21'
 
-#Keyboard regex hints
-#hints:
+  # Keyboard regex hints
+  #hints:
     # Fist character in the hint label
     #
     # Allowed values are CellForeground/CellBackground, which reference the
     # affected cell, or hexadecimal colors like #ff00ff.
-start:
-    foreground: '#1d1f21'
-    background: '#e9ff5e'
+    #start:
+    #  foreground: '#1d1f21'
+    #  background: '#e9ff5e'
 
     # All characters after the first one in the hint label
     #
-    # Allowed values are CellForeground/CellBackground, which reference theal
+    # Allowed values are CellForeground/CellBackground, which reference the
     # affected cell, or hexadecimal colors like #ff00ff.
-end:
-    foreground: '#e9ff5e'
-    background: '#1d1f21'
+    #end:
+    #  foreground: '#e9ff5e'
+    #  background: '#1d1f21'
 
   # Line indicator
   #
   # Color used for the indicator displaying the position in history during
   # search and vi mode.
   #
-# #  # By default, these will use the opposing primary color.
-# line_indicator:
-#     foreground: '#e9ff5e'
-#     background: '#1d1f21'
-# #
+  # By default, these will use the opposing primary color.
+  #line_indicator:
+  #  foreground: None
+  #  background: None
+
   # Selection colors
   #
   # Colors which should be used to draw the selection area.
@@ -371,22 +331,44 @@ end:
   #   - EaseOutExpo
   #   - EaseOutCirc
   #   - Linear
-    animation: EaseOutExpo
+  #animation: EaseOutExpo
 
-  # Duration of the visual bell flash in milliseconds. A `duration` of `0`
+  # Duration of the visual bell flash in milliseconds. A `duration` of `0` will
   # disable the visual bell animation.
   #duration: 0
+
+  # Visual bell animation color.
+  #color: '#ffffff'
+
+  # Bell Command
+  #
+  # This program is executed whenever the bell is rung.
+  #
+  # When set to `command: None`, no command will be executed.
+  #
+  # Example:
+  #   command:
+  #     program: notify-send
+  #     args: ["Hello, World!"]
+  #
+  #command: None
 
 # Background opacity
 #
 # Window opacity as a floating point number from `0.0` to `1.0`.
 # The value `0.0` is completely transparent and `1.0` is opaque.
-background_opacity: .66
+#background_opacity: 1.0
 
+#selection:
+  # This string contains all characters that are used as separators for
+  # "semantic words" in Alacritty.
+  #semantic_escape_chars: ",│`|:\"' ()[]{}<>\t"
 
-cursor:
-    #Cursor style
-  thickness: 0.7
+  # When set to `true`, selected text will be copied to the primary clipboard.
+  #save_to_clipboard: false
+
+#cursor:
+  # Cursor style
   #style:
     # Cursor shape
     #
@@ -394,7 +376,7 @@ cursor:
     #   - ▇ Block
     #   - _ Underline
     #   - | Beam
-  shape: Block 
+    #shape: Block
 
     # Cursor blinking state
     #
@@ -403,7 +385,7 @@ cursor:
     #   - Off: Disable blinking by default
     #   - On: Enable blinking by default
     #   - Always: Force the cursor to always blink
-#blinking: Off
+    #blinking: Off
 
   # Vi mode cursor style
   #
@@ -425,21 +407,22 @@ cursor:
   #thickness: 0.15
 
 # Live config reload (changes require restart)
-live_config_reload: true
+#live_config_reload: true
 
 # Shell
 #
 # You can set `shell.program` to the path of your favorite shell, e.g.
 # `/bin/fish`. Entries in `shell.args` are passed unmodified as arguments to the
 # shell.
-
-Default:
-- (Windows) powershell
-- (Linux/BSD) user login shell
-shell:
-  program: /usr/bin/zsh
-  args:
-      --login
+#
+# Default:
+#   - (macOS) /bin/bash --login
+#   - (Linux/BSD) user login shell
+#   - (Windows) powershell
+#shell:
+#  program: /bin/bash
+#  args:
+#    - --login
 
 # Startup directory
 #
@@ -450,7 +433,7 @@ shell:
 # Send ESC (\x1b) before characters when alt is pressed.
 #alt_send_esc: true
 
-mouse:
+#mouse:
   # Click settings
   #
   # The `double_click` and `triple_click` settings control the time
@@ -460,15 +443,15 @@ mouse:
   #triple_click: { threshold: 300 }
 
   # If this is `true`, the cursor is temporarily hidden when typing.
-  hide_when_typing: true  
+  #hide_when_typing: false
 
 # Regex hints
 #
 # Terminal hints can be used to find text in the visible part of the terminal
 # and pipe it to other applications.
-hints:
+#hints:
   # Keys used for the hint labels.
-  bet: "jfkdls;ahgurieowpq"
+  #alphabet: "jfkdls;ahgurieowpq"
 
   # List with all available hints
   #
@@ -512,7 +495,7 @@ hints:
 # bindings further below.
 #
 # To trigger mouse bindings when an application running within Alacritty
-# captures the mouse, the `Shift` modifier is automatically added as akey_b
+# captures the mouse, the `Shift` modifier is automatically added as a
 # requirement.
 #
 # Each mouse binding will specify a:
@@ -736,16 +719,15 @@ hints:
 #
 # If the same trigger is assigned to multiple actions, all of them are executed
 # in the order they were defined in.
-key_bindings:
-- { key: V,        mods: Super, action: Paste}
-- { key: C,        mods: Super, action: Copy }
-- { key: Q,        mods: Super, action: Quit }
-- { key: W,        mods: Super, action: Quit }
-- { key: Equals,   mods: Super, action: IncreaseFontSize     }
-- { key: Minus,    mods: Super, action: DecreaseFontSize     }
-- { key: Key0,     mods: Super, action: ResetFontSize        }
-- { key: End,      mods: Shift, action: ScrollToBottom       }
-- { key: Home,     mods: Shift, action: ScrollToTop          }
+#key_bindings:
+  #- { key: Paste,                                       action: Paste          }
+  #- { key: Copy,                                        action: Copy           }
+  #- { key: L,         mods: Control,                    action: ClearLogNotice }
+  #- { key: L,         mods: Control, mode: ~Vi|~Search, chars: "\x0c"          }
+  #- { key: PageUp,    mods: Shift,   mode: ~Alt,        action: ScrollPageUp,  }
+  #- { key: PageDown,  mods: Shift,   mode: ~Alt,        action: ScrollPageDown }
+  #- { key: Home,      mods: Shift,   mode: ~Alt,        action: ScrollToTop,   }
+  #- { key: End,       mods: Shift,   mode: ~Alt,        action: ScrollToBottom }
 
   # Vi Mode
   #- { key: Space,  mods: Shift|Control, mode: Vi|~Search, action: ScrollToBottom          }

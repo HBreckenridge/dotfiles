@@ -61,7 +61,7 @@ window:
   # Values for `decorations` (macOS only):
   #     - transparent: Title bar, transparent background and title bar buttons
   #     - buttonless: Title bar, transparent background and no title bar buttons
-  # decorations: none
+  decorations: none
 
   # Startup Mode (changes require restart)
   #
@@ -91,7 +91,7 @@ window:
   #
   # Override the variant of the GTK theme. Commonly supported values are `dark`
   # and `light`. Set this to `None` to use the default theme variant.
-gtk_theme_variant: dark
+  #gtk_theme_variant: None
 
 #scrolling:
   # Maximum number of lines in the scrollback buffer.
@@ -111,7 +111,7 @@ font:
     #   - (macOS) Menlo
     #   - (Linux/BSD) monospace
     #   - (Windows) Consolas
-    family: Input Mono Black
+      family: Input Mono Black
 
     # The `style` can be specified to pick a specific face.
     style: Regular
@@ -181,11 +181,11 @@ font:
   #primary:
   #  background: '#1d1f21'
   #  foreground: '#c5c8c6'
-#colors:
-#    primary:
-#        background: '#24272e'
-#        foreground: '#abb2bf'
-#
+colors:
+    primary:
+        background: '#24272e'
+        foreground: '#abb2bf'
+
     # Bright and dim foreground colors
     #
     # The dimmed foreground color is calculated automatically if it is not
@@ -237,9 +237,9 @@ font:
   #
   # Allowed values are CellForeground/CellBackground, which reference the
   # affected cell, or hexadecimal colors like #ff00ff.
-#cursor:
-#  text: CellBackground
-#  cursor: CellForeground
+  #cursor:
+  #  text: CellBackground
+  #  cursor: CellForeground
 
   # Vi mode cursor colors
   #
@@ -264,38 +264,38 @@ font:
     #  foreground: '#ffffff'
     #  background: '#000000'
 
-#r:
-#background: '#c5c8c6'
-#foreground: '#1d1f21'
+    #bar:
+    #  background: '#c5c8c6'
+    #  foreground: '#1d1f21'
 
-#Keyboard regex hints
-#hints:
+  # Keyboard regex hints
+  #hints:
     # Fist character in the hint label
     #
     # Allowed values are CellForeground/CellBackground, which reference the
     # affected cell, or hexadecimal colors like #ff00ff.
-start:
-    foreground: '#1d1f21'
-    background: '#e9ff5e'
+    #start:
+    #  foreground: '#1d1f21'
+    #  background: '#e9ff5e'
 
     # All characters after the first one in the hint label
     #
-    # Allowed values are CellForeground/CellBackground, which reference theal
+    # Allowed values are CellForeground/CellBackground, which reference the
     # affected cell, or hexadecimal colors like #ff00ff.
-end:
-    foreground: '#e9ff5e'
-    background: '#1d1f21'
+    #end:
+    #  foreground: '#e9ff5e'
+    #  background: '#1d1f21'
 
   # Line indicator
   #
   # Color used for the indicator displaying the position in history during
   # search and vi mode.
   #
-# #  # By default, these will use the opposing primary color.
-# line_indicator:
-#     foreground: '#e9ff5e'
-#     background: '#1d1f21'
-# #
+  # By default, these will use the opposing primary color.
+  #line_indicator:
+  #  foreground: None
+  #  background: None
+
   # Selection colors
   #
   # Colors which should be used to draw the selection area.
@@ -371,30 +371,53 @@ end:
   #   - EaseOutExpo
   #   - EaseOutCirc
   #   - Linear
-    animation: EaseOutExpo
+  #animation: EaseOutExpo
 
-  # Duration of the visual bell flash in milliseconds. A `duration` of `0`
+  # Duration of the visual bell flash in milliseconds. A `duration` of `0` will
   # disable the visual bell animation.
   #duration: 0
+
+  # Visual bell animation color.
+  #color: '#ffffff'
+
+  # Bell Command
+  #
+  # This program is executed whenever the bell is rung.
+  #
+  # When set to `command: None`, no command will be executed.
+  #
+  # Example:
+  #   command:
+  #     program: notify-send
+  #     args: ["Hello, World!"]
+  #
+  #command: None
 
 # Background opacity
 #
 # Window opacity as a floating point number from `0.0` to `1.0`.
 # The value `0.0` is completely transparent and `1.0` is opaque.
-background_opacity: .66
+background_opacity: .7
 
+selection:
+  # This string contains all characters that are used as separators for
+  # "semantic words" in Alacritty.
+  #semantic_escape_chars: ",│`|:\"' ()[]{}<>\t"
+
+  # When set to `true`, selected text will be copied to the primary clipboard.
+   save_to_clipboard: true
 
 cursor:
-    #Cursor style
-  thickness: 0.7
-  #style:
+  # Cursor style
+    thickness: 0.18
+  style:
     # Cursor shape
     #
     # Values for `shape`:
     #   - ▇ Block
     #   - _ Underline
     #   - | Beam
-  shape: Block 
+    shape: Block
 
     # Cursor blinking state
     #
@@ -403,7 +426,7 @@ cursor:
     #   - Off: Disable blinking by default
     #   - On: Enable blinking by default
     #   - Always: Force the cursor to always blink
-#blinking: Off
+    #blinking: Off
 
   # Vi mode cursor style
   #
@@ -432,14 +455,15 @@ live_config_reload: true
 # You can set `shell.program` to the path of your favorite shell, e.g.
 # `/bin/fish`. Entries in `shell.args` are passed unmodified as arguments to the
 # shell.
-
+#
 Default:
-- (Windows) powershell
-- (Linux/BSD) user login shell
+
+   - (Linux/BSD) user login shell
+#   - (Windows) powershell
 shell:
   program: /usr/bin/zsh
   args:
-      --login
+    - --login
 
 # Startup directory
 #
@@ -460,15 +484,15 @@ mouse:
   #triple_click: { threshold: 300 }
 
   # If this is `true`, the cursor is temporarily hidden when typing.
-  hide_when_typing: true  
+  hide_when_typing: true
 
 # Regex hints
 #
 # Terminal hints can be used to find text in the visible part of the terminal
 # and pipe it to other applications.
-hints:
+#hints:
   # Keys used for the hint labels.
-  bet: "jfkdls;ahgurieowpq"
+  #alphabet: "jfkdls;ahgurieowpq"
 
   # List with all available hints
   #
@@ -737,15 +761,15 @@ hints:
 # If the same trigger is assigned to multiple actions, all of them are executed
 # in the order they were defined in.
 key_bindings:
-- { key: V,        mods: Super, action: Paste}
-- { key: C,        mods: Super, action: Copy }
-- { key: Q,        mods: Super, action: Quit }
-- { key: W,        mods: Super, action: Quit }
-- { key: Equals,   mods: Super, action: IncreaseFontSize     }
-- { key: Minus,    mods: Super, action: DecreaseFontSize     }
-- { key: Key0,     mods: Super, action: ResetFontSize        }
-- { key: End,      mods: Shift, action: ScrollToBottom       }
-- { key: Home,     mods: Shift, action: ScrollToTop          }
+    - { key: V,        mods: Super, action: Paste                }
+    - { key: C,        mods: Super, action: Copy                 }
+    - { key: Q,        mods: Super, action: Quit                 }
+    - { key: W,        mods: Super, action: Quit                 }
+    - { key: Equals,   mods: Super, action: IncreaseFontSize     }
+    - { key: Minus,    mods: Super, action: DecreaseFontSize     }
+    - { key: Key0,     mods: Super, action: ResetFontSize        }
+    - { key: End,      mods: Shift, action: ScrollToBottom       }
+    - { key: Home,     mods: Shift, action: ScrollToTop          }
 
   # Vi Mode
   #- { key: Space,  mods: Shift|Control, mode: Vi|~Search, action: ScrollToBottom          }
