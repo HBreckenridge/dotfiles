@@ -173,20 +173,20 @@ font:
   #use_thin_strokes: true
 
 # If `true`, bold text is drawn using the bright color variants.
-#draw_bold_text_with_bright_colors: false
+draw_bold_text_with_bright_colors: false
 
 # Colors (Tomorrow Night)
-#colors:
+    #colors:
   # Default colors
-  #primary:
-  #  background: '#1d1f21'
-  #  foreground: '#c5c8c6'
-#colors:
-#    primary:
-#        background: '#24272e'
-#        foreground: '#abb2bf'
-#
-    # Bright and dim foreground colors
+    #primary:
+#          background: '#1d1f21'
+#          foreground: '#c5c8c6'
+#    #colors:
+#        primary:
+#            background: '#24272e'
+#            foreground: '#abb2bf'
+
+   # Bright and dim foreground colors
     #
     # The dimmed foreground color is calculated automatically if it is not
     # present. If the bright foreground color is not set, or
@@ -196,19 +196,19 @@ font:
     #bright_foreground: '#eaeaea'
 
   # Cursor colors
-    cursor:
-        text: '#0b0b0b'    # black
-        cursor: '#528bff'
-    vi_mode_cursor:
-        text: '#abb2bf'
-        cursor: '#333841'
-    selection:
-        text: '#abb2bf'
-        background: '#3e4452'
-    search:
-        matches:
-            foreground: '#3e4452'
-            background: '#e5c07b'
+        cursor:
+            text: '#0b0b0b'    # black
+            cursor: '#528bff'
+        vi_mode_cursor:
+            text: '#abb2bf'
+            cursor: '#333841'
+        selection:
+            text: '#abb2bf'
+            background: '#3e4452'
+        search:
+            matches:
+                foreground: '#3e4452'
+                background: '#e5c07b'
         bar:
             background: '#282c34'
             foreground: '#abb2bf'
@@ -237,9 +237,9 @@ font:
   #
   # Allowed values are CellForeground/CellBackground, which reference the
   # affected cell, or hexadecimal colors like #ff00ff.
-#cursor:
-#  text: CellBackground
-#  cursor: CellForeground
+cursor:
+  text: CellBackground
+  cursor: CellForeground
 
   # Vi mode cursor colors
   #
@@ -257,34 +257,34 @@ font:
   #search:
     # Allowed values are CellForeground/CellBackground, which reference the
     # affected cell, or hexadecimal colors like #ff00ff.
-    #matches:
-    #  foreground: '#000000'
-    #  background: '#ffffff'
-    #focused_match:
-    #  foreground: '#ffffff'
-    #  background: '#000000'
+  matches:
+      foreground: '#000000'
+      background: '#ffffff'
+  focused_match:
+      foreground: '#ffffff'
+      background: '#000000'
 
 #r:
 #background: '#c5c8c6'
 #foreground: '#1d1f21'
 
 #Keyboard regex hints
-#hints:
+hints:
     # Fist character in the hint label
     #
     # Allowed values are CellForeground/CellBackground, which reference the
     # affected cell, or hexadecimal colors like #ff00ff.
-start:
-    foreground: '#1d1f21'
-    background: '#e9ff5e'
+    start:
+        foreground: '#1d1f21'
+        background: '#e9ff5e'
 
     # All characters after the first one in the hint label
     #
     # Allowed values are CellForeground/CellBackground, which reference theal
     # affected cell, or hexadecimal colors like #ff00ff.
-end:
-    foreground: '#e9ff5e'
-    background: '#1d1f21'
+    end:
+        foreground: '#e9ff5e'
+        background: '#1d1f21'
 
   # Line indicator
   #
@@ -306,17 +306,16 @@ end:
   #  text: CellBackground
   #  background: CellForeground
 
-  # Normal colors
+   #Normal colors
   #normal:
-  #  black:   '#1d1f21'
-  #  red:     '#cc6666'
-  #  green:   '#b5bd68'
-  #  yellow:  '#f0c674'
-  #  blue:    '#81a2be'
-  #  magenta: '#b294bb'
-  #  cyan:    '#8abeb7'
-  #  white:   '#c5c8c6'
-
+    black:   '#1d1f21'
+    red:     '#cc6666'
+    green:   '#b5bd68'
+    yellow:  '#f0c674'
+    blue:    '#81a2be'
+    magenta: '#b294bb'
+    cyan:    '#8abeb7'
+    white:   '#c5c8c6'
   # Bright colors
   #bright:
   #  black:   '#666666'
@@ -371,7 +370,7 @@ end:
   #   - EaseOutExpo
   #   - EaseOutCirc
   #   - Linear
-    animation: EaseOutExpo
+    animation: Linear
 
   # Duration of the visual bell flash in milliseconds. A `duration` of `0`
   # disable the visual bell animation.
@@ -403,7 +402,7 @@ cursor:
     #   - Off: Disable blinking by default
     #   - On: Enable blinking by default
     #   - Always: Force the cursor to always blink
-#blinking: Off
+  blinking: Off
 
   # Vi mode cursor style
   #
@@ -422,7 +421,7 @@ cursor:
 
   # Thickness of the cursor relative to the cell width as floating point number
   # from `0.0` to `1.0`.
-  #thickness: 0.15
+  thickness: 0.15
 
 # Live config reload (changes require restart)
 live_config_reload: true
@@ -434,12 +433,11 @@ live_config_reload: true
 # shell.
 
 Default:
-- (Windows) powershell
-- (Linux/BSD) user login shell
+  - (Linux/BSD) user login shell
 shell:
   program: /usr/bin/zsh
   args:
-      --login
+    --login
 
 # Startup directory
 #
@@ -618,7 +616,6 @@ hints:
 #       Toggle semantic selection based on `selection.semantic_escape_chars`.
 #
 # - Vi mode exclusive cursor motion actions:
-#
 #   - Up
 #       One line up.
 #   - Down
@@ -737,15 +734,16 @@ hints:
 # If the same trigger is assigned to multiple actions, all of them are executed
 # in the order they were defined in.
 key_bindings:
-- { key: V,        mods: Super, action: Paste}
-- { key: C,        mods: Super, action: Copy }
-- { key: Q,        mods: Super, action: Quit }
-- { key: W,        mods: Super, action: Quit }
-- { key: Equals,   mods: Super, action: IncreaseFontSize     }
-- { key: Minus,    mods: Super, action: DecreaseFontSize     }
-- { key: Key0,     mods: Super, action: ResetFontSize        }
-- { key: End,      mods: Shift, action: ScrollToBottom       }
-- { key: Home,     mods: Shift, action: ScrollToTop          }
+  - { key: V,        mods: Super, action: Paste}
+  - { key: C,        mods: Super, action: Copy }
+  - { key: Q,        mods: Super, action: Quit }
+  - { key: W,        mods: Super, action: Quit }
+  - { key: Equals,   mods: Super, action: IncreaseFontSize     }
+  - { key: Minus,    mods: Super, action: DecreaseFontSize     }
+  - { key: Key0,     mods: Super, action: ResetFontSize        }
+  - { key: End,      mods: Shift, action: ScrollToBottom       }
+  - { key: Home,     mods: Shift, action: ScrollToTop          }
+
 
   # Vi Mode
   #- { key: Space,  mods: Shift|Control, mode: Vi|~Search, action: ScrollToBottom          }
