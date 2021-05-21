@@ -141,8 +141,8 @@ export PS1="$red\u$green\$(__git_ps1)$blue \W
 $ $reset"
 
 ###Add path variable to bash shell
-export PATH="$PATH:$HOME/$PZ/myTools/apps/code_portable/VSCode-linux-x64/bin/"
-export PATH="$PATH:$HOME/$PZ/bin/sbin"
+#export PATH="$PATH:$PZ/bin/VSCode/VSCode-linux-x64/bin/code"
+export PATH="$PATH:$PZ/bin/sbin"
 
 ###___###__Add my shortcut aliases to bash shell config file
 # Directory Shortcuts

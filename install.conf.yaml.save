@@ -1,13 +1,13 @@
 - clean: ['~']
 
 - link:
+    ~/.dotfiles:     ~/.gitconfig: gitconfig
     ~/.alacritty.yml: alacritty.yml
     ~/.bashrc: bashrc
     ~/.zshrc: zshrc
     ~/.ohmyzsh: ohmyzsh/
     ~/.bash_profile: bash_profile
     ~/.fonts: fonts
-    ~/.gitconfig: gitconfig
     ~/.vimrc: vimrc    
 - create:
     - ~/

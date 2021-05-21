@@ -3,7 +3,7 @@
 
 # Path to your oh-my-zsh installation.
 export ZSH=$HOME/.ohmyzsh
-
+# export code=$PZ/bin/VSCode/VSCode-linux-x64/code
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
@@ -58,9 +58,9 @@ DISABLE_UPDATE_PROMPT="true"
 # DISABLE_UNTRACKED_FILES_DIRTY="true"
 
 # Uncomment the following line if you want to change the command execution time
-# stamp shown in the history command output.
+#tamp shown in the history command output.
 # You can set one of the optional three formats:
-# "mm/dd/yyyy"|"dd.mm.yyyy"|"yyyy-mm-dd"
+#1 "mm/dd/yyyy"|"dd.mm.yyyy"|"yyyy-mm-dd"
 # or set a custom format using the strftime function format specifications,
 # see 'man strftime' for details.
 # HIST_STAMPS="mm/dd/yyyy"
@@ -89,11 +89,12 @@ zle-line-init() {
     }
     zle -N zle-line-init
 
-source $ZSH/oh-my-zsh.sh
+#source $ZSH/oh-my-zsh.sh
 
 trap keychain_cleanup_on_exit EXIT
 
 # export MANPATH="/usr/local/man:$MANPATH"
+_
 # You may need to manually set your language environment
 # export LANG=en_US.UTF-8
 
@@ -113,7 +114,7 @@ trap keychain_cleanup_on_exit EXIT
 # For a full list of active aliases, run `alias`.
 
 ###Add path variable to bash shell
-export PATH="$PATH:$PZ/bin/sbin"
+expot PATH="$PATH:$PZ/bin/sbin"
 alias wally="$PZ/bin/wally/wally"
 alias lsa="ls -la"
 # Directory Shortcuts
@@ -125,6 +126,9 @@ alias sandbox="cd $PZ/sandbox"
 alias ..="cd .."
 alias keychain-off="keychain -n ssh -T disable"
 alias keychain-on="keychain -n ssh -T enable"
+# TURN touchpad on/off
+#alias touchoff='''xinput set-prop 16 "Device Enabled" 0'''
+#alias touchon='''xinput set-prop 16 "Device Enabled" 1'''
 # git repo aliases
 alias ga="git add"
 alias gc="git commit -m"
