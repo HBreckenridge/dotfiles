@@ -1,0 +1,18 @@
+- clean: ['~']
+
+- link:
+    ~/.alacritty.yml: alacritty.yml
+    ~/.zshrc: zshrc
+    ~/.ohmyzsh: ohmyzsh/
+    ~/.bash_profile: bash_profile
+    ~/.fonts: fonts 
+- create:
+    - ~/
+    - ~/.vim/undo-history 
+
+
+- shell:
+# REINIT SUBMODULES
+  - [git submodule update --init --recursive, Installing submodules]
+  # REINIT FONTS
+  - [fc-cache -f -v]

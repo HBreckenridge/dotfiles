@@ -1,0 +1,2480 @@
+Dirty Repo List
+Showing status for all working directories within: /home/dorf/pR1sM/dotfiles
+Repo Name: 
+.
+Files with changes to commit: \n?? AA1aCriT1YY.yml
+?? INSPIRATIONAL_DOTFILES.md
+?? LICENSE.md
+?? README.md
+?? alacritty.yml
+?? alacritty/.agignore
+?? alacritty/.builds/freebsd.yml
+?? alacritty/.builds/linux.yml
+?? alacritty/.editorconfig
+?? alacritty/.gitattributes
+?? alacritty/.github/ISSUE_TEMPLATE.md
+?? alacritty/.github/workflows/ci.yml
+?? alacritty/.github/workflows/release.yml
+?? alacritty/.github/workflows/upload_asset.sh
+?? alacritty/.gitignore
+?? alacritty/CHANGELOG.md
+?? alacritty/CONTRIBUTING.md
+?? alacritty/Cargo.lock
+?? alacritty/Cargo.toml
+?? alacritty/INSTALL.md
+?? alacritty/LICENSE-APACHE
+?? alacritty/Makefile
+?? alacritty/README.md
+?? alacritty/alacritty.yml
+?? alacritty/alacritty/Cargo.toml
+?? alacritty/alacritty/LICENSE-APACHE
+?? alacritty/alacritty/README.md
+?? alacritty/alacritty/alacritty.png
+?? alacritty/alacritty/build.rs
+?? alacritty/alacritty/res/rect.f.glsl
+?? alacritty/alacritty/res/rect.v.glsl
+?? alacritty/alacritty/res/text.f.glsl
+?? alacritty/alacritty/res/text.v.glsl
+?? alacritty/alacritty/src/cli.rs
+?? alacritty/alacritty/src/clipboard.rs
+?? alacritty/alacritty/src/config/bell.rs
+?? alacritty/alacritty/src/config/bindings.rs
+?? alacritty/alacritty/src/config/color.rs
+?? alacritty/alacritty/src/config/debug.rs
+?? alacritty/alacritty/src/config/font.rs
+?? alacritty/alacritty/src/config/mod.rs
+?? alacritty/alacritty/src/config/monitor.rs
+?? alacritty/alacritty/src/config/mouse.rs
+?? alacritty/alacritty/src/config/serde_utils.rs
+?? alacritty/alacritty/src/config/ui_config.rs
+?? alacritty/alacritty/src/config/window.rs
+?? alacritty/alacritty/src/daemon.rs
+?? alacritty/alacritty/src/display/bell.rs
+?? alacritty/alacritty/src/display/color.rs
+?? alacritty/alacritty/src/display/content.rs
+?? alacritty/alacritty/src/display/cursor.rs
+?? alacritty/alacritty/src/display/hint.rs
+?? alacritty/alacritty/src/display/meter.rs
+?? alacritty/alacritty/src/display/mod.rs
+?? alacritty/alacritty/src/display/wayland_theme.rs
+?? alacritty/alacritty/src/display/window.rs
+?? alacritty/alacritty/src/event.rs
+?? alacritty/alacritty/src/input.rs
+?? alacritty/alacritty/src/logging.rs
+?? alacritty/alacritty/src/macos/locale.rs
+?? alacritty/alacritty/src/macos/mod.rs
+?? alacritty/alacritty/src/macos/proc.rs
+?? alacritty/alacritty/src/main.rs
+?? alacritty/alacritty/src/message_bar.rs
+?? alacritty/alacritty/src/panic.rs
+?? alacritty/alacritty/src/renderer/mod.rs
+?? alacritty/alacritty/src/renderer/rects.rs
+?? alacritty/alacritty/src/scheduler.rs
+?? alacritty/alacritty_config_derive/Cargo.toml
+?? alacritty/alacritty_config_derive/LICENSE-APACHE
+?? alacritty/alacritty_config_derive/LICENSE-MIT
+?? alacritty/alacritty_config_derive/src/de_enum.rs
+?? alacritty/alacritty_config_derive/src/de_struct.rs
+?? alacritty/alacritty_config_derive/src/lib.rs
+?? alacritty/alacritty_config_derive/tests/config.rs
+?? alacritty/alacritty_terminal/Cargo.toml
+?? alacritty/alacritty_terminal/LICENSE-APACHE
+?? alacritty/alacritty_terminal/src/ansi.rs
+?? alacritty/alacritty_terminal/src/config/mod.rs
+?? alacritty/alacritty_terminal/src/config/scrolling.rs
+?? alacritty/alacritty_terminal/src/event.rs
+?? alacritty/alacritty_terminal/src/event_loop.rs
+?? alacritty/alacritty_terminal/src/grid/mod.rs
+?? alacritty/alacritty_terminal/src/grid/resize.rs
+?? alacritty/alacritty_terminal/src/grid/row.rs
+?? alacritty/alacritty_terminal/src/grid/storage.rs
+?? alacritty/alacritty_terminal/src/grid/tests.rs
+?? alacritty/alacritty_terminal/src/index.rs
+?? alacritty/alacritty_terminal/src/lib.rs
+?? alacritty/alacritty_terminal/src/selection.rs
+?? alacritty/alacritty_terminal/src/sync.rs
+?? alacritty/alacritty_terminal/src/term/cell.rs
+?? alacritty/alacritty_terminal/src/term/color.rs
+?? alacritty/alacritty_terminal/src/term/mod.rs
+?? alacritty/alacritty_terminal/src/term/search.rs
+?? alacritty/alacritty_terminal/src/thread.rs
+?? alacritty/alacritty_terminal/src/tty/mod.rs
+?? alacritty/alacritty_terminal/src/tty/unix.rs
+?? alacritty/alacritty_terminal/src/tty/windows/child.rs
+?? alacritty/alacritty_terminal/src/tty/windows/conpty.rs
+?? alacritty/alacritty_terminal/src/tty/windows/mod.rs
+?? alacritty/alacritty_terminal/src/vi_mode.rs
+?? alacritty/alacritty_terminal/tests/ref.rs
+?? alacritty/alacritty_terminal/tests/ref/alt_reset/alacritty.recording
+?? alacritty/alacritty_terminal/tests/ref/alt_reset/config.json
+?? alacritty/alacritty_terminal/tests/ref/alt_reset/grid.json
+?? alacritty/alacritty_terminal/tests/ref/alt_reset/size.json
+?? alacritty/alacritty_terminal/tests/ref/clear_underline/alacritty.recording
+?? alacritty/alacritty_terminal/tests/ref/clear_underline/config.json
+?? alacritty/alacritty_terminal/tests/ref/clear_underline/grid.json
+?? alacritty/alacritty_terminal/tests/ref/clear_underline/size.json
+?? alacritty/alacritty_terminal/tests/ref/colored_reset/alacritty.recording
+?? alacritty/alacritty_terminal/tests/ref/colored_reset/config.json
+?? alacritty/alacritty_terminal/tests/ref/colored_reset/grid.json
+?? alacritty/alacritty_terminal/tests/ref/colored_reset/size.json
+?? alacritty/alacritty_terminal/tests/ref/csi_rep/alacritty.recording
+?? alacritty/alacritty_terminal/tests/ref/csi_rep/config.json
+?? alacritty/alacritty_terminal/tests/ref/csi_rep/grid.json
+?? alacritty/alacritty_terminal/tests/ref/csi_rep/size.json
+?? alacritty/alacritty_terminal/tests/ref/decaln_reset/alacritty.recording
+?? alacritty/alacritty_terminal/tests/ref/decaln_reset/config.json
+?? alacritty/alacritty_terminal/tests/ref/decaln_reset/grid.json
+?? alacritty/alacritty_terminal/tests/ref/decaln_reset/size.json
+?? alacritty/alacritty_terminal/tests/ref/deccolm_reset/alacritty.recording
+?? alacritty/alacritty_terminal/tests/ref/deccolm_reset/config.json
+?? alacritty/alacritty_terminal/tests/ref/deccolm_reset/grid.json
+?? alacritty/alacritty_terminal/tests/ref/deccolm_reset/size.json
+?? alacritty/alacritty_terminal/tests/ref/delete_chars_reset/alacritty.recording
+?? alacritty/alacritty_terminal/tests/ref/delete_chars_reset/config.json
+?? alacritty/alacritty_terminal/tests/ref/delete_chars_reset/grid.json
+?? alacritty/alacritty_terminal/tests/ref/delete_chars_reset/size.json
+?? alacritty/alacritty_terminal/tests/ref/delete_lines/alacritty.recording
+?? alacritty/alacritty_terminal/tests/ref/delete_lines/config.json
+?? alacritty/alacritty_terminal/tests/ref/delete_lines/grid.json
+?? alacritty/alacritty_terminal/tests/ref/delete_lines/size.json
+?? alacritty/alacritty_terminal/tests/ref/erase_chars_reset/alacritty.recording
+?? alacritty/alacritty_terminal/tests/ref/erase_chars_reset/config.json
+?? alacritty/alacritty_terminal/tests/ref/erase_chars_reset/grid.json
+?? alacritty/alacritty_terminal/tests/ref/erase_chars_reset/size.json
+?? alacritty/alacritty_terminal/tests/ref/fish_cc/alacritty.recording
+?? alacritty/alacritty_terminal/tests/ref/fish_cc/config.json
+?? alacritty/alacritty_terminal/tests/ref/fish_cc/grid.json
+?? alacritty/alacritty_terminal/tests/ref/fish_cc/size.json
+?? alacritty/alacritty_terminal/tests/ref/grid_reset/alacritty.recording
+?? alacritty/alacritty_terminal/tests/ref/grid_reset/config.json
+?? alacritty/alacritty_terminal/tests/ref/grid_reset/grid.json
+?? alacritty/alacritty_terminal/tests/ref/grid_reset/size.json
+?? alacritty/alacritty_terminal/tests/ref/history/alacritty.recording
+?? alacritty/alacritty_terminal/tests/ref/history/config.json
+?? alacritty/alacritty_terminal/tests/ref/history/grid.json
+?? alacritty/alacritty_terminal/tests/ref/history/size.json
+?? alacritty/alacritty_terminal/tests/ref/indexed_256_colors/alacritty.recording
+?? alacritty/alacritty_terminal/tests/ref/indexed_256_colors/config.json
+?? alacritty/alacritty_terminal/tests/ref/indexed_256_colors/grid.json
+?? alacritty/alacritty_terminal/tests/ref/indexed_256_colors/size.json
+?? alacritty/alacritty_terminal/tests/ref/insert_blank_reset/alacritty.recording
+?? alacritty/alacritty_terminal/tests/ref/insert_blank_reset/config.json
+?? alacritty/alacritty_terminal/tests/ref/insert_blank_reset/grid.json
+?? alacritty/alacritty_terminal/tests/ref/insert_blank_reset/size.json
+?? alacritty/alacritty_terminal/tests/ref/issue_855/alacritty.recording
+?? alacritty/alacritty_terminal/tests/ref/issue_855/config.json
+?? alacritty/alacritty_terminal/tests/ref/issue_855/grid.json
+?? alacritty/alacritty_terminal/tests/ref/issue_855/size.json
+?? alacritty/alacritty_terminal/tests/ref/ll/alacritty.recording
+?? alacritty/alacritty_terminal/tests/ref/ll/config.json
+?? alacritty/alacritty_terminal/tests/ref/ll/grid.json
+?? alacritty/alacritty_terminal/tests/ref/ll/size.json
+?? alacritty/alacritty_terminal/tests/ref/newline_with_cursor_beyond_scroll_region/alacritty.recording
+?? alacritty/alacritty_terminal/tests/ref/newline_with_cursor_beyond_scroll_region/config.json
+?? alacritty/alacritty_terminal/tests/ref/newline_with_cursor_beyond_scroll_region/grid.json
+?? alacritty/alacritty_terminal/tests/ref/newline_with_cursor_beyond_scroll_region/size.json
+?? alacritty/alacritty_terminal/tests/ref/region_scroll_down/alacritty.recording
+?? alacritty/alacritty_terminal/tests/ref/region_scroll_down/config.json
+?? alacritty/alacritty_terminal/tests/ref/region_scroll_down/grid.json
+?? alacritty/alacritty_terminal/tests/ref/region_scroll_down/size.json
+?? alacritty/alacritty_terminal/tests/ref/row_reset/alacritty.recording
+?? alacritty/alacritty_terminal/tests/ref/row_reset/config.json
+?? alacritty/alacritty_terminal/tests/ref/row_reset/grid.json
+?? alacritty/alacritty_terminal/tests/ref/row_reset/size.json
+?? alacritty/alacritty_terminal/tests/ref/saved_cursor/alacritty.recording
+?? alacritty/alacritty_terminal/tests/ref/saved_cursor/config.json
+?? alacritty/alacritty_terminal/tests/ref/saved_cursor/grid.json
+?? alacritty/alacritty_terminal/tests/ref/saved_cursor/size.json
+?? alacritty/alacritty_terminal/tests/ref/saved_cursor_alt/alacritty.recording
+?? alacritty/alacritty_terminal/tests/ref/saved_cursor_alt/config.json
+?? alacritty/alacritty_terminal/tests/ref/saved_cursor_alt/grid.json
+?? alacritty/alacritty_terminal/tests/ref/saved_cursor_alt/size.json
+?? alacritty/alacritty_terminal/tests/ref/scroll_up_reset/alacritty.recording
+?? alacritty/alacritty_terminal/tests/ref/scroll_up_reset/config.json
+?? alacritty/alacritty_terminal/tests/ref/scroll_up_reset/grid.json
+?? alacritty/alacritty_terminal/tests/ref/scroll_up_reset/size.json
+?? alacritty/alacritty_terminal/tests/ref/selective_erasure/alacritty.recording
+?? alacritty/alacritty_terminal/tests/ref/selective_erasure/config.json
+?? alacritty/alacritty_terminal/tests/ref/selective_erasure/grid.json
+?? alacritty/alacritty_terminal/tests/ref/selective_erasure/size.json
+?? alacritty/alacritty_terminal/tests/ref/sgr/alacritty.recording
+?? alacritty/alacritty_terminal/tests/ref/sgr/config.json
+?? alacritty/alacritty_terminal/tests/ref/sgr/grid.json
+?? alacritty/alacritty_terminal/tests/ref/sgr/size.json
+?? alacritty/alacritty_terminal/tests/ref/tab_rendering/alacritty.recording
+?? alacritty/alacritty_terminal/tests/ref/tab_rendering/config.json
+?? alacritty/alacritty_terminal/tests/ref/tab_rendering/grid.json
+?? alacritty/alacritty_terminal/tests/ref/tab_rendering/size.json
+?? alacritty/alacritty_terminal/tests/ref/tmux_git_log/alacritty.recording
+?? alacritty/alacritty_terminal/tests/ref/tmux_git_log/config.json
+?? alacritty/alacritty_terminal/tests/ref/tmux_git_log/grid.json
+?? alacritty/alacritty_terminal/tests/ref/tmux_git_log/size.json
+?? alacritty/alacritty_terminal/tests/ref/tmux_htop/alacritty.recording
+?? alacritty/alacritty_terminal/tests/ref/tmux_htop/config.json
+?? alacritty/alacritty_terminal/tests/ref/tmux_htop/grid.json
+?? alacritty/alacritty_terminal/tests/ref/tmux_htop/size.json
+?? alacritty/alacritty_terminal/tests/ref/underline/alacritty.recording
+?? alacritty/alacritty_terminal/tests/ref/underline/config.json
+?? alacritty/alacritty_terminal/tests/ref/underline/grid.json
+?? alacritty/alacritty_terminal/tests/ref/underline/size.json
+?? alacritty/alacritty_terminal/tests/ref/vim_24bitcolors_bce/alacritty.recording
+?? alacritty/alacritty_terminal/tests/ref/vim_24bitcolors_bce/config.json
+?? alacritty/alacritty_terminal/tests/ref/vim_24bitcolors_bce/grid.json
+?? alacritty/alacritty_terminal/tests/ref/vim_24bitcolors_bce/size.json
+?? alacritty/alacritty_terminal/tests/ref/vim_large_window_scroll/alacritty.recording
+?? alacritty/alacritty_terminal/tests/ref/vim_large_window_scroll/config.json
+?? alacritty/alacritty_terminal/tests/ref/vim_large_window_scroll/grid.json
+?? alacritty/alacritty_terminal/tests/ref/vim_large_window_scroll/size.json
+?? alacritty/alacritty_terminal/tests/ref/vim_simple_edit/alacritty.recording
+?? alacritty/alacritty_terminal/tests/ref/vim_simple_edit/config.json
+?? alacritty/alacritty_terminal/tests/ref/vim_simple_edit/grid.json
+?? alacritty/alacritty_terminal/tests/ref/vim_simple_edit/size.json
+?? alacritty/alacritty_terminal/tests/ref/vttest_cursor_movement_1/alacritty.recording
+?? alacritty/alacritty_terminal/tests/ref/vttest_cursor_movement_1/config.json
+?? alacritty/alacritty_terminal/tests/ref/vttest_cursor_movement_1/grid.json
+?? alacritty/alacritty_terminal/tests/ref/vttest_cursor_movement_1/size.json
+?? alacritty/alacritty_terminal/tests/ref/vttest_insert/alacritty.recording
+?? alacritty/alacritty_terminal/tests/ref/vttest_insert/config.json
+?? alacritty/alacritty_terminal/tests/ref/vttest_insert/grid.json
+?? alacritty/alacritty_terminal/tests/ref/vttest_insert/size.json
+?? alacritty/alacritty_terminal/tests/ref/vttest_origin_mode_1/alacritty.recording
+?? alacritty/alacritty_terminal/tests/ref/vttest_origin_mode_1/config.json
+?? alacritty/alacritty_terminal/tests/ref/vttest_origin_mode_1/grid.json
+?? alacritty/alacritty_terminal/tests/ref/vttest_origin_mode_1/size.json
+?? alacritty/alacritty_terminal/tests/ref/vttest_origin_mode_2/alacritty.recording
+?? alacritty/alacritty_terminal/tests/ref/vttest_origin_mode_2/config.json
+?? alacritty/alacritty_terminal/tests/ref/vttest_origin_mode_2/grid.json
+?? alacritty/alacritty_terminal/tests/ref/vttest_origin_mode_2/size.json
+?? alacritty/alacritty_terminal/tests/ref/vttest_scroll/alacritty.recording
+?? alacritty/alacritty_terminal/tests/ref/vttest_scroll/config.json
+?? alacritty/alacritty_terminal/tests/ref/vttest_scroll/grid.json
+?? alacritty/alacritty_terminal/tests/ref/vttest_scroll/size.json
+?? alacritty/alacritty_terminal/tests/ref/vttest_tab_clear_set/alacritty.recording
+?? alacritty/alacritty_terminal/tests/ref/vttest_tab_clear_set/config.json
+?? alacritty/alacritty_terminal/tests/ref/vttest_tab_clear_set/grid.json
+?? alacritty/alacritty_terminal/tests/ref/vttest_tab_clear_set/size.json
+?? alacritty/alacritty_terminal/tests/ref/wrapline_alt_toggle/alacritty.recording
+?? alacritty/alacritty_terminal/tests/ref/wrapline_alt_toggle/config.json
+?? alacritty/alacritty_terminal/tests/ref/wrapline_alt_toggle/grid.json
+?? alacritty/alacritty_terminal/tests/ref/wrapline_alt_toggle/size.json
+?? alacritty/alacritty_terminal/tests/ref/zerowidth/alacritty.recording
+?? alacritty/alacritty_terminal/tests/ref/zerowidth/config.json
+?? alacritty/alacritty_terminal/tests/ref/zerowidth/grid.json
+?? alacritty/alacritty_terminal/tests/ref/zerowidth/size.json
+?? alacritty/alacritty_terminal/tests/ref/zsh_tab_completion/alacritty.recording
+?? alacritty/alacritty_terminal/tests/ref/zsh_tab_completion/config.json
+?? alacritty/alacritty_terminal/tests/ref/zsh_tab_completion/grid.json
+?? alacritty/alacritty_terminal/tests/ref/zsh_tab_completion/size.json
+?? alacritty/docs/ansicode.txt
+?? alacritty/docs/escape_support.md
+?? alacritty/docs/features.md
+?? alacritty/extra/alacritty.info
+?? alacritty/extra/alacritty.man
+?? alacritty/extra/completions/_alacritty
+?? alacritty/extra/completions/alacritty.bash
+?? alacritty/extra/completions/alacritty.fish
+?? alacritty/extra/linux/Alacritty.desktop
+?? alacritty/extra/linux/io.alacritty.Alacritty.appdata.xml
+?? alacritty/extra/logo/alacritty-simple.svg
+?? alacritty/extra/logo/alacritty-term+scanlines.svg
+?? alacritty/extra/logo/alacritty-term.svg
+?? alacritty/extra/logo/compat/alacritty-simple.svg
+?? alacritty/extra/logo/compat/alacritty-term+scanlines.png
+?? alacritty/extra/logo/compat/alacritty-term+scanlines.svg
+?? alacritty/extra/logo/compat/alacritty-term.png
+?? alacritty/extra/logo/compat/alacritty-term.svg
+?? alacritty/extra/osx/Alacritty.app/Contents/Info.plist
+?? alacritty/extra/osx/Alacritty.app/Contents/Resources/alacritty.icns
+?? alacritty/extra/windows/alacritty.ico
+?? alacritty/extra/windows/alacritty.manifest
+?? alacritty/extra/windows/windows.rc
+?? alacritty/extra/windows/wix/alacritty.wxs
+?? alacritty/extra/windows/wix/license.rtf
+?? alacritty/rustfmt.toml
+?? alacritty/scripts/24-bit-color.sh
+?? alacritty/scripts/README.md
+?? alacritty/scripts/colors.sh
+?? alacritty/scripts/create-flamegraph.sh
+?? alacritty/scripts/fg-bg.sh
+?? bash_profile
+?? bashrc
+?? dotbot/
+?? fonts/.uuid
+?? fonts/InputMono/.uuid
+?? fonts/InputMono/InputMono/.uuid
+?? fonts/InputMono/InputMono/InputMono-Black.ttf
+?? fonts/InputMono/InputMono/InputMono-BlackItalic.ttf
+?? fonts/InputMono/InputMono/InputMono-Bold.ttf
+?? fonts/InputMono/InputMono/InputMono-BoldItalic.ttf
+?? fonts/InputMono/InputMono/InputMono-ExtraLight.ttf
+?? fonts/InputMono/InputMono/InputMono-ExtraLightItalic.ttf
+?? fonts/InputMono/InputMono/InputMono-Italic.ttf
+?? fonts/InputMono/InputMono/InputMono-Light.ttf
+?? fonts/InputMono/InputMono/InputMono-LightItalic.ttf
+?? fonts/InputMono/InputMono/InputMono-Medium.ttf
+?? fonts/InputMono/InputMono/InputMono-MediumItalic.ttf
+?? fonts/InputMono/InputMono/InputMono-Regular.ttf
+?? fonts/InputMono/InputMono/InputMono-Thin.ttf
+?? fonts/InputMono/InputMono/InputMono-ThinItalic.ttf
+?? fonts/InputMono/InputMonoCompressed/.uuid
+?? fonts/InputMono/InputMonoCompressed/InputMonoCompressed-Black.ttf
+?? fonts/InputMono/InputMonoCompressed/InputMonoCompressed-BlackItalic.ttf
+?? fonts/InputMono/InputMonoCompressed/InputMonoCompressed-Bold.ttf
+?? fonts/InputMono/InputMonoCompressed/InputMonoCompressed-BoldItalic.ttf
+?? fonts/InputMono/InputMonoCompressed/InputMonoCompressed-ExtraLight.ttf
+?? fonts/InputMono/InputMonoCompressed/InputMonoCompressed-ExtraLightItalic.ttf
+?? fonts/InputMono/InputMonoCompressed/InputMonoCompressed-Italic.ttf
+?? fonts/InputMono/InputMonoCompressed/InputMonoCompressed-Light.ttf
+?? fonts/InputMono/InputMonoCompressed/InputMonoCompressed-LightItalic.ttf
+?? fonts/InputMono/InputMonoCompressed/InputMonoCompressed-Medium.ttf
+?? fonts/InputMono/InputMonoCompressed/InputMonoCompressed-MediumItalic.ttf
+?? fonts/InputMono/InputMonoCompressed/InputMonoCompressed-Regular.ttf
+?? fonts/InputMono/InputMonoCompressed/InputMonoCompressed-Thin.ttf
+?? fonts/InputMono/InputMonoCompressed/InputMonoCompressed-ThinItalic.ttf
+?? fonts/InputMono/InputMonoCondensed/.uuid
+?? fonts/InputMono/InputMonoCondensed/InputMonoCondensed-Black.ttf
+?? fonts/InputMono/InputMonoCondensed/InputMonoCondensed-BlackItalic.ttf
+?? fonts/InputMono/InputMonoCondensed/InputMonoCondensed-Bold.ttf
+?? fonts/InputMono/InputMonoCondensed/InputMonoCondensed-BoldItalic.ttf
+?? fonts/InputMono/InputMonoCondensed/InputMonoCondensed-ExtraLight.ttf
+?? fonts/InputMono/InputMonoCondensed/InputMonoCondensed-ExtraLightItalic.ttf
+?? fonts/InputMono/InputMonoCondensed/InputMonoCondensed-Italic.ttf
+?? fonts/InputMono/InputMonoCondensed/InputMonoCondensed-Light.ttf
+?? fonts/InputMono/InputMonoCondensed/InputMonoCondensed-LightItalic.ttf
+?? fonts/InputMono/InputMonoCondensed/InputMonoCondensed-Medium.ttf
+?? fonts/InputMono/InputMonoCondensed/InputMonoCondensed-MediumItalic.ttf
+?? fonts/InputMono/InputMonoCondensed/InputMonoCondensed-Regular.ttf
+?? fonts/InputMono/InputMonoCondensed/InputMonoCondensed-Thin.ttf
+?? fonts/InputMono/InputMonoCondensed/InputMonoCondensed-ThinItalic.ttf
+?? fonts/InputMono/InputMonoNarrow/.uuid
+?? fonts/InputMono/InputMonoNarrow/InputMonoNarrow-Black.ttf
+?? fonts/InputMono/InputMonoNarrow/InputMonoNarrow-BlackItalic.ttf
+?? fonts/InputMono/InputMonoNarrow/InputMonoNarrow-Bold.ttf
+?? fonts/InputMono/InputMonoNarrow/InputMonoNarrow-BoldItalic.ttf
+?? fonts/InputMono/InputMonoNarrow/InputMonoNarrow-ExtraLight.ttf
+?? fonts/InputMono/InputMonoNarrow/InputMonoNarrow-ExtraLightItalic.ttf
+?? fonts/InputMono/InputMonoNarrow/InputMonoNarrow-Italic.ttf
+?? fonts/InputMono/InputMonoNarrow/InputMonoNarrow-Light.ttf
+?? fonts/InputMono/InputMonoNarrow/InputMonoNarrow-LightItalic.ttf
+?? fonts/InputMono/InputMonoNarrow/InputMonoNarrow-Medium.ttf
+?? fonts/InputMono/InputMonoNarrow/InputMonoNarrow-MediumItalic.ttf
+?? fonts/InputMono/InputMonoNarrow/InputMonoNarrow-Regular.ttf
+?? fonts/InputMono/InputMonoNarrow/InputMonoNarrow-Thin.ttf
+?? fonts/InputMono/InputMonoNarrow/InputMonoNarrow-ThinItalic.ttf
+?? fonts/InputSans/.uuid
+?? fonts/InputSans/InputSans/.uuid
+?? fonts/InputSans/InputSans/InputSans-Black.ttf
+?? fonts/InputSans/InputSans/InputSans-BlackItalic.ttf
+?? fonts/InputSans/InputSans/InputSans-Bold.ttf
+?? fonts/InputSans/InputSans/InputSans-BoldItalic.ttf
+?? fonts/InputSans/InputSans/InputSans-ExtraLight.ttf
+?? fonts/InputSans/InputSans/InputSans-ExtraLightItalic.ttf
+?? fonts/InputSans/InputSans/InputSans-Italic.ttf
+?? fonts/InputSans/InputSans/InputSans-Light.ttf
+?? fonts/InputSans/InputSans/InputSans-LightItalic.ttf
+?? fonts/InputSans/InputSans/InputSans-Medium.ttf
+?? fonts/InputSans/InputSans/InputSans-MediumItalic.ttf
+?? fonts/InputSans/InputSans/InputSans-Regular.ttf
+?? fonts/InputSans/InputSans/InputSans-Thin.ttf
+?? fonts/InputSans/InputSans/InputSans-ThinItalic.ttf
+?? fonts/InputSans/InputSansCompressed/.uuid
+?? fonts/InputSans/InputSansCompressed/InputSansCompressed-Black.ttf
+?? fonts/InputSans/InputSansCompressed/InputSansCompressed-BlackItalic.ttf
+?? fonts/InputSans/InputSansCompressed/InputSansCompressed-Bold.ttf
+?? fonts/InputSans/InputSansCompressed/InputSansCompressed-BoldItalic.ttf
+?? fonts/InputSans/InputSansCompressed/InputSansCompressed-ExtraLight.ttf
+?? fonts/InputSans/InputSansCompressed/InputSansCompressed-ExtraLightItalic.ttf
+?? fonts/InputSans/InputSansCompressed/InputSansCompressed-Italic.ttf
+?? fonts/InputSans/InputSansCompressed/InputSansCompressed-Light.ttf
+?? fonts/InputSans/InputSansCompressed/InputSansCompressed-LightItalic.ttf
+?? fonts/InputSans/InputSansCompressed/InputSansCompressed-Medium.ttf
+?? fonts/InputSans/InputSansCompressed/InputSansCompressed-MediumItalic.ttf
+?? fonts/InputSans/InputSansCompressed/InputSansCompressed-Regular.ttf
+?? fonts/InputSans/InputSansCompressed/InputSansCompressed-Thin.ttf
+?? fonts/InputSans/InputSansCompressed/InputSansCompressed-ThinItalic.ttf
+?? fonts/InputSans/InputSansCondensed/.uuid
+?? fonts/InputSans/InputSansCondensed/InputSansCondensed-Black.ttf
+?? fonts/InputSans/InputSansCondensed/InputSansCondensed-BlackItalic.ttf
+?? fonts/InputSans/InputSansCondensed/InputSansCondensed-Bold.ttf
+?? fonts/InputSans/InputSansCondensed/InputSansCondensed-BoldItalic.ttf
+?? fonts/InputSans/InputSansCondensed/InputSansCondensed-ExtraLight.ttf
+?? fonts/InputSans/InputSansCondensed/InputSansCondensed-ExtraLightItalic.ttf
+?? fonts/InputSans/InputSansCondensed/InputSansCondensed-Italic.ttf
+?? fonts/InputSans/InputSansCondensed/InputSansCondensed-Light.ttf
+?? fonts/InputSans/InputSansCondensed/InputSansCondensed-LightItalic.ttf
+?? fonts/InputSans/InputSansCondensed/InputSansCondensed-Medium.ttf
+?? fonts/InputSans/InputSansCondensed/InputSansCondensed-MediumItalic.ttf
+?? fonts/InputSans/InputSansCondensed/InputSansCondensed-Regular.ttf
+?? fonts/InputSans/InputSansCondensed/InputSansCondensed-Thin.ttf
+?? fonts/InputSans/InputSansCondensed/InputSansCondensed-ThinItalic.ttf
+?? fonts/InputSans/InputSansNarrow/.uuid
+?? fonts/InputSans/InputSansNarrow/InputSansNarrow-Black.ttf
+?? fonts/InputSans/InputSansNarrow/InputSansNarrow-BlackItalic.ttf
+?? fonts/InputSans/InputSansNarrow/InputSansNarrow-Bold.ttf
+?? fonts/InputSans/InputSansNarrow/InputSansNarrow-BoldItalic.ttf
+?? fonts/InputSans/InputSansNarrow/InputSansNarrow-ExtraLight.ttf
+?? fonts/InputSans/InputSansNarrow/InputSansNarrow-ExtraLightItalic.ttf
+?? fonts/InputSans/InputSansNarrow/InputSansNarrow-Italic.ttf
+?? fonts/InputSans/InputSansNarrow/InputSansNarrow-Light.ttf
+?? fonts/InputSans/InputSansNarrow/InputSansNarrow-LightItalic.ttf
+?? fonts/InputSans/InputSansNarrow/InputSansNarrow-Medium.ttf
+?? fonts/InputSans/InputSansNarrow/InputSansNarrow-MediumItalic.ttf
+?? fonts/InputSans/InputSansNarrow/InputSansNarrow-Regular.ttf
+?? fonts/InputSans/InputSansNarrow/InputSansNarrow-Thin.ttf
+?? fonts/InputSans/InputSansNarrow/InputSansNarrow-ThinItalic.ttf
+?? fonts/InputSerif/.uuid
+?? fonts/InputSerif/InputSerif/.uuid
+?? fonts/InputSerif/InputSerif/InputSerif-Black.ttf
+?? fonts/InputSerif/InputSerif/InputSerif-BlackItalic.ttf
+?? fonts/InputSerif/InputSerif/InputSerif-Bold.ttf
+?? fonts/InputSerif/InputSerif/InputSerif-BoldItalic.ttf
+?? fonts/InputSerif/InputSerif/InputSerif-ExtraLight.ttf
+?? fonts/InputSerif/InputSerif/InputSerif-ExtraLightItalic.ttf
+?? fonts/InputSerif/InputSerif/InputSerif-Italic.ttf
+?? fonts/InputSerif/InputSerif/InputSerif-Light.ttf
+?? fonts/InputSerif/InputSerif/InputSerif-LightItalic.ttf
+?? fonts/InputSerif/InputSerif/InputSerif-Medium.ttf
+?? fonts/InputSerif/InputSerif/InputSerif-MediumItalic.ttf
+?? fonts/InputSerif/InputSerif/InputSerif-Regular.ttf
+?? fonts/InputSerif/InputSerif/InputSerif-Thin.ttf
+?? fonts/InputSerif/InputSerif/InputSerif-ThinItalic.ttf
+?? fonts/InputSerif/InputSerifCompressed/.uuid
+?? fonts/InputSerif/InputSerifCompressed/InputSerifCompressed-Black.ttf
+?? fonts/InputSerif/InputSerifCompressed/InputSerifCompressed-BlackItalic.ttf
+?? fonts/InputSerif/InputSerifCompressed/InputSerifCompressed-Bold.ttf
+?? fonts/InputSerif/InputSerifCompressed/InputSerifCompressed-BoldItalic.ttf
+?? fonts/InputSerif/InputSerifCompressed/InputSerifCompressed-ExtraLight.ttf
+?? fonts/InputSerif/InputSerifCompressed/InputSerifCompressed-ExtraLightItalic.ttf
+?? fonts/InputSerif/InputSerifCompressed/InputSerifCompressed-Italic.ttf
+?? fonts/InputSerif/InputSerifCompressed/InputSerifCompressed-Light.ttf
+?? fonts/InputSerif/InputSerifCompressed/InputSerifCompressed-LightItalic.ttf
+?? fonts/InputSerif/InputSerifCompressed/InputSerifCompressed-Medium.ttf
+?? fonts/InputSerif/InputSerifCompressed/InputSerifCompressed-MediumItalic.ttf
+?? fonts/InputSerif/InputSerifCompressed/InputSerifCompressed-Regular.ttf
+?? fonts/InputSerif/InputSerifCompressed/InputSerifCompressed-Thin.ttf
+?? fonts/InputSerif/InputSerifCompressed/InputSerifCompressed-ThinItalic.ttf
+?? fonts/InputSerif/InputSerifCondensed/.uuid
+?? fonts/InputSerif/InputSerifCondensed/InputSerifCondensed-Black.ttf
+?? fonts/InputSerif/InputSerifCondensed/InputSerifCondensed-BlackItalic.ttf
+?? fonts/InputSerif/InputSerifCondensed/InputSerifCondensed-Bold.ttf
+?? fonts/InputSerif/InputSerifCondensed/InputSerifCondensed-BoldItalic.ttf
+?? fonts/InputSerif/InputSerifCondensed/InputSerifCondensed-ExtraLight.ttf
+?? fonts/InputSerif/InputSerifCondensed/InputSerifCondensed-ExtraLightItalic.ttf
+?? fonts/InputSerif/InputSerifCondensed/InputSerifCondensed-Italic.ttf
+?? fonts/InputSerif/InputSerifCondensed/InputSerifCondensed-Light.ttf
+?? fonts/InputSerif/InputSerifCondensed/InputSerifCondensed-LightItalic.ttf
+?? fonts/InputSerif/InputSerifCondensed/InputSerifCondensed-Medium.ttf
+?? fonts/InputSerif/InputSerifCondensed/InputSerifCondensed-MediumItalic.ttf
+?? fonts/InputSerif/InputSerifCondensed/InputSerifCondensed-Regular.ttf
+?? fonts/InputSerif/InputSerifCondensed/InputSerifCondensed-Thin.ttf
+?? fonts/InputSerif/InputSerifCondensed/InputSerifCondensed-ThinItalic.ttf
+?? fonts/InputSerif/InputSerifNarrow/.uuid
+?? fonts/InputSerif/InputSerifNarrow/InputSerifNarrow-Black.ttf
+?? fonts/InputSerif/InputSerifNarrow/InputSerifNarrow-BlackItalic.ttf
+?? fonts/InputSerif/InputSerifNarrow/InputSerifNarrow-Bold.ttf
+?? fonts/InputSerif/InputSerifNarrow/InputSerifNarrow-BoldItalic.ttf
+?? fonts/InputSerif/InputSerifNarrow/InputSerifNarrow-ExtraLight.ttf
+?? fonts/InputSerif/InputSerifNarrow/InputSerifNarrow-ExtraLightItalic.ttf
+?? fonts/InputSerif/InputSerifNarrow/InputSerifNarrow-Italic.ttf
+?? fonts/InputSerif/InputSerifNarrow/InputSerifNarrow-Light.ttf
+?? fonts/InputSerif/InputSerifNarrow/InputSerifNarrow-LightItalic.ttf
+?? fonts/InputSerif/InputSerifNarrow/InputSerifNarrow-Medium.ttf
+?? fonts/InputSerif/InputSerifNarrow/InputSerifNarrow-MediumItalic.ttf
+?? fonts/InputSerif/InputSerifNarrow/InputSerifNarrow-Regular.ttf
+?? fonts/InputSerif/InputSerifNarrow/InputSerifNarrow-Thin.ttf
+?? fonts/InputSerif/InputSerifNarrow/InputSerifNarrow-ThinItalic.ttf
+?? fonts/OTF/.uuid
+?? fonts/OTF/SourceCodePro-Black.otf
+?? fonts/OTF/SourceCodePro-BlackIt.otf
+?? fonts/OTF/SourceCodePro-Bold.otf
+?? fonts/OTF/SourceCodePro-BoldIt.otf
+?? fonts/OTF/SourceCodePro-ExtraLight.otf
+?? fonts/OTF/SourceCodePro-ExtraLightIt.otf
+?? fonts/OTF/SourceCodePro-It.otf
+?? fonts/OTF/SourceCodePro-Light.otf
+?? fonts/OTF/SourceCodePro-LightIt.otf
+?? fonts/OTF/SourceCodePro-Medium.otf
+?? fonts/OTF/SourceCodePro-MediumIt.otf
+?? fonts/OTF/SourceCodePro-Regular.otf
+?? fonts/OTF/SourceCodePro-Semibold.otf
+?? fonts/OTF/SourceCodePro-SemiboldIt.otf
+?? fonts/OpenDyslexic 3 (Beta - Windows, MacOS, Linux TTF)/.uuid
+?? fonts/OpenDyslexic 3 (Beta - Windows, MacOS, Linux TTF)/OpenDyslexic3-Bold.ttf
+?? fonts/OpenDyslexic 3 (Beta - Windows, MacOS, Linux TTF)/OpenDyslexic3-Regular.ttf
+?? fonts/OpenDyslexic Mono (Windows, MacOS, Linux OTF)/.uuid
+?? fonts/OpenDyslexic Mono (Windows, MacOS, Linux OTF)/OpenDyslexicMono-Regular.otf
+?? fonts/OpenDyslexic2 (Windows, MacOS, Linux OTF)/.uuid
+?? fonts/OpenDyslexic2 (Windows, MacOS, Linux OTF)/OpenDyslexic-Bold.otf
+?? fonts/OpenDyslexic2 (Windows, MacOS, Linux OTF)/OpenDyslexic-BoldItalic.otf
+?? fonts/OpenDyslexic2 (Windows, MacOS, Linux OTF)/OpenDyslexic-Italic.otf
+?? fonts/OpenDyslexic2 (Windows, MacOS, Linux OTF)/OpenDyslexic-Regular.otf
+?? fonts/OpenDyslexic2 Alt-A (Windows, MacOS, Linux OTF)/.uuid
+?? fonts/OpenDyslexic2 Alt-A (Windows, MacOS, Linux OTF)/OpenDyslexicAlta-Bold.otf
+?? fonts/OpenDyslexic2 Alt-A (Windows, MacOS, Linux OTF)/OpenDyslexicAlta-BoldItalic.otf
+?? fonts/OpenDyslexic2 Alt-A (Windows, MacOS, Linux OTF)/OpenDyslexicAlta-Italic.otf
+?? fonts/OpenDyslexic2 Alt-A (Windows, MacOS, Linux OTF)/OpenDyslexicAlta-Regular.otf
+?? fonts/TTF/.uuid
+?? fonts/TTF/SourceCodePro-Black.ttf
+?? fonts/TTF/SourceCodePro-BlackIt.ttf
+?? fonts/TTF/SourceCodePro-Bold.ttf
+?? fonts/TTF/SourceCodePro-BoldIt.ttf
+?? fonts/TTF/SourceCodePro-ExtraLight.ttf
+?? fonts/TTF/SourceCodePro-ExtraLightIt.ttf
+?? fonts/TTF/SourceCodePro-It.ttf
+?? fonts/TTF/SourceCodePro-Light.ttf
+?? fonts/TTF/SourceCodePro-LightIt.ttf
+?? fonts/TTF/SourceCodePro-Medium.ttf
+?? fonts/TTF/SourceCodePro-MediumIt.ttf
+?? fonts/TTF/SourceCodePro-Regular.ttf
+?? fonts/TTF/SourceCodePro-Semibold.ttf
+?? fonts/TTF/SourceCodePro-SemiboldIt.ttf
+?? fonts/fonts-master/.gitignore
+?? fonts/fonts-master/3270/3270Medium.ttf
+?? fonts/fonts-master/3270/3270Narrow.ttf
+?? fonts/fonts-master/3270/3270SemiNarrow.ttf
+?? fonts/fonts-master/3270/README.rst
+?? fonts/fonts-master/AnonymousPro/Anonymice Powerline Bold Italic.ttf
+?? fonts/fonts-master/AnonymousPro/Anonymice Powerline Bold.ttf
+?? fonts/fonts-master/AnonymousPro/Anonymice Powerline Italic.ttf
+?? fonts/fonts-master/AnonymousPro/Anonymice Powerline.ttf
+?? fonts/fonts-master/AnonymousPro/LICENSE.txt
+?? fonts/fonts-master/AnonymousPro/README.rst
+?? fonts/fonts-master/AnonymousPro/fonts.dir
+?? fonts/fonts-master/AnonymousPro/fonts.scale
+?? fonts/fonts-master/Arimo/Arimo Bold Italic for Powerline.ttf
+?? fonts/fonts-master/Arimo/Arimo Bold for Powerline.ttf
+?? fonts/fonts-master/Arimo/Arimo Italic for Powerline.ttf
+?? fonts/fonts-master/Arimo/Arimo for Powerline.ttf
+?? fonts/fonts-master/Arimo/LICENSE.txt
+?? fonts/fonts-master/Arimo/README.rst
+?? fonts/fonts-master/Cousine/Cousine Bold Italic for Powerline.ttf
+?? fonts/fonts-master/Cousine/Cousine Bold for Powerline.ttf
+?? fonts/fonts-master/Cousine/Cousine Italic for Powerline.ttf
+?? fonts/fonts-master/Cousine/Cousine for Powerline.ttf
+?? fonts/fonts-master/Cousine/LICENSE.txt
+?? fonts/fonts-master/Cousine/README.rst
+?? fonts/fonts-master/D2Coding/README.rst
+?? fonts/fonts-master/DejaVuSansMono/DejaVu Sans Mono Bold Oblique for Powerline.ttf
+?? fonts/fonts-master/DejaVuSansMono/DejaVu Sans Mono Bold for Powerline.ttf
+?? fonts/fonts-master/DejaVuSansMono/DejaVu Sans Mono Oblique for Powerline.ttf
+?? fonts/fonts-master/DejaVuSansMono/DejaVu Sans Mono for Powerline.ttf
+?? fonts/fonts-master/DejaVuSansMono/LICENSE.txt
+?? fonts/fonts-master/DejaVuSansMono/README.rst
+?? fonts/fonts-master/DejaVuSansMono/fonts.dir
+?? fonts/fonts-master/DejaVuSansMono/fonts.scale
+?? fonts/fonts-master/DroidSansMono/Droid Sans Mono for Powerline.otf
+?? fonts/fonts-master/DroidSansMono/LICENSE.txt
+?? fonts/fonts-master/DroidSansMono/README.rst
+?? fonts/fonts-master/DroidSansMono/fonts.dir
+?? fonts/fonts-master/DroidSansMono/fonts.scale
+?? fonts/fonts-master/DroidSansMonoDotted/Droid Sans Mono Dotted for Powerline.ttf
+?? fonts/fonts-master/DroidSansMonoDotted/LICENSE.txt
+?? fonts/fonts-master/DroidSansMonoDotted/README.rst
+?? fonts/fonts-master/DroidSansMonoDotted/fonts.dir
+?? fonts/fonts-master/DroidSansMonoDotted/fonts.scale
+?? fonts/fonts-master/DroidSansMonoSlashed/Droid Sans Mono Slashed for Powerline.ttf
+?? fonts/fonts-master/DroidSansMonoSlashed/LICENSE.txt
+?? fonts/fonts-master/DroidSansMonoSlashed/README.rst
+?? fonts/fonts-master/DroidSansMonoSlashed/fonts.dir
+?? fonts/fonts-master/DroidSansMonoSlashed/fonts.scale
+?? fonts/fonts-master/FiraMono/FuraMono-Bold Powerline.otf
+?? fonts/fonts-master/FiraMono/FuraMono-Medium Powerline.otf
+?? fonts/fonts-master/FiraMono/FuraMono-Regular Powerline.otf
+?? fonts/fonts-master/FiraMono/LICENSE.txt
+?? fonts/fonts-master/FiraMono/README.rst
+?? fonts/fonts-master/FiraMono/fonts.dir
+?? fonts/fonts-master/FiraMono/fonts.scale
+?? fonts/fonts-master/GoMono/Go Mono Bold Italic for Powerline.ttf
+?? fonts/fonts-master/GoMono/Go Mono Bold for Powerline.ttf
+?? fonts/fonts-master/GoMono/Go Mono Italic for Powerline.ttf
+?? fonts/fonts-master/GoMono/Go Mono for Powerline.ttf
+?? fonts/fonts-master/GoMono/LICENCE.TXT
+?? fonts/fonts-master/GoMono/README.rst
+?? fonts/fonts-master/Hack/Hack-Bold.ttf
+?? fonts/fonts-master/Hack/Hack-BoldItalic.ttf
+?? fonts/fonts-master/Hack/Hack-Italic.ttf
+?? fonts/fonts-master/Hack/Hack-Regular.ttf
+?? fonts/fonts-master/Hack/LICENSE.txt
+?? fonts/fonts-master/Hack/README.rst
+?? fonts/fonts-master/Hack/hack-specimen-for-Powerline.png
+?? fonts/fonts-master/Inconsolata-g/Inconsolata-g for Powerline.otf
+?? fonts/fonts-master/Inconsolata-g/LICENSE.txt
+?? fonts/fonts-master/Inconsolata-g/README.rst
+?? fonts/fonts-master/Inconsolata-g/fonts.dir
+?? fonts/fonts-master/Inconsolata-g/fonts.scale
+?? fonts/fonts-master/Inconsolata/Inconsolata Bold for Powerline.ttf
+?? fonts/fonts-master/Inconsolata/Inconsolata for Powerline.otf
+?? fonts/fonts-master/Inconsolata/LICENSE.txt
+?? fonts/fonts-master/Inconsolata/README.rst
+?? fonts/fonts-master/Inconsolata/fonts.dir
+?? fonts/fonts-master/Inconsolata/fonts.scale
+?? fonts/fonts-master/InconsolataDz/Inconsolata-dz for Powerline.otf
+?? fonts/fonts-master/InconsolataDz/LICENSE.txt
+?? fonts/fonts-master/InconsolataDz/README.rst
+?? fonts/fonts-master/InconsolataDz/fonts.dir
+?? fonts/fonts-master/InconsolataDz/fonts.scale
+?? fonts/fonts-master/InputMono/README.rst
+?? fonts/fonts-master/LiberationMono/LICENSE.txt
+?? fonts/fonts-master/LiberationMono/Literation Mono Powerline Bold Italic.ttf
+?? fonts/fonts-master/LiberationMono/Literation Mono Powerline Bold.ttf
+?? fonts/fonts-master/LiberationMono/Literation Mono Powerline Italic.ttf
+?? fonts/fonts-master/LiberationMono/Literation Mono Powerline.ttf
+?? fonts/fonts-master/LiberationMono/README.rst
+?? fonts/fonts-master/LiberationMono/fonts.dir
+?? fonts/fonts-master/LiberationMono/fonts.scale
+?? fonts/fonts-master/Meslo Dotted/LICENSE.txt
+?? fonts/fonts-master/Meslo Dotted/Meslo LG L DZ Bold Italic for Powerline.ttf
+?? fonts/fonts-master/Meslo Dotted/Meslo LG L DZ Bold for Powerline.ttf
+?? fonts/fonts-master/Meslo Dotted/Meslo LG L DZ Italic for Powerline.ttf
+?? fonts/fonts-master/Meslo Dotted/Meslo LG L DZ Regular for Powerline.ttf
+?? fonts/fonts-master/Meslo Dotted/Meslo LG M DZ Bold Italic for Powerline.ttf
+?? fonts/fonts-master/Meslo Dotted/Meslo LG M DZ Bold for Powerline.ttf
+?? fonts/fonts-master/Meslo Dotted/Meslo LG M DZ Italic for Powerline.ttf
+?? fonts/fonts-master/Meslo Dotted/Meslo LG M DZ Regular for Powerline.ttf
+?? fonts/fonts-master/Meslo Dotted/Meslo LG S DZ Bold Italic for Powerline.ttf
+?? fonts/fonts-master/Meslo Dotted/Meslo LG S DZ Bold for Powerline.ttf
+?? fonts/fonts-master/Meslo Dotted/Meslo LG S DZ Italic for Powerline.ttf
+?? fonts/fonts-master/Meslo Dotted/Meslo LG S DZ Regular for Powerline.ttf
+?? fonts/fonts-master/Meslo Dotted/README.rst
+?? fonts/fonts-master/Meslo Dotted/fonts.dir
+?? fonts/fonts-master/Meslo Dotted/fonts.scale
+?? fonts/fonts-master/Meslo Slashed/LICENSE.txt
+?? fonts/fonts-master/Meslo Slashed/Meslo LG L Bold Italic for Powerline.ttf
+?? fonts/fonts-master/Meslo Slashed/Meslo LG L Bold for Powerline.ttf
+?? fonts/fonts-master/Meslo Slashed/Meslo LG L Italic for Powerline.ttf
+?? fonts/fonts-master/Meslo Slashed/Meslo LG L Regular for Powerline.ttf
+?? fonts/fonts-master/Meslo Slashed/Meslo LG M Bold Italic for Powerline.ttf
+?? fonts/fonts-master/Meslo Slashed/Meslo LG M Bold for Powerline.ttf
+?? fonts/fonts-master/Meslo Slashed/Meslo LG M Italic for Powerline.ttf
+?? fonts/fonts-master/Meslo Slashed/Meslo LG M Regular for Powerline.ttf
+?? fonts/fonts-master/Meslo Slashed/Meslo LG S Bold Italic for Powerline.ttf
+?? fonts/fonts-master/Meslo Slashed/Meslo LG S Bold for Powerline.ttf
+?? fonts/fonts-master/Meslo Slashed/Meslo LG S Italic for Powerline.ttf
+?? fonts/fonts-master/Meslo Slashed/Meslo LG S Regular for Powerline.ttf
+?? fonts/fonts-master/Meslo Slashed/README.rst
+?? fonts/fonts-master/Meslo Slashed/fonts.dir
+?? fonts/fonts-master/Meslo Slashed/fonts.scale
+?? fonts/fonts-master/Monofur/LICENSE.txt
+?? fonts/fonts-master/Monofur/Monofur Bold for Powerline.ttf
+?? fonts/fonts-master/Monofur/Monofur Italic for Powerline.ttf
+?? fonts/fonts-master/Monofur/Monofur for Powerline.ttf
+?? fonts/fonts-master/NotoMono/LICENSE_OFL.txt
+?? fonts/fonts-master/NotoMono/Noto Mono for Powerline.ttf
+?? fonts/fonts-master/NotoMono/README.rst
+?? fonts/fonts-master/NovaMono/LICENSE.txt
+?? fonts/fonts-master/NovaMono/NovaMono for Powerline.ttf
+?? fonts/fonts-master/NovaMono/README.rst
+?? fonts/fonts-master/ProFont/LICENSE
+?? fonts/fonts-master/ProFont/ProFont Bold For Powerline.ttf
+?? fonts/fonts-master/ProFont/ProFont For Powerline.ttf
+?? fonts/fonts-master/ProFont/README.rst
+?? fonts/fonts-master/README.rst
+?? fonts/fonts-master/RobotoMono/LICENSE.txt
+?? fonts/fonts-master/RobotoMono/README.rst
+?? fonts/fonts-master/RobotoMono/Roboto Mono Bold Italic for Powerline.ttf
+?? fonts/fonts-master/RobotoMono/Roboto Mono Bold for Powerline.ttf
+?? fonts/fonts-master/RobotoMono/Roboto Mono Italic for Powerline.ttf
+?? fonts/fonts-master/RobotoMono/Roboto Mono Light Italic for Powerline.ttf
+?? fonts/fonts-master/RobotoMono/Roboto Mono Light for Powerline.ttf
+?? fonts/fonts-master/RobotoMono/Roboto Mono Medium Italic for Powerline.ttf
+?? fonts/fonts-master/RobotoMono/Roboto Mono Medium for Powerline.ttf
+?? fonts/fonts-master/RobotoMono/Roboto Mono Thin Italic for Powerline.ttf
+?? fonts/fonts-master/RobotoMono/Roboto Mono Thin for Powerline.ttf
+?? fonts/fonts-master/RobotoMono/Roboto Mono for Powerline.ttf
+?? fonts/fonts-master/RobotoMono/fonts.dir
+?? fonts/fonts-master/RobotoMono/fonts.scale
+?? fonts/fonts-master/SourceCodePro/LICENSE.txt
+?? fonts/fonts-master/SourceCodePro/README.rst
+?? fonts/fonts-master/SourceCodePro/Source Code Pro Black for Powerline.otf
+?? fonts/fonts-master/SourceCodePro/Source Code Pro Bold for Powerline.otf
+?? fonts/fonts-master/SourceCodePro/Source Code Pro ExtraLight for Powerline.otf
+?? fonts/fonts-master/SourceCodePro/Source Code Pro Light for Powerline.otf
+?? fonts/fonts-master/SourceCodePro/Source Code Pro Medium for Powerline.otf
+?? fonts/fonts-master/SourceCodePro/Source Code Pro Powerline BlackItalic.otf
+?? fonts/fonts-master/SourceCodePro/Source Code Pro Powerline BoldItalic.otf
+?? fonts/fonts-master/SourceCodePro/Source Code Pro Powerline ExtraLightItalic.otf
+?? fonts/fonts-master/SourceCodePro/Source Code Pro Powerline Italic.otf
+?? fonts/fonts-master/SourceCodePro/Source Code Pro Powerline LightItalic.otf
+?? fonts/fonts-master/SourceCodePro/Source Code Pro Powerline MediumItalic.otf
+?? fonts/fonts-master/SourceCodePro/Source Code Pro Powerline SemiboldItalic.otf
+?? fonts/fonts-master/SourceCodePro/Source Code Pro Semibold for Powerline.otf
+?? fonts/fonts-master/SourceCodePro/Source Code Pro for Powerline.otf
+?? fonts/fonts-master/SourceCodePro/fonts.dir
+?? fonts/fonts-master/SourceCodePro/fonts.scale
+?? fonts/fonts-master/SpaceMono/LICENSE.txt
+?? fonts/fonts-master/SpaceMono/README.rst
+?? fonts/fonts-master/SpaceMono/Space Mono Bold Italic for Powerline.ttf
+?? fonts/fonts-master/SpaceMono/Space Mono Bold for Powerline.ttf
+?? fonts/fonts-master/SpaceMono/Space Mono Italic for Powerline.ttf
+?? fonts/fonts-master/SpaceMono/Space Mono for Powerline.ttf
+?? fonts/fonts-master/SpaceMono/SpaceMono-Bold.ttf
+?? fonts/fonts-master/SpaceMono/SpaceMono-BoldItalic.ttf
+?? fonts/fonts-master/SpaceMono/SpaceMono-Italic.ttf
+?? fonts/fonts-master/SpaceMono/SpaceMono-Regular.ttf
+?? fonts/fonts-master/SymbolNeu/LICENSE.txt
+?? fonts/fonts-master/SymbolNeu/README.rst
+?? fonts/fonts-master/SymbolNeu/Symbol Neu for Powerline.ttf
+?? fonts/fonts-master/Terminus/BDF/fonts.dir
+?? fonts/fonts-master/Terminus/BDF/ter-powerline-x12b.bdf
+?? fonts/fonts-master/Terminus/BDF/ter-powerline-x12n.bdf
+?? fonts/fonts-master/Terminus/BDF/ter-powerline-x14b.bdf
+?? fonts/fonts-master/Terminus/BDF/ter-powerline-x14n.bdf
+?? fonts/fonts-master/Terminus/BDF/ter-powerline-x16b.bdf
+?? fonts/fonts-master/Terminus/BDF/ter-powerline-x16n.bdf
+?? fonts/fonts-master/Terminus/BDF/ter-powerline-x18b.bdf
+?? fonts/fonts-master/Terminus/BDF/ter-powerline-x18n.bdf
+?? fonts/fonts-master/Terminus/BDF/ter-powerline-x20b.bdf
+?? fonts/fonts-master/Terminus/BDF/ter-powerline-x20n.bdf
+?? fonts/fonts-master/Terminus/BDF/ter-powerline-x22b.bdf
+?? fonts/fonts-master/Terminus/BDF/ter-powerline-x22n.bdf
+?? fonts/fonts-master/Terminus/BDF/ter-powerline-x24b.bdf
+?? fonts/fonts-master/Terminus/BDF/ter-powerline-x24n.bdf
+?? fonts/fonts-master/Terminus/BDF/ter-powerline-x28b.bdf
+?? fonts/fonts-master/Terminus/BDF/ter-powerline-x28n.bdf
+?? fonts/fonts-master/Terminus/BDF/ter-powerline-x32b.bdf
+?? fonts/fonts-master/Terminus/BDF/ter-powerline-x32n.bdf
+?? fonts/fonts-master/Terminus/LICENSE.txt
+?? fonts/fonts-master/Terminus/PCF/fonts.dir
+?? fonts/fonts-master/Terminus/PCF/ter-powerline-x12b.pcf.gz
+?? fonts/fonts-master/Terminus/PCF/ter-powerline-x12n.pcf.gz
+?? fonts/fonts-master/Terminus/PCF/ter-powerline-x14b.pcf.gz
+?? fonts/fonts-master/Terminus/PCF/ter-powerline-x14n.pcf.gz
+?? fonts/fonts-master/Terminus/PCF/ter-powerline-x16b.pcf.gz
+?? fonts/fonts-master/Terminus/PCF/ter-powerline-x16n.pcf.gz
+?? fonts/fonts-master/Terminus/PCF/ter-powerline-x18b.pcf.gz
+?? fonts/fonts-master/Terminus/PCF/ter-powerline-x18n.pcf.gz
+?? fonts/fonts-master/Terminus/PCF/ter-powerline-x20b.pcf.gz
+?? fonts/fonts-master/Terminus/PCF/ter-powerline-x20n.pcf.gz
+?? fonts/fonts-master/Terminus/PCF/ter-powerline-x22b.pcf.gz
+?? fonts/fonts-master/Terminus/PCF/ter-powerline-x22n.pcf.gz
+?? fonts/fonts-master/Terminus/PCF/ter-powerline-x24b.pcf.gz
+?? fonts/fonts-master/Terminus/PCF/ter-powerline-x24n.pcf.gz
+?? fonts/fonts-master/Terminus/PCF/ter-powerline-x28b.pcf.gz
+?? fonts/fonts-master/Terminus/PCF/ter-powerline-x28n.pcf.gz
+?? fonts/fonts-master/Terminus/PCF/ter-powerline-x32b.pcf.gz
+?? fonts/fonts-master/Terminus/PCF/ter-powerline-x32n.pcf.gz
+?? fonts/fonts-master/Terminus/PSF/README.markdown
+?? fonts/fonts-master/Terminus/PSF/ter-powerline-v12n.psf.gz
+?? fonts/fonts-master/Terminus/PSF/ter-powerline-v14b.psf.gz
+?? fonts/fonts-master/Terminus/PSF/ter-powerline-v14n.psf.gz
+?? fonts/fonts-master/Terminus/PSF/ter-powerline-v14v.psf.gz
+?? fonts/fonts-master/Terminus/PSF/ter-powerline-v16b.psf.gz
+?? fonts/fonts-master/Terminus/PSF/ter-powerline-v16n.psf.gz
+?? fonts/fonts-master/Terminus/PSF/ter-powerline-v16v.psf.gz
+?? fonts/fonts-master/Terminus/PSF/ter-powerline-v18b.psf.gz
+?? fonts/fonts-master/Terminus/PSF/ter-powerline-v18n.psf.gz
+?? fonts/fonts-master/Terminus/PSF/ter-powerline-v20b.psf.gz
+?? fonts/fonts-master/Terminus/PSF/ter-powerline-v20n.psf.gz
+?? fonts/fonts-master/Terminus/PSF/ter-powerline-v22b.psf.gz
+?? fonts/fonts-master/Terminus/PSF/ter-powerline-v22n.psf.gz
+?? fonts/fonts-master/Terminus/PSF/ter-powerline-v24b.psf.gz
+?? fonts/fonts-master/Terminus/PSF/ter-powerline-v24n.psf.gz
+?? fonts/fonts-master/Terminus/PSF/ter-powerline-v28b.psf.gz
+?? fonts/fonts-master/Terminus/PSF/ter-powerline-v28n.psf.gz
+?? fonts/fonts-master/Terminus/PSF/ter-powerline-v32b.psf.gz
+?? fonts/fonts-master/Terminus/PSF/ter-powerline-v32n.psf.gz
+?? fonts/fonts-master/Terminus/README.rst
+?? fonts/fonts-master/Tinos/LICENSE.txt
+?? fonts/fonts-master/Tinos/README.rst
+?? fonts/fonts-master/Tinos/Tinos Bold Italic for Powerline.ttf
+?? fonts/fonts-master/Tinos/Tinos Bold for Powerline.ttf
+?? fonts/fonts-master/Tinos/Tinos Italic for Powerline.ttf
+?? fonts/fonts-master/Tinos/Tinos for Powerline.ttf
+?? fonts/fonts-master/UbuntuMono/LICENCE.txt
+?? fonts/fonts-master/UbuntuMono/README.rst
+?? fonts/fonts-master/UbuntuMono/Ubuntu Mono derivative Powerline Bold Italic.ttf
+?? fonts/fonts-master/UbuntuMono/Ubuntu Mono derivative Powerline Bold.ttf
+?? fonts/fonts-master/UbuntuMono/Ubuntu Mono derivative Powerline Italic.ttf
+?? fonts/fonts-master/UbuntuMono/Ubuntu Mono derivative Powerline.ttf
+?? fonts/fonts-master/UbuntuMono/fonts.dir
+?? fonts/fonts-master/UbuntuMono/fonts.scale
+?? fonts/fonts-master/fontconfig/50-enable-terminess-powerline.conf
+?? fonts/fonts-master/install.ps1
+?? fonts/fonts-master/install.sh
+?? fonts/fonts-master/samples/All.md
+?? fonts/fonts-master/samples/AnonymousPro.md
+?? fonts/fonts-master/samples/DejaVuSansMono.md
+?? fonts/fonts-master/samples/DroidSansMono.md
+?? fonts/fonts-master/samples/FiraMono.md
+?? fonts/fonts-master/samples/Hack.md
+?? fonts/fonts-master/samples/Inconsolata-g.md
+?? fonts/fonts-master/samples/Inconsolata.md
+?? fonts/fonts-master/samples/InconsolataDz.md
+?? fonts/fonts-master/samples/InputMono.md
+?? fonts/fonts-master/samples/LiberationMono.md
+?? fonts/fonts-master/samples/Meslo.md
+?? fonts/fonts-master/samples/Monofur.md
+?? fonts/fonts-master/samples/SourceCodePro.md
+?? fonts/fonts-master/samples/UbuntuMono.md
+?? fonts/fonts-master/uninstall.sh
+?? init_dotfiles.sh
+?? init_submodules.sh
+?? install
+?? install.conf.yaml
+?? plugins/zsh-syntax-highlighting/
+?? python.json
+?? src/reset_super_shortcuts_pop.sh
+?? terminal-config/bash_profile
+?? terminal-config/bash_profile2
+?? terminal-config/bashrc
+?? terminal-config/git-completion.bash
+?? terminal-config/git-prompt.sh
+?? vimrc
+?? vscode.settings/keybindings.json
+?? vscode.settings/python.json
+?? vscode.settings/settings.json
+?? vscode.settings/symlink_path_python.sh
+?? zshrc
+in:\n/home/dorf/pR1sM/dotfiles
+Repo Name: 
+.
+Files with changes to commit: \n?? AA1aCriT1YY.yml
+?? INSPIRATIONAL_DOTFILES.md
+?? LICENSE.md
+?? README.md
+?? alacritty.yml
+?? alacritty/.agignore
+?? alacritty/.builds/freebsd.yml
+?? alacritty/.builds/linux.yml
+?? alacritty/.editorconfig
+?? alacritty/.gitattributes
+?? alacritty/.github/ISSUE_TEMPLATE.md
+?? alacritty/.github/workflows/ci.yml
+?? alacritty/.github/workflows/release.yml
+?? alacritty/.github/workflows/upload_asset.sh
+?? alacritty/.gitignore
+?? alacritty/CHANGELOG.md
+?? alacritty/CONTRIBUTING.md
+?? alacritty/Cargo.lock
+?? alacritty/Cargo.toml
+?? alacritty/INSTALL.md
+?? alacritty/LICENSE-APACHE
+?? alacritty/Makefile
+?? alacritty/README.md
+?? alacritty/alacritty.yml
+?? alacritty/alacritty/Cargo.toml
+?? alacritty/alacritty/LICENSE-APACHE
+?? alacritty/alacritty/README.md
+?? alacritty/alacritty/alacritty.png
+?? alacritty/alacritty/build.rs
+?? alacritty/alacritty/res/rect.f.glsl
+?? alacritty/alacritty/res/rect.v.glsl
+?? alacritty/alacritty/res/text.f.glsl
+?? alacritty/alacritty/res/text.v.glsl
+?? alacritty/alacritty/src/cli.rs
+?? alacritty/alacritty/src/clipboard.rs
+?? alacritty/alacritty/src/config/bell.rs
+?? alacritty/alacritty/src/config/bindings.rs
+?? alacritty/alacritty/src/config/color.rs
+?? alacritty/alacritty/src/config/debug.rs
+?? alacritty/alacritty/src/config/font.rs
+?? alacritty/alacritty/src/config/mod.rs
+?? alacritty/alacritty/src/config/monitor.rs
+?? alacritty/alacritty/src/config/mouse.rs
+?? alacritty/alacritty/src/config/serde_utils.rs
+?? alacritty/alacritty/src/config/ui_config.rs
+?? alacritty/alacritty/src/config/window.rs
+?? alacritty/alacritty/src/daemon.rs
+?? alacritty/alacritty/src/display/bell.rs
+?? alacritty/alacritty/src/display/color.rs
+?? alacritty/alacritty/src/display/content.rs
+?? alacritty/alacritty/src/display/cursor.rs
+?? alacritty/alacritty/src/display/hint.rs
+?? alacritty/alacritty/src/display/meter.rs
+?? alacritty/alacritty/src/display/mod.rs
+?? alacritty/alacritty/src/display/wayland_theme.rs
+?? alacritty/alacritty/src/display/window.rs
+?? alacritty/alacritty/src/event.rs
+?? alacritty/alacritty/src/input.rs
+?? alacritty/alacritty/src/logging.rs
+?? alacritty/alacritty/src/macos/locale.rs
+?? alacritty/alacritty/src/macos/mod.rs
+?? alacritty/alacritty/src/macos/proc.rs
+?? alacritty/alacritty/src/main.rs
+?? alacritty/alacritty/src/message_bar.rs
+?? alacritty/alacritty/src/panic.rs
+?? alacritty/alacritty/src/renderer/mod.rs
+?? alacritty/alacritty/src/renderer/rects.rs
+?? alacritty/alacritty/src/scheduler.rs
+?? alacritty/alacritty_config_derive/Cargo.toml
+?? alacritty/alacritty_config_derive/LICENSE-APACHE
+?? alacritty/alacritty_config_derive/LICENSE-MIT
+?? alacritty/alacritty_config_derive/src/de_enum.rs
+?? alacritty/alacritty_config_derive/src/de_struct.rs
+?? alacritty/alacritty_config_derive/src/lib.rs
+?? alacritty/alacritty_config_derive/tests/config.rs
+?? alacritty/alacritty_terminal/Cargo.toml
+?? alacritty/alacritty_terminal/LICENSE-APACHE
+?? alacritty/alacritty_terminal/src/ansi.rs
+?? alacritty/alacritty_terminal/src/config/mod.rs
+?? alacritty/alacritty_terminal/src/config/scrolling.rs
+?? alacritty/alacritty_terminal/src/event.rs
+?? alacritty/alacritty_terminal/src/event_loop.rs
+?? alacritty/alacritty_terminal/src/grid/mod.rs
+?? alacritty/alacritty_terminal/src/grid/resize.rs
+?? alacritty/alacritty_terminal/src/grid/row.rs
+?? alacritty/alacritty_terminal/src/grid/storage.rs
+?? alacritty/alacritty_terminal/src/grid/tests.rs
+?? alacritty/alacritty_terminal/src/index.rs
+?? alacritty/alacritty_terminal/src/lib.rs
+?? alacritty/alacritty_terminal/src/selection.rs
+?? alacritty/alacritty_terminal/src/sync.rs
+?? alacritty/alacritty_terminal/src/term/cell.rs
+?? alacritty/alacritty_terminal/src/term/color.rs
+?? alacritty/alacritty_terminal/src/term/mod.rs
+?? alacritty/alacritty_terminal/src/term/search.rs
+?? alacritty/alacritty_terminal/src/thread.rs
+?? alacritty/alacritty_terminal/src/tty/mod.rs
+?? alacritty/alacritty_terminal/src/tty/unix.rs
+?? alacritty/alacritty_terminal/src/tty/windows/child.rs
+?? alacritty/alacritty_terminal/src/tty/windows/conpty.rs
+?? alacritty/alacritty_terminal/src/tty/windows/mod.rs
+?? alacritty/alacritty_terminal/src/vi_mode.rs
+?? alacritty/alacritty_terminal/tests/ref.rs
+?? alacritty/alacritty_terminal/tests/ref/alt_reset/alacritty.recording
+?? alacritty/alacritty_terminal/tests/ref/alt_reset/config.json
+?? alacritty/alacritty_terminal/tests/ref/alt_reset/grid.json
+?? alacritty/alacritty_terminal/tests/ref/alt_reset/size.json
+?? alacritty/alacritty_terminal/tests/ref/clear_underline/alacritty.recording
+?? alacritty/alacritty_terminal/tests/ref/clear_underline/config.json
+?? alacritty/alacritty_terminal/tests/ref/clear_underline/grid.json
+?? alacritty/alacritty_terminal/tests/ref/clear_underline/size.json
+?? alacritty/alacritty_terminal/tests/ref/colored_reset/alacritty.recording
+?? alacritty/alacritty_terminal/tests/ref/colored_reset/config.json
+?? alacritty/alacritty_terminal/tests/ref/colored_reset/grid.json
+?? alacritty/alacritty_terminal/tests/ref/colored_reset/size.json
+?? alacritty/alacritty_terminal/tests/ref/csi_rep/alacritty.recording
+?? alacritty/alacritty_terminal/tests/ref/csi_rep/config.json
+?? alacritty/alacritty_terminal/tests/ref/csi_rep/grid.json
+?? alacritty/alacritty_terminal/tests/ref/csi_rep/size.json
+?? alacritty/alacritty_terminal/tests/ref/decaln_reset/alacritty.recording
+?? alacritty/alacritty_terminal/tests/ref/decaln_reset/config.json
+?? alacritty/alacritty_terminal/tests/ref/decaln_reset/grid.json
+?? alacritty/alacritty_terminal/tests/ref/decaln_reset/size.json
+?? alacritty/alacritty_terminal/tests/ref/deccolm_reset/alacritty.recording
+?? alacritty/alacritty_terminal/tests/ref/deccolm_reset/config.json
+?? alacritty/alacritty_terminal/tests/ref/deccolm_reset/grid.json
+?? alacritty/alacritty_terminal/tests/ref/deccolm_reset/size.json
+?? alacritty/alacritty_terminal/tests/ref/delete_chars_reset/alacritty.recording
+?? alacritty/alacritty_terminal/tests/ref/delete_chars_reset/config.json
+?? alacritty/alacritty_terminal/tests/ref/delete_chars_reset/grid.json
+?? alacritty/alacritty_terminal/tests/ref/delete_chars_reset/size.json
+?? alacritty/alacritty_terminal/tests/ref/delete_lines/alacritty.recording
+?? alacritty/alacritty_terminal/tests/ref/delete_lines/config.json
+?? alacritty/alacritty_terminal/tests/ref/delete_lines/grid.json
+?? alacritty/alacritty_terminal/tests/ref/delete_lines/size.json
+?? alacritty/alacritty_terminal/tests/ref/erase_chars_reset/alacritty.recording
+?? alacritty/alacritty_terminal/tests/ref/erase_chars_reset/config.json
+?? alacritty/alacritty_terminal/tests/ref/erase_chars_reset/grid.json
+?? alacritty/alacritty_terminal/tests/ref/erase_chars_reset/size.json
+?? alacritty/alacritty_terminal/tests/ref/fish_cc/alacritty.recording
+?? alacritty/alacritty_terminal/tests/ref/fish_cc/config.json
+?? alacritty/alacritty_terminal/tests/ref/fish_cc/grid.json
+?? alacritty/alacritty_terminal/tests/ref/fish_cc/size.json
+?? alacritty/alacritty_terminal/tests/ref/grid_reset/alacritty.recording
+?? alacritty/alacritty_terminal/tests/ref/grid_reset/config.json
+?? alacritty/alacritty_terminal/tests/ref/grid_reset/grid.json
+?? alacritty/alacritty_terminal/tests/ref/grid_reset/size.json
+?? alacritty/alacritty_terminal/tests/ref/history/alacritty.recording
+?? alacritty/alacritty_terminal/tests/ref/history/config.json
+?? alacritty/alacritty_terminal/tests/ref/history/grid.json
+?? alacritty/alacritty_terminal/tests/ref/history/size.json
+?? alacritty/alacritty_terminal/tests/ref/indexed_256_colors/alacritty.recording
+?? alacritty/alacritty_terminal/tests/ref/indexed_256_colors/config.json
+?? alacritty/alacritty_terminal/tests/ref/indexed_256_colors/grid.json
+?? alacritty/alacritty_terminal/tests/ref/indexed_256_colors/size.json
+?? alacritty/alacritty_terminal/tests/ref/insert_blank_reset/alacritty.recording
+?? alacritty/alacritty_terminal/tests/ref/insert_blank_reset/config.json
+?? alacritty/alacritty_terminal/tests/ref/insert_blank_reset/grid.json
+?? alacritty/alacritty_terminal/tests/ref/insert_blank_reset/size.json
+?? alacritty/alacritty_terminal/tests/ref/issue_855/alacritty.recording
+?? alacritty/alacritty_terminal/tests/ref/issue_855/config.json
+?? alacritty/alacritty_terminal/tests/ref/issue_855/grid.json
+?? alacritty/alacritty_terminal/tests/ref/issue_855/size.json
+?? alacritty/alacritty_terminal/tests/ref/ll/alacritty.recording
+?? alacritty/alacritty_terminal/tests/ref/ll/config.json
+?? alacritty/alacritty_terminal/tests/ref/ll/grid.json
+?? alacritty/alacritty_terminal/tests/ref/ll/size.json
+?? alacritty/alacritty_terminal/tests/ref/newline_with_cursor_beyond_scroll_region/alacritty.recording
+?? alacritty/alacritty_terminal/tests/ref/newline_with_cursor_beyond_scroll_region/config.json
+?? alacritty/alacritty_terminal/tests/ref/newline_with_cursor_beyond_scroll_region/grid.json
+?? alacritty/alacritty_terminal/tests/ref/newline_with_cursor_beyond_scroll_region/size.json
+?? alacritty/alacritty_terminal/tests/ref/region_scroll_down/alacritty.recording
+?? alacritty/alacritty_terminal/tests/ref/region_scroll_down/config.json
+?? alacritty/alacritty_terminal/tests/ref/region_scroll_down/grid.json
+?? alacritty/alacritty_terminal/tests/ref/region_scroll_down/size.json
+?? alacritty/alacritty_terminal/tests/ref/row_reset/alacritty.recording
+?? alacritty/alacritty_terminal/tests/ref/row_reset/config.json
+?? alacritty/alacritty_terminal/tests/ref/row_reset/grid.json
+?? alacritty/alacritty_terminal/tests/ref/row_reset/size.json
+?? alacritty/alacritty_terminal/tests/ref/saved_cursor/alacritty.recording
+?? alacritty/alacritty_terminal/tests/ref/saved_cursor/config.json
+?? alacritty/alacritty_terminal/tests/ref/saved_cursor/grid.json
+?? alacritty/alacritty_terminal/tests/ref/saved_cursor/size.json
+?? alacritty/alacritty_terminal/tests/ref/saved_cursor_alt/alacritty.recording
+?? alacritty/alacritty_terminal/tests/ref/saved_cursor_alt/config.json
+?? alacritty/alacritty_terminal/tests/ref/saved_cursor_alt/grid.json
+?? alacritty/alacritty_terminal/tests/ref/saved_cursor_alt/size.json
+?? alacritty/alacritty_terminal/tests/ref/scroll_up_reset/alacritty.recording
+?? alacritty/alacritty_terminal/tests/ref/scroll_up_reset/config.json
+?? alacritty/alacritty_terminal/tests/ref/scroll_up_reset/grid.json
+?? alacritty/alacritty_terminal/tests/ref/scroll_up_reset/size.json
+?? alacritty/alacritty_terminal/tests/ref/selective_erasure/alacritty.recording
+?? alacritty/alacritty_terminal/tests/ref/selective_erasure/config.json
+?? alacritty/alacritty_terminal/tests/ref/selective_erasure/grid.json
+?? alacritty/alacritty_terminal/tests/ref/selective_erasure/size.json
+?? alacritty/alacritty_terminal/tests/ref/sgr/alacritty.recording
+?? alacritty/alacritty_terminal/tests/ref/sgr/config.json
+?? alacritty/alacritty_terminal/tests/ref/sgr/grid.json
+?? alacritty/alacritty_terminal/tests/ref/sgr/size.json
+?? alacritty/alacritty_terminal/tests/ref/tab_rendering/alacritty.recording
+?? alacritty/alacritty_terminal/tests/ref/tab_rendering/config.json
+?? alacritty/alacritty_terminal/tests/ref/tab_rendering/grid.json
+?? alacritty/alacritty_terminal/tests/ref/tab_rendering/size.json
+?? alacritty/alacritty_terminal/tests/ref/tmux_git_log/alacritty.recording
+?? alacritty/alacritty_terminal/tests/ref/tmux_git_log/config.json
+?? alacritty/alacritty_terminal/tests/ref/tmux_git_log/grid.json
+?? alacritty/alacritty_terminal/tests/ref/tmux_git_log/size.json
+?? alacritty/alacritty_terminal/tests/ref/tmux_htop/alacritty.recording
+?? alacritty/alacritty_terminal/tests/ref/tmux_htop/config.json
+?? alacritty/alacritty_terminal/tests/ref/tmux_htop/grid.json
+?? alacritty/alacritty_terminal/tests/ref/tmux_htop/size.json
+?? alacritty/alacritty_terminal/tests/ref/underline/alacritty.recording
+?? alacritty/alacritty_terminal/tests/ref/underline/config.json
+?? alacritty/alacritty_terminal/tests/ref/underline/grid.json
+?? alacritty/alacritty_terminal/tests/ref/underline/size.json
+?? alacritty/alacritty_terminal/tests/ref/vim_24bitcolors_bce/alacritty.recording
+?? alacritty/alacritty_terminal/tests/ref/vim_24bitcolors_bce/config.json
+?? alacritty/alacritty_terminal/tests/ref/vim_24bitcolors_bce/grid.json
+?? alacritty/alacritty_terminal/tests/ref/vim_24bitcolors_bce/size.json
+?? alacritty/alacritty_terminal/tests/ref/vim_large_window_scroll/alacritty.recording
+?? alacritty/alacritty_terminal/tests/ref/vim_large_window_scroll/config.json
+?? alacritty/alacritty_terminal/tests/ref/vim_large_window_scroll/grid.json
+?? alacritty/alacritty_terminal/tests/ref/vim_large_window_scroll/size.json
+?? alacritty/alacritty_terminal/tests/ref/vim_simple_edit/alacritty.recording
+?? alacritty/alacritty_terminal/tests/ref/vim_simple_edit/config.json
+?? alacritty/alacritty_terminal/tests/ref/vim_simple_edit/grid.json
+?? alacritty/alacritty_terminal/tests/ref/vim_simple_edit/size.json
+?? alacritty/alacritty_terminal/tests/ref/vttest_cursor_movement_1/alacritty.recording
+?? alacritty/alacritty_terminal/tests/ref/vttest_cursor_movement_1/config.json
+?? alacritty/alacritty_terminal/tests/ref/vttest_cursor_movement_1/grid.json
+?? alacritty/alacritty_terminal/tests/ref/vttest_cursor_movement_1/size.json
+?? alacritty/alacritty_terminal/tests/ref/vttest_insert/alacritty.recording
+?? alacritty/alacritty_terminal/tests/ref/vttest_insert/config.json
+?? alacritty/alacritty_terminal/tests/ref/vttest_insert/grid.json
+?? alacritty/alacritty_terminal/tests/ref/vttest_insert/size.json
+?? alacritty/alacritty_terminal/tests/ref/vttest_origin_mode_1/alacritty.recording
+?? alacritty/alacritty_terminal/tests/ref/vttest_origin_mode_1/config.json
+?? alacritty/alacritty_terminal/tests/ref/vttest_origin_mode_1/grid.json
+?? alacritty/alacritty_terminal/tests/ref/vttest_origin_mode_1/size.json
+?? alacritty/alacritty_terminal/tests/ref/vttest_origin_mode_2/alacritty.recording
+?? alacritty/alacritty_terminal/tests/ref/vttest_origin_mode_2/config.json
+?? alacritty/alacritty_terminal/tests/ref/vttest_origin_mode_2/grid.json
+?? alacritty/alacritty_terminal/tests/ref/vttest_origin_mode_2/size.json
+?? alacritty/alacritty_terminal/tests/ref/vttest_scroll/alacritty.recording
+?? alacritty/alacritty_terminal/tests/ref/vttest_scroll/config.json
+?? alacritty/alacritty_terminal/tests/ref/vttest_scroll/grid.json
+?? alacritty/alacritty_terminal/tests/ref/vttest_scroll/size.json
+?? alacritty/alacritty_terminal/tests/ref/vttest_tab_clear_set/alacritty.recording
+?? alacritty/alacritty_terminal/tests/ref/vttest_tab_clear_set/config.json
+?? alacritty/alacritty_terminal/tests/ref/vttest_tab_clear_set/grid.json
+?? alacritty/alacritty_terminal/tests/ref/vttest_tab_clear_set/size.json
+?? alacritty/alacritty_terminal/tests/ref/wrapline_alt_toggle/alacritty.recording
+?? alacritty/alacritty_terminal/tests/ref/wrapline_alt_toggle/config.json
+?? alacritty/alacritty_terminal/tests/ref/wrapline_alt_toggle/grid.json
+?? alacritty/alacritty_terminal/tests/ref/wrapline_alt_toggle/size.json
+?? alacritty/alacritty_terminal/tests/ref/zerowidth/alacritty.recording
+?? alacritty/alacritty_terminal/tests/ref/zerowidth/config.json
+?? alacritty/alacritty_terminal/tests/ref/zerowidth/grid.json
+?? alacritty/alacritty_terminal/tests/ref/zerowidth/size.json
+?? alacritty/alacritty_terminal/tests/ref/zsh_tab_completion/alacritty.recording
+?? alacritty/alacritty_terminal/tests/ref/zsh_tab_completion/config.json
+?? alacritty/alacritty_terminal/tests/ref/zsh_tab_completion/grid.json
+?? alacritty/alacritty_terminal/tests/ref/zsh_tab_completion/size.json
+?? alacritty/docs/ansicode.txt
+?? alacritty/docs/escape_support.md
+?? alacritty/docs/features.md
+?? alacritty/extra/alacritty.info
+?? alacritty/extra/alacritty.man
+?? alacritty/extra/completions/_alacritty
+?? alacritty/extra/completions/alacritty.bash
+?? alacritty/extra/completions/alacritty.fish
+?? alacritty/extra/linux/Alacritty.desktop
+?? alacritty/extra/linux/io.alacritty.Alacritty.appdata.xml
+?? alacritty/extra/logo/alacritty-simple.svg
+?? alacritty/extra/logo/alacritty-term+scanlines.svg
+?? alacritty/extra/logo/alacritty-term.svg
+?? alacritty/extra/logo/compat/alacritty-simple.svg
+?? alacritty/extra/logo/compat/alacritty-term+scanlines.png
+?? alacritty/extra/logo/compat/alacritty-term+scanlines.svg
+?? alacritty/extra/logo/compat/alacritty-term.png
+?? alacritty/extra/logo/compat/alacritty-term.svg
+?? alacritty/extra/osx/Alacritty.app/Contents/Info.plist
+?? alacritty/extra/osx/Alacritty.app/Contents/Resources/alacritty.icns
+?? alacritty/extra/windows/alacritty.ico
+?? alacritty/extra/windows/alacritty.manifest
+?? alacritty/extra/windows/windows.rc
+?? alacritty/extra/windows/wix/alacritty.wxs
+?? alacritty/extra/windows/wix/license.rtf
+?? alacritty/rustfmt.toml
+?? alacritty/scripts/24-bit-color.sh
+?? alacritty/scripts/README.md
+?? alacritty/scripts/colors.sh
+?? alacritty/scripts/create-flamegraph.sh
+?? alacritty/scripts/fg-bg.sh
+?? bash_profile
+?? bashrc
+?? dotbot/
+?? fonts/.uuid
+?? fonts/InputMono/.uuid
+?? fonts/InputMono/InputMono/.uuid
+?? fonts/InputMono/InputMono/InputMono-Black.ttf
+?? fonts/InputMono/InputMono/InputMono-BlackItalic.ttf
+?? fonts/InputMono/InputMono/InputMono-Bold.ttf
+?? fonts/InputMono/InputMono/InputMono-BoldItalic.ttf
+?? fonts/InputMono/InputMono/InputMono-ExtraLight.ttf
+?? fonts/InputMono/InputMono/InputMono-ExtraLightItalic.ttf
+?? fonts/InputMono/InputMono/InputMono-Italic.ttf
+?? fonts/InputMono/InputMono/InputMono-Light.ttf
+?? fonts/InputMono/InputMono/InputMono-LightItalic.ttf
+?? fonts/InputMono/InputMono/InputMono-Medium.ttf
+?? fonts/InputMono/InputMono/InputMono-MediumItalic.ttf
+?? fonts/InputMono/InputMono/InputMono-Regular.ttf
+?? fonts/InputMono/InputMono/InputMono-Thin.ttf
+?? fonts/InputMono/InputMono/InputMono-ThinItalic.ttf
+?? fonts/InputMono/InputMonoCompressed/.uuid
+?? fonts/InputMono/InputMonoCompressed/InputMonoCompressed-Black.ttf
+?? fonts/InputMono/InputMonoCompressed/InputMonoCompressed-BlackItalic.ttf
+?? fonts/InputMono/InputMonoCompressed/InputMonoCompressed-Bold.ttf
+?? fonts/InputMono/InputMonoCompressed/InputMonoCompressed-BoldItalic.ttf
+?? fonts/InputMono/InputMonoCompressed/InputMonoCompressed-ExtraLight.ttf
+?? fonts/InputMono/InputMonoCompressed/InputMonoCompressed-ExtraLightItalic.ttf
+?? fonts/InputMono/InputMonoCompressed/InputMonoCompressed-Italic.ttf
+?? fonts/InputMono/InputMonoCompressed/InputMonoCompressed-Light.ttf
+?? fonts/InputMono/InputMonoCompressed/InputMonoCompressed-LightItalic.ttf
+?? fonts/InputMono/InputMonoCompressed/InputMonoCompressed-Medium.ttf
+?? fonts/InputMono/InputMonoCompressed/InputMonoCompressed-MediumItalic.ttf
+?? fonts/InputMono/InputMonoCompressed/InputMonoCompressed-Regular.ttf
+?? fonts/InputMono/InputMonoCompressed/InputMonoCompressed-Thin.ttf
+?? fonts/InputMono/InputMonoCompressed/InputMonoCompressed-ThinItalic.ttf
+?? fonts/InputMono/InputMonoCondensed/.uuid
+?? fonts/InputMono/InputMonoCondensed/InputMonoCondensed-Black.ttf
+?? fonts/InputMono/InputMonoCondensed/InputMonoCondensed-BlackItalic.ttf
+?? fonts/InputMono/InputMonoCondensed/InputMonoCondensed-Bold.ttf
+?? fonts/InputMono/InputMonoCondensed/InputMonoCondensed-BoldItalic.ttf
+?? fonts/InputMono/InputMonoCondensed/InputMonoCondensed-ExtraLight.ttf
+?? fonts/InputMono/InputMonoCondensed/InputMonoCondensed-ExtraLightItalic.ttf
+?? fonts/InputMono/InputMonoCondensed/InputMonoCondensed-Italic.ttf
+?? fonts/InputMono/InputMonoCondensed/InputMonoCondensed-Light.ttf
+?? fonts/InputMono/InputMonoCondensed/InputMonoCondensed-LightItalic.ttf
+?? fonts/InputMono/InputMonoCondensed/InputMonoCondensed-Medium.ttf
+?? fonts/InputMono/InputMonoCondensed/InputMonoCondensed-MediumItalic.ttf
+?? fonts/InputMono/InputMonoCondensed/InputMonoCondensed-Regular.ttf
+?? fonts/InputMono/InputMonoCondensed/InputMonoCondensed-Thin.ttf
+?? fonts/InputMono/InputMonoCondensed/InputMonoCondensed-ThinItalic.ttf
+?? fonts/InputMono/InputMonoNarrow/.uuid
+?? fonts/InputMono/InputMonoNarrow/InputMonoNarrow-Black.ttf
+?? fonts/InputMono/InputMonoNarrow/InputMonoNarrow-BlackItalic.ttf
+?? fonts/InputMono/InputMonoNarrow/InputMonoNarrow-Bold.ttf
+?? fonts/InputMono/InputMonoNarrow/InputMonoNarrow-BoldItalic.ttf
+?? fonts/InputMono/InputMonoNarrow/InputMonoNarrow-ExtraLight.ttf
+?? fonts/InputMono/InputMonoNarrow/InputMonoNarrow-ExtraLightItalic.ttf
+?? fonts/InputMono/InputMonoNarrow/InputMonoNarrow-Italic.ttf
+?? fonts/InputMono/InputMonoNarrow/InputMonoNarrow-Light.ttf
+?? fonts/InputMono/InputMonoNarrow/InputMonoNarrow-LightItalic.ttf
+?? fonts/InputMono/InputMonoNarrow/InputMonoNarrow-Medium.ttf
+?? fonts/InputMono/InputMonoNarrow/InputMonoNarrow-MediumItalic.ttf
+?? fonts/InputMono/InputMonoNarrow/InputMonoNarrow-Regular.ttf
+?? fonts/InputMono/InputMonoNarrow/InputMonoNarrow-Thin.ttf
+?? fonts/InputMono/InputMonoNarrow/InputMonoNarrow-ThinItalic.ttf
+?? fonts/InputSans/.uuid
+?? fonts/InputSans/InputSans/.uuid
+?? fonts/InputSans/InputSans/InputSans-Black.ttf
+?? fonts/InputSans/InputSans/InputSans-BlackItalic.ttf
+?? fonts/InputSans/InputSans/InputSans-Bold.ttf
+?? fonts/InputSans/InputSans/InputSans-BoldItalic.ttf
+?? fonts/InputSans/InputSans/InputSans-ExtraLight.ttf
+?? fonts/InputSans/InputSans/InputSans-ExtraLightItalic.ttf
+?? fonts/InputSans/InputSans/InputSans-Italic.ttf
+?? fonts/InputSans/InputSans/InputSans-Light.ttf
+?? fonts/InputSans/InputSans/InputSans-LightItalic.ttf
+?? fonts/InputSans/InputSans/InputSans-Medium.ttf
+?? fonts/InputSans/InputSans/InputSans-MediumItalic.ttf
+?? fonts/InputSans/InputSans/InputSans-Regular.ttf
+?? fonts/InputSans/InputSans/InputSans-Thin.ttf
+?? fonts/InputSans/InputSans/InputSans-ThinItalic.ttf
+?? fonts/InputSans/InputSansCompressed/.uuid
+?? fonts/InputSans/InputSansCompressed/InputSansCompressed-Black.ttf
+?? fonts/InputSans/InputSansCompressed/InputSansCompressed-BlackItalic.ttf
+?? fonts/InputSans/InputSansCompressed/InputSansCompressed-Bold.ttf
+?? fonts/InputSans/InputSansCompressed/InputSansCompressed-BoldItalic.ttf
+?? fonts/InputSans/InputSansCompressed/InputSansCompressed-ExtraLight.ttf
+?? fonts/InputSans/InputSansCompressed/InputSansCompressed-ExtraLightItalic.ttf
+?? fonts/InputSans/InputSansCompressed/InputSansCompressed-Italic.ttf
+?? fonts/InputSans/InputSansCompressed/InputSansCompressed-Light.ttf
+?? fonts/InputSans/InputSansCompressed/InputSansCompressed-LightItalic.ttf
+?? fonts/InputSans/InputSansCompressed/InputSansCompressed-Medium.ttf
+?? fonts/InputSans/InputSansCompressed/InputSansCompressed-MediumItalic.ttf
+?? fonts/InputSans/InputSansCompressed/InputSansCompressed-Regular.ttf
+?? fonts/InputSans/InputSansCompressed/InputSansCompressed-Thin.ttf
+?? fonts/InputSans/InputSansCompressed/InputSansCompressed-ThinItalic.ttf
+?? fonts/InputSans/InputSansCondensed/.uuid
+?? fonts/InputSans/InputSansCondensed/InputSansCondensed-Black.ttf
+?? fonts/InputSans/InputSansCondensed/InputSansCondensed-BlackItalic.ttf
+?? fonts/InputSans/InputSansCondensed/InputSansCondensed-Bold.ttf
+?? fonts/InputSans/InputSansCondensed/InputSansCondensed-BoldItalic.ttf
+?? fonts/InputSans/InputSansCondensed/InputSansCondensed-ExtraLight.ttf
+?? fonts/InputSans/InputSansCondensed/InputSansCondensed-ExtraLightItalic.ttf
+?? fonts/InputSans/InputSansCondensed/InputSansCondensed-Italic.ttf
+?? fonts/InputSans/InputSansCondensed/InputSansCondensed-Light.ttf
+?? fonts/InputSans/InputSansCondensed/InputSansCondensed-LightItalic.ttf
+?? fonts/InputSans/InputSansCondensed/InputSansCondensed-Medium.ttf
+?? fonts/InputSans/InputSansCondensed/InputSansCondensed-MediumItalic.ttf
+?? fonts/InputSans/InputSansCondensed/InputSansCondensed-Regular.ttf
+?? fonts/InputSans/InputSansCondensed/InputSansCondensed-Thin.ttf
+?? fonts/InputSans/InputSansCondensed/InputSansCondensed-ThinItalic.ttf
+?? fonts/InputSans/InputSansNarrow/.uuid
+?? fonts/InputSans/InputSansNarrow/InputSansNarrow-Black.ttf
+?? fonts/InputSans/InputSansNarrow/InputSansNarrow-BlackItalic.ttf
+?? fonts/InputSans/InputSansNarrow/InputSansNarrow-Bold.ttf
+?? fonts/InputSans/InputSansNarrow/InputSansNarrow-BoldItalic.ttf
+?? fonts/InputSans/InputSansNarrow/InputSansNarrow-ExtraLight.ttf
+?? fonts/InputSans/InputSansNarrow/InputSansNarrow-ExtraLightItalic.ttf
+?? fonts/InputSans/InputSansNarrow/InputSansNarrow-Italic.ttf
+?? fonts/InputSans/InputSansNarrow/InputSansNarrow-Light.ttf
+?? fonts/InputSans/InputSansNarrow/InputSansNarrow-LightItalic.ttf
+?? fonts/InputSans/InputSansNarrow/InputSansNarrow-Medium.ttf
+?? fonts/InputSans/InputSansNarrow/InputSansNarrow-MediumItalic.ttf
+?? fonts/InputSans/InputSansNarrow/InputSansNarrow-Regular.ttf
+?? fonts/InputSans/InputSansNarrow/InputSansNarrow-Thin.ttf
+?? fonts/InputSans/InputSansNarrow/InputSansNarrow-ThinItalic.ttf
+?? fonts/InputSerif/.uuid
+?? fonts/InputSerif/InputSerif/.uuid
+?? fonts/InputSerif/InputSerif/InputSerif-Black.ttf
+?? fonts/InputSerif/InputSerif/InputSerif-BlackItalic.ttf
+?? fonts/InputSerif/InputSerif/InputSerif-Bold.ttf
+?? fonts/InputSerif/InputSerif/InputSerif-BoldItalic.ttf
+?? fonts/InputSerif/InputSerif/InputSerif-ExtraLight.ttf
+?? fonts/InputSerif/InputSerif/InputSerif-ExtraLightItalic.ttf
+?? fonts/InputSerif/InputSerif/InputSerif-Italic.ttf
+?? fonts/InputSerif/InputSerif/InputSerif-Light.ttf
+?? fonts/InputSerif/InputSerif/InputSerif-LightItalic.ttf
+?? fonts/InputSerif/InputSerif/InputSerif-Medium.ttf
+?? fonts/InputSerif/InputSerif/InputSerif-MediumItalic.ttf
+?? fonts/InputSerif/InputSerif/InputSerif-Regular.ttf
+?? fonts/InputSerif/InputSerif/InputSerif-Thin.ttf
+?? fonts/InputSerif/InputSerif/InputSerif-ThinItalic.ttf
+?? fonts/InputSerif/InputSerifCompressed/.uuid
+?? fonts/InputSerif/InputSerifCompressed/InputSerifCompressed-Black.ttf
+?? fonts/InputSerif/InputSerifCompressed/InputSerifCompressed-BlackItalic.ttf
+?? fonts/InputSerif/InputSerifCompressed/InputSerifCompressed-Bold.ttf
+?? fonts/InputSerif/InputSerifCompressed/InputSerifCompressed-BoldItalic.ttf
+?? fonts/InputSerif/InputSerifCompressed/InputSerifCompressed-ExtraLight.ttf
+?? fonts/InputSerif/InputSerifCompressed/InputSerifCompressed-ExtraLightItalic.ttf
+?? fonts/InputSerif/InputSerifCompressed/InputSerifCompressed-Italic.ttf
+?? fonts/InputSerif/InputSerifCompressed/InputSerifCompressed-Light.ttf
+?? fonts/InputSerif/InputSerifCompressed/InputSerifCompressed-LightItalic.ttf
+?? fonts/InputSerif/InputSerifCompressed/InputSerifCompressed-Medium.ttf
+?? fonts/InputSerif/InputSerifCompressed/InputSerifCompressed-MediumItalic.ttf
+?? fonts/InputSerif/InputSerifCompressed/InputSerifCompressed-Regular.ttf
+?? fonts/InputSerif/InputSerifCompressed/InputSerifCompressed-Thin.ttf
+?? fonts/InputSerif/InputSerifCompressed/InputSerifCompressed-ThinItalic.ttf
+?? fonts/InputSerif/InputSerifCondensed/.uuid
+?? fonts/InputSerif/InputSerifCondensed/InputSerifCondensed-Black.ttf
+?? fonts/InputSerif/InputSerifCondensed/InputSerifCondensed-BlackItalic.ttf
+?? fonts/InputSerif/InputSerifCondensed/InputSerifCondensed-Bold.ttf
+?? fonts/InputSerif/InputSerifCondensed/InputSerifCondensed-BoldItalic.ttf
+?? fonts/InputSerif/InputSerifCondensed/InputSerifCondensed-ExtraLight.ttf
+?? fonts/InputSerif/InputSerifCondensed/InputSerifCondensed-ExtraLightItalic.ttf
+?? fonts/InputSerif/InputSerifCondensed/InputSerifCondensed-Italic.ttf
+?? fonts/InputSerif/InputSerifCondensed/InputSerifCondensed-Light.ttf
+?? fonts/InputSerif/InputSerifCondensed/InputSerifCondensed-LightItalic.ttf
+?? fonts/InputSerif/InputSerifCondensed/InputSerifCondensed-Medium.ttf
+?? fonts/InputSerif/InputSerifCondensed/InputSerifCondensed-MediumItalic.ttf
+?? fonts/InputSerif/InputSerifCondensed/InputSerifCondensed-Regular.ttf
+?? fonts/InputSerif/InputSerifCondensed/InputSerifCondensed-Thin.ttf
+?? fonts/InputSerif/InputSerifCondensed/InputSerifCondensed-ThinItalic.ttf
+?? fonts/InputSerif/InputSerifNarrow/.uuid
+?? fonts/InputSerif/InputSerifNarrow/InputSerifNarrow-Black.ttf
+?? fonts/InputSerif/InputSerifNarrow/InputSerifNarrow-BlackItalic.ttf
+?? fonts/InputSerif/InputSerifNarrow/InputSerifNarrow-Bold.ttf
+?? fonts/InputSerif/InputSerifNarrow/InputSerifNarrow-BoldItalic.ttf
+?? fonts/InputSerif/InputSerifNarrow/InputSerifNarrow-ExtraLight.ttf
+?? fonts/InputSerif/InputSerifNarrow/InputSerifNarrow-ExtraLightItalic.ttf
+?? fonts/InputSerif/InputSerifNarrow/InputSerifNarrow-Italic.ttf
+?? fonts/InputSerif/InputSerifNarrow/InputSerifNarrow-Light.ttf
+?? fonts/InputSerif/InputSerifNarrow/InputSerifNarrow-LightItalic.ttf
+?? fonts/InputSerif/InputSerifNarrow/InputSerifNarrow-Medium.ttf
+?? fonts/InputSerif/InputSerifNarrow/InputSerifNarrow-MediumItalic.ttf
+?? fonts/InputSerif/InputSerifNarrow/InputSerifNarrow-Regular.ttf
+?? fonts/InputSerif/InputSerifNarrow/InputSerifNarrow-Thin.ttf
+?? fonts/InputSerif/InputSerifNarrow/InputSerifNarrow-ThinItalic.ttf
+?? fonts/OTF/.uuid
+?? fonts/OTF/SourceCodePro-Black.otf
+?? fonts/OTF/SourceCodePro-BlackIt.otf
+?? fonts/OTF/SourceCodePro-Bold.otf
+?? fonts/OTF/SourceCodePro-BoldIt.otf
+?? fonts/OTF/SourceCodePro-ExtraLight.otf
+?? fonts/OTF/SourceCodePro-ExtraLightIt.otf
+?? fonts/OTF/SourceCodePro-It.otf
+?? fonts/OTF/SourceCodePro-Light.otf
+?? fonts/OTF/SourceCodePro-LightIt.otf
+?? fonts/OTF/SourceCodePro-Medium.otf
+?? fonts/OTF/SourceCodePro-MediumIt.otf
+?? fonts/OTF/SourceCodePro-Regular.otf
+?? fonts/OTF/SourceCodePro-Semibold.otf
+?? fonts/OTF/SourceCodePro-SemiboldIt.otf
+?? fonts/OpenDyslexic 3 (Beta - Windows, MacOS, Linux TTF)/.uuid
+?? fonts/OpenDyslexic 3 (Beta - Windows, MacOS, Linux TTF)/OpenDyslexic3-Bold.ttf
+?? fonts/OpenDyslexic 3 (Beta - Windows, MacOS, Linux TTF)/OpenDyslexic3-Regular.ttf
+?? fonts/OpenDyslexic Mono (Windows, MacOS, Linux OTF)/.uuid
+?? fonts/OpenDyslexic Mono (Windows, MacOS, Linux OTF)/OpenDyslexicMono-Regular.otf
+?? fonts/OpenDyslexic2 (Windows, MacOS, Linux OTF)/.uuid
+?? fonts/OpenDyslexic2 (Windows, MacOS, Linux OTF)/OpenDyslexic-Bold.otf
+?? fonts/OpenDyslexic2 (Windows, MacOS, Linux OTF)/OpenDyslexic-BoldItalic.otf
+?? fonts/OpenDyslexic2 (Windows, MacOS, Linux OTF)/OpenDyslexic-Italic.otf
+?? fonts/OpenDyslexic2 (Windows, MacOS, Linux OTF)/OpenDyslexic-Regular.otf
+?? fonts/OpenDyslexic2 Alt-A (Windows, MacOS, Linux OTF)/.uuid
+?? fonts/OpenDyslexic2 Alt-A (Windows, MacOS, Linux OTF)/OpenDyslexicAlta-Bold.otf
+?? fonts/OpenDyslexic2 Alt-A (Windows, MacOS, Linux OTF)/OpenDyslexicAlta-BoldItalic.otf
+?? fonts/OpenDyslexic2 Alt-A (Windows, MacOS, Linux OTF)/OpenDyslexicAlta-Italic.otf
+?? fonts/OpenDyslexic2 Alt-A (Windows, MacOS, Linux OTF)/OpenDyslexicAlta-Regular.otf
+?? fonts/TTF/.uuid
+?? fonts/TTF/SourceCodePro-Black.ttf
+?? fonts/TTF/SourceCodePro-BlackIt.ttf
+?? fonts/TTF/SourceCodePro-Bold.ttf
+?? fonts/TTF/SourceCodePro-BoldIt.ttf
+?? fonts/TTF/SourceCodePro-ExtraLight.ttf
+?? fonts/TTF/SourceCodePro-ExtraLightIt.ttf
+?? fonts/TTF/SourceCodePro-It.ttf
+?? fonts/TTF/SourceCodePro-Light.ttf
+?? fonts/TTF/SourceCodePro-LightIt.ttf
+?? fonts/TTF/SourceCodePro-Medium.ttf
+?? fonts/TTF/SourceCodePro-MediumIt.ttf
+?? fonts/TTF/SourceCodePro-Regular.ttf
+?? fonts/TTF/SourceCodePro-Semibold.ttf
+?? fonts/TTF/SourceCodePro-SemiboldIt.ttf
+?? fonts/fonts-master/.gitignore
+?? fonts/fonts-master/3270/3270Medium.ttf
+?? fonts/fonts-master/3270/3270Narrow.ttf
+?? fonts/fonts-master/3270/3270SemiNarrow.ttf
+?? fonts/fonts-master/3270/README.rst
+?? fonts/fonts-master/AnonymousPro/Anonymice Powerline Bold Italic.ttf
+?? fonts/fonts-master/AnonymousPro/Anonymice Powerline Bold.ttf
+?? fonts/fonts-master/AnonymousPro/Anonymice Powerline Italic.ttf
+?? fonts/fonts-master/AnonymousPro/Anonymice Powerline.ttf
+?? fonts/fonts-master/AnonymousPro/LICENSE.txt
+?? fonts/fonts-master/AnonymousPro/README.rst
+?? fonts/fonts-master/AnonymousPro/fonts.dir
+?? fonts/fonts-master/AnonymousPro/fonts.scale
+?? fonts/fonts-master/Arimo/Arimo Bold Italic for Powerline.ttf
+?? fonts/fonts-master/Arimo/Arimo Bold for Powerline.ttf
+?? fonts/fonts-master/Arimo/Arimo Italic for Powerline.ttf
+?? fonts/fonts-master/Arimo/Arimo for Powerline.ttf
+?? fonts/fonts-master/Arimo/LICENSE.txt
+?? fonts/fonts-master/Arimo/README.rst
+?? fonts/fonts-master/Cousine/Cousine Bold Italic for Powerline.ttf
+?? fonts/fonts-master/Cousine/Cousine Bold for Powerline.ttf
+?? fonts/fonts-master/Cousine/Cousine Italic for Powerline.ttf
+?? fonts/fonts-master/Cousine/Cousine for Powerline.ttf
+?? fonts/fonts-master/Cousine/LICENSE.txt
+?? fonts/fonts-master/Cousine/README.rst
+?? fonts/fonts-master/D2Coding/README.rst
+?? fonts/fonts-master/DejaVuSansMono/DejaVu Sans Mono Bold Oblique for Powerline.ttf
+?? fonts/fonts-master/DejaVuSansMono/DejaVu Sans Mono Bold for Powerline.ttf
+?? fonts/fonts-master/DejaVuSansMono/DejaVu Sans Mono Oblique for Powerline.ttf
+?? fonts/fonts-master/DejaVuSansMono/DejaVu Sans Mono for Powerline.ttf
+?? fonts/fonts-master/DejaVuSansMono/LICENSE.txt
+?? fonts/fonts-master/DejaVuSansMono/README.rst
+?? fonts/fonts-master/DejaVuSansMono/fonts.dir
+?? fonts/fonts-master/DejaVuSansMono/fonts.scale
+?? fonts/fonts-master/DroidSansMono/Droid Sans Mono for Powerline.otf
+?? fonts/fonts-master/DroidSansMono/LICENSE.txt
+?? fonts/fonts-master/DroidSansMono/README.rst
+?? fonts/fonts-master/DroidSansMono/fonts.dir
+?? fonts/fonts-master/DroidSansMono/fonts.scale
+?? fonts/fonts-master/DroidSansMonoDotted/Droid Sans Mono Dotted for Powerline.ttf
+?? fonts/fonts-master/DroidSansMonoDotted/LICENSE.txt
+?? fonts/fonts-master/DroidSansMonoDotted/README.rst
+?? fonts/fonts-master/DroidSansMonoDotted/fonts.dir
+?? fonts/fonts-master/DroidSansMonoDotted/fonts.scale
+?? fonts/fonts-master/DroidSansMonoSlashed/Droid Sans Mono Slashed for Powerline.ttf
+?? fonts/fonts-master/DroidSansMonoSlashed/LICENSE.txt
+?? fonts/fonts-master/DroidSansMonoSlashed/README.rst
+?? fonts/fonts-master/DroidSansMonoSlashed/fonts.dir
+?? fonts/fonts-master/DroidSansMonoSlashed/fonts.scale
+?? fonts/fonts-master/FiraMono/FuraMono-Bold Powerline.otf
+?? fonts/fonts-master/FiraMono/FuraMono-Medium Powerline.otf
+?? fonts/fonts-master/FiraMono/FuraMono-Regular Powerline.otf
+?? fonts/fonts-master/FiraMono/LICENSE.txt
+?? fonts/fonts-master/FiraMono/README.rst
+?? fonts/fonts-master/FiraMono/fonts.dir
+?? fonts/fonts-master/FiraMono/fonts.scale
+?? fonts/fonts-master/GoMono/Go Mono Bold Italic for Powerline.ttf
+?? fonts/fonts-master/GoMono/Go Mono Bold for Powerline.ttf
+?? fonts/fonts-master/GoMono/Go Mono Italic for Powerline.ttf
+?? fonts/fonts-master/GoMono/Go Mono for Powerline.ttf
+?? fonts/fonts-master/GoMono/LICENCE.TXT
+?? fonts/fonts-master/GoMono/README.rst
+?? fonts/fonts-master/Hack/Hack-Bold.ttf
+?? fonts/fonts-master/Hack/Hack-BoldItalic.ttf
+?? fonts/fonts-master/Hack/Hack-Italic.ttf
+?? fonts/fonts-master/Hack/Hack-Regular.ttf
+?? fonts/fonts-master/Hack/LICENSE.txt
+?? fonts/fonts-master/Hack/README.rst
+?? fonts/fonts-master/Hack/hack-specimen-for-Powerline.png
+?? fonts/fonts-master/Inconsolata-g/Inconsolata-g for Powerline.otf
+?? fonts/fonts-master/Inconsolata-g/LICENSE.txt
+?? fonts/fonts-master/Inconsolata-g/README.rst
+?? fonts/fonts-master/Inconsolata-g/fonts.dir
+?? fonts/fonts-master/Inconsolata-g/fonts.scale
+?? fonts/fonts-master/Inconsolata/Inconsolata Bold for Powerline.ttf
+?? fonts/fonts-master/Inconsolata/Inconsolata for Powerline.otf
+?? fonts/fonts-master/Inconsolata/LICENSE.txt
+?? fonts/fonts-master/Inconsolata/README.rst
+?? fonts/fonts-master/Inconsolata/fonts.dir
+?? fonts/fonts-master/Inconsolata/fonts.scale
+?? fonts/fonts-master/InconsolataDz/Inconsolata-dz for Powerline.otf
+?? fonts/fonts-master/InconsolataDz/LICENSE.txt
+?? fonts/fonts-master/InconsolataDz/README.rst
+?? fonts/fonts-master/InconsolataDz/fonts.dir
+?? fonts/fonts-master/InconsolataDz/fonts.scale
+?? fonts/fonts-master/InputMono/README.rst
+?? fonts/fonts-master/LiberationMono/LICENSE.txt
+?? fonts/fonts-master/LiberationMono/Literation Mono Powerline Bold Italic.ttf
+?? fonts/fonts-master/LiberationMono/Literation Mono Powerline Bold.ttf
+?? fonts/fonts-master/LiberationMono/Literation Mono Powerline Italic.ttf
+?? fonts/fonts-master/LiberationMono/Literation Mono Powerline.ttf
+?? fonts/fonts-master/LiberationMono/README.rst
+?? fonts/fonts-master/LiberationMono/fonts.dir
+?? fonts/fonts-master/LiberationMono/fonts.scale
+?? fonts/fonts-master/Meslo Dotted/LICENSE.txt
+?? fonts/fonts-master/Meslo Dotted/Meslo LG L DZ Bold Italic for Powerline.ttf
+?? fonts/fonts-master/Meslo Dotted/Meslo LG L DZ Bold for Powerline.ttf
+?? fonts/fonts-master/Meslo Dotted/Meslo LG L DZ Italic for Powerline.ttf
+?? fonts/fonts-master/Meslo Dotted/Meslo LG L DZ Regular for Powerline.ttf
+?? fonts/fonts-master/Meslo Dotted/Meslo LG M DZ Bold Italic for Powerline.ttf
+?? fonts/fonts-master/Meslo Dotted/Meslo LG M DZ Bold for Powerline.ttf
+?? fonts/fonts-master/Meslo Dotted/Meslo LG M DZ Italic for Powerline.ttf
+?? fonts/fonts-master/Meslo Dotted/Meslo LG M DZ Regular for Powerline.ttf
+?? fonts/fonts-master/Meslo Dotted/Meslo LG S DZ Bold Italic for Powerline.ttf
+?? fonts/fonts-master/Meslo Dotted/Meslo LG S DZ Bold for Powerline.ttf
+?? fonts/fonts-master/Meslo Dotted/Meslo LG S DZ Italic for Powerline.ttf
+?? fonts/fonts-master/Meslo Dotted/Meslo LG S DZ Regular for Powerline.ttf
+?? fonts/fonts-master/Meslo Dotted/README.rst
+?? fonts/fonts-master/Meslo Dotted/fonts.dir
+?? fonts/fonts-master/Meslo Dotted/fonts.scale
+?? fonts/fonts-master/Meslo Slashed/LICENSE.txt
+?? fonts/fonts-master/Meslo Slashed/Meslo LG L Bold Italic for Powerline.ttf
+?? fonts/fonts-master/Meslo Slashed/Meslo LG L Bold for Powerline.ttf
+?? fonts/fonts-master/Meslo Slashed/Meslo LG L Italic for Powerline.ttf
+?? fonts/fonts-master/Meslo Slashed/Meslo LG L Regular for Powerline.ttf
+?? fonts/fonts-master/Meslo Slashed/Meslo LG M Bold Italic for Powerline.ttf
+?? fonts/fonts-master/Meslo Slashed/Meslo LG M Bold for Powerline.ttf
+?? fonts/fonts-master/Meslo Slashed/Meslo LG M Italic for Powerline.ttf
+?? fonts/fonts-master/Meslo Slashed/Meslo LG M Regular for Powerline.ttf
+?? fonts/fonts-master/Meslo Slashed/Meslo LG S Bold Italic for Powerline.ttf
+?? fonts/fonts-master/Meslo Slashed/Meslo LG S Bold for Powerline.ttf
+?? fonts/fonts-master/Meslo Slashed/Meslo LG S Italic for Powerline.ttf
+?? fonts/fonts-master/Meslo Slashed/Meslo LG S Regular for Powerline.ttf
+?? fonts/fonts-master/Meslo Slashed/README.rst
+?? fonts/fonts-master/Meslo Slashed/fonts.dir
+?? fonts/fonts-master/Meslo Slashed/fonts.scale
+?? fonts/fonts-master/Monofur/LICENSE.txt
+?? fonts/fonts-master/Monofur/Monofur Bold for Powerline.ttf
+?? fonts/fonts-master/Monofur/Monofur Italic for Powerline.ttf
+?? fonts/fonts-master/Monofur/Monofur for Powerline.ttf
+?? fonts/fonts-master/NotoMono/LICENSE_OFL.txt
+?? fonts/fonts-master/NotoMono/Noto Mono for Powerline.ttf
+?? fonts/fonts-master/NotoMono/README.rst
+?? fonts/fonts-master/NovaMono/LICENSE.txt
+?? fonts/fonts-master/NovaMono/NovaMono for Powerline.ttf
+?? fonts/fonts-master/NovaMono/README.rst
+?? fonts/fonts-master/ProFont/LICENSE
+?? fonts/fonts-master/ProFont/ProFont Bold For Powerline.ttf
+?? fonts/fonts-master/ProFont/ProFont For Powerline.ttf
+?? fonts/fonts-master/ProFont/README.rst
+?? fonts/fonts-master/README.rst
+?? fonts/fonts-master/RobotoMono/LICENSE.txt
+?? fonts/fonts-master/RobotoMono/README.rst
+?? fonts/fonts-master/RobotoMono/Roboto Mono Bold Italic for Powerline.ttf
+?? fonts/fonts-master/RobotoMono/Roboto Mono Bold for Powerline.ttf
+?? fonts/fonts-master/RobotoMono/Roboto Mono Italic for Powerline.ttf
+?? fonts/fonts-master/RobotoMono/Roboto Mono Light Italic for Powerline.ttf
+?? fonts/fonts-master/RobotoMono/Roboto Mono Light for Powerline.ttf
+?? fonts/fonts-master/RobotoMono/Roboto Mono Medium Italic for Powerline.ttf
+?? fonts/fonts-master/RobotoMono/Roboto Mono Medium for Powerline.ttf
+?? fonts/fonts-master/RobotoMono/Roboto Mono Thin Italic for Powerline.ttf
+?? fonts/fonts-master/RobotoMono/Roboto Mono Thin for Powerline.ttf
+?? fonts/fonts-master/RobotoMono/Roboto Mono for Powerline.ttf
+?? fonts/fonts-master/RobotoMono/fonts.dir
+?? fonts/fonts-master/RobotoMono/fonts.scale
+?? fonts/fonts-master/SourceCodePro/LICENSE.txt
+?? fonts/fonts-master/SourceCodePro/README.rst
+?? fonts/fonts-master/SourceCodePro/Source Code Pro Black for Powerline.otf
+?? fonts/fonts-master/SourceCodePro/Source Code Pro Bold for Powerline.otf
+?? fonts/fonts-master/SourceCodePro/Source Code Pro ExtraLight for Powerline.otf
+?? fonts/fonts-master/SourceCodePro/Source Code Pro Light for Powerline.otf
+?? fonts/fonts-master/SourceCodePro/Source Code Pro Medium for Powerline.otf
+?? fonts/fonts-master/SourceCodePro/Source Code Pro Powerline BlackItalic.otf
+?? fonts/fonts-master/SourceCodePro/Source Code Pro Powerline BoldItalic.otf
+?? fonts/fonts-master/SourceCodePro/Source Code Pro Powerline ExtraLightItalic.otf
+?? fonts/fonts-master/SourceCodePro/Source Code Pro Powerline Italic.otf
+?? fonts/fonts-master/SourceCodePro/Source Code Pro Powerline LightItalic.otf
+?? fonts/fonts-master/SourceCodePro/Source Code Pro Powerline MediumItalic.otf
+?? fonts/fonts-master/SourceCodePro/Source Code Pro Powerline SemiboldItalic.otf
+?? fonts/fonts-master/SourceCodePro/Source Code Pro Semibold for Powerline.otf
+?? fonts/fonts-master/SourceCodePro/Source Code Pro for Powerline.otf
+?? fonts/fonts-master/SourceCodePro/fonts.dir
+?? fonts/fonts-master/SourceCodePro/fonts.scale
+?? fonts/fonts-master/SpaceMono/LICENSE.txt
+?? fonts/fonts-master/SpaceMono/README.rst
+?? fonts/fonts-master/SpaceMono/Space Mono Bold Italic for Powerline.ttf
+?? fonts/fonts-master/SpaceMono/Space Mono Bold for Powerline.ttf
+?? fonts/fonts-master/SpaceMono/Space Mono Italic for Powerline.ttf
+?? fonts/fonts-master/SpaceMono/Space Mono for Powerline.ttf
+?? fonts/fonts-master/SpaceMono/SpaceMono-Bold.ttf
+?? fonts/fonts-master/SpaceMono/SpaceMono-BoldItalic.ttf
+?? fonts/fonts-master/SpaceMono/SpaceMono-Italic.ttf
+?? fonts/fonts-master/SpaceMono/SpaceMono-Regular.ttf
+?? fonts/fonts-master/SymbolNeu/LICENSE.txt
+?? fonts/fonts-master/SymbolNeu/README.rst
+?? fonts/fonts-master/SymbolNeu/Symbol Neu for Powerline.ttf
+?? fonts/fonts-master/Terminus/BDF/fonts.dir
+?? fonts/fonts-master/Terminus/BDF/ter-powerline-x12b.bdf
+?? fonts/fonts-master/Terminus/BDF/ter-powerline-x12n.bdf
+?? fonts/fonts-master/Terminus/BDF/ter-powerline-x14b.bdf
+?? fonts/fonts-master/Terminus/BDF/ter-powerline-x14n.bdf
+?? fonts/fonts-master/Terminus/BDF/ter-powerline-x16b.bdf
+?? fonts/fonts-master/Terminus/BDF/ter-powerline-x16n.bdf
+?? fonts/fonts-master/Terminus/BDF/ter-powerline-x18b.bdf
+?? fonts/fonts-master/Terminus/BDF/ter-powerline-x18n.bdf
+?? fonts/fonts-master/Terminus/BDF/ter-powerline-x20b.bdf
+?? fonts/fonts-master/Terminus/BDF/ter-powerline-x20n.bdf
+?? fonts/fonts-master/Terminus/BDF/ter-powerline-x22b.bdf
+?? fonts/fonts-master/Terminus/BDF/ter-powerline-x22n.bdf
+?? fonts/fonts-master/Terminus/BDF/ter-powerline-x24b.bdf
+?? fonts/fonts-master/Terminus/BDF/ter-powerline-x24n.bdf
+?? fonts/fonts-master/Terminus/BDF/ter-powerline-x28b.bdf
+?? fonts/fonts-master/Terminus/BDF/ter-powerline-x28n.bdf
+?? fonts/fonts-master/Terminus/BDF/ter-powerline-x32b.bdf
+?? fonts/fonts-master/Terminus/BDF/ter-powerline-x32n.bdf
+?? fonts/fonts-master/Terminus/LICENSE.txt
+?? fonts/fonts-master/Terminus/PCF/fonts.dir
+?? fonts/fonts-master/Terminus/PCF/ter-powerline-x12b.pcf.gz
+?? fonts/fonts-master/Terminus/PCF/ter-powerline-x12n.pcf.gz
+?? fonts/fonts-master/Terminus/PCF/ter-powerline-x14b.pcf.gz
+?? fonts/fonts-master/Terminus/PCF/ter-powerline-x14n.pcf.gz
+?? fonts/fonts-master/Terminus/PCF/ter-powerline-x16b.pcf.gz
+?? fonts/fonts-master/Terminus/PCF/ter-powerline-x16n.pcf.gz
+?? fonts/fonts-master/Terminus/PCF/ter-powerline-x18b.pcf.gz
+?? fonts/fonts-master/Terminus/PCF/ter-powerline-x18n.pcf.gz
+?? fonts/fonts-master/Terminus/PCF/ter-powerline-x20b.pcf.gz
+?? fonts/fonts-master/Terminus/PCF/ter-powerline-x20n.pcf.gz
+?? fonts/fonts-master/Terminus/PCF/ter-powerline-x22b.pcf.gz
+?? fonts/fonts-master/Terminus/PCF/ter-powerline-x22n.pcf.gz
+?? fonts/fonts-master/Terminus/PCF/ter-powerline-x24b.pcf.gz
+?? fonts/fonts-master/Terminus/PCF/ter-powerline-x24n.pcf.gz
+?? fonts/fonts-master/Terminus/PCF/ter-powerline-x28b.pcf.gz
+?? fonts/fonts-master/Terminus/PCF/ter-powerline-x28n.pcf.gz
+?? fonts/fonts-master/Terminus/PCF/ter-powerline-x32b.pcf.gz
+?? fonts/fonts-master/Terminus/PCF/ter-powerline-x32n.pcf.gz
+?? fonts/fonts-master/Terminus/PSF/README.markdown
+?? fonts/fonts-master/Terminus/PSF/ter-powerline-v12n.psf.gz
+?? fonts/fonts-master/Terminus/PSF/ter-powerline-v14b.psf.gz
+?? fonts/fonts-master/Terminus/PSF/ter-powerline-v14n.psf.gz
+?? fonts/fonts-master/Terminus/PSF/ter-powerline-v14v.psf.gz
+?? fonts/fonts-master/Terminus/PSF/ter-powerline-v16b.psf.gz
+?? fonts/fonts-master/Terminus/PSF/ter-powerline-v16n.psf.gz
+?? fonts/fonts-master/Terminus/PSF/ter-powerline-v16v.psf.gz
+?? fonts/fonts-master/Terminus/PSF/ter-powerline-v18b.psf.gz
+?? fonts/fonts-master/Terminus/PSF/ter-powerline-v18n.psf.gz
+?? fonts/fonts-master/Terminus/PSF/ter-powerline-v20b.psf.gz
+?? fonts/fonts-master/Terminus/PSF/ter-powerline-v20n.psf.gz
+?? fonts/fonts-master/Terminus/PSF/ter-powerline-v22b.psf.gz
+?? fonts/fonts-master/Terminus/PSF/ter-powerline-v22n.psf.gz
+?? fonts/fonts-master/Terminus/PSF/ter-powerline-v24b.psf.gz
+?? fonts/fonts-master/Terminus/PSF/ter-powerline-v24n.psf.gz
+?? fonts/fonts-master/Terminus/PSF/ter-powerline-v28b.psf.gz
+?? fonts/fonts-master/Terminus/PSF/ter-powerline-v28n.psf.gz
+?? fonts/fonts-master/Terminus/PSF/ter-powerline-v32b.psf.gz
+?? fonts/fonts-master/Terminus/PSF/ter-powerline-v32n.psf.gz
+?? fonts/fonts-master/Terminus/README.rst
+?? fonts/fonts-master/Tinos/LICENSE.txt
+?? fonts/fonts-master/Tinos/README.rst
+?? fonts/fonts-master/Tinos/Tinos Bold Italic for Powerline.ttf
+?? fonts/fonts-master/Tinos/Tinos Bold for Powerline.ttf
+?? fonts/fonts-master/Tinos/Tinos Italic for Powerline.ttf
+?? fonts/fonts-master/Tinos/Tinos for Powerline.ttf
+?? fonts/fonts-master/UbuntuMono/LICENCE.txt
+?? fonts/fonts-master/UbuntuMono/README.rst
+?? fonts/fonts-master/UbuntuMono/Ubuntu Mono derivative Powerline Bold Italic.ttf
+?? fonts/fonts-master/UbuntuMono/Ubuntu Mono derivative Powerline Bold.ttf
+?? fonts/fonts-master/UbuntuMono/Ubuntu Mono derivative Powerline Italic.ttf
+?? fonts/fonts-master/UbuntuMono/Ubuntu Mono derivative Powerline.ttf
+?? fonts/fonts-master/UbuntuMono/fonts.dir
+?? fonts/fonts-master/UbuntuMono/fonts.scale
+?? fonts/fonts-master/fontconfig/50-enable-terminess-powerline.conf
+?? fonts/fonts-master/install.ps1
+?? fonts/fonts-master/install.sh
+?? fonts/fonts-master/samples/All.md
+?? fonts/fonts-master/samples/AnonymousPro.md
+?? fonts/fonts-master/samples/DejaVuSansMono.md
+?? fonts/fonts-master/samples/DroidSansMono.md
+?? fonts/fonts-master/samples/FiraMono.md
+?? fonts/fonts-master/samples/Hack.md
+?? fonts/fonts-master/samples/Inconsolata-g.md
+?? fonts/fonts-master/samples/Inconsolata.md
+?? fonts/fonts-master/samples/InconsolataDz.md
+?? fonts/fonts-master/samples/InputMono.md
+?? fonts/fonts-master/samples/LiberationMono.md
+?? fonts/fonts-master/samples/Meslo.md
+?? fonts/fonts-master/samples/Monofur.md
+?? fonts/fonts-master/samples/SourceCodePro.md
+?? fonts/fonts-master/samples/UbuntuMono.md
+?? fonts/fonts-master/uninstall.sh
+?? init_dotfiles.sh
+?? init_submodules.sh
+?? install
+?? install.conf.yaml
+?? plugins/zsh-syntax-highlighting/
+?? python.json
+?? src/reset_super_shortcuts_pop.sh
+?? terminal-config/bash_profile
+?? terminal-config/bash_profile2
+?? terminal-config/bashrc
+?? terminal-config/git-completion.bash
+?? terminal-config/git-prompt.sh
+?? vimrc
+?? vscode.settings/keybindings.json
+?? vscode.settings/python.json
+?? vscode.settings/settings.json
+?? vscode.settings/symlink_path_python.sh
+?? zshrc
+in:\n/home/dorf/pR1sM/dotfiles
+Repo Name: 
+.
+Files with changes to commit: \n?? AA1aCriT1YY.yml
+?? INSPIRATIONAL_DOTFILES.md
+?? LICENSE.md
+?? README.md
+?? alacritty.yml
+?? alacritty/.agignore
+?? alacritty/.builds/freebsd.yml
+?? alacritty/.builds/linux.yml
+?? alacritty/.editorconfig
+?? alacritty/.gitattributes
+?? alacritty/.github/ISSUE_TEMPLATE.md
+?? alacritty/.github/workflows/ci.yml
+?? alacritty/.github/workflows/release.yml
+?? alacritty/.github/workflows/upload_asset.sh
+?? alacritty/.gitignore
+?? alacritty/CHANGELOG.md
+?? alacritty/CONTRIBUTING.md
+?? alacritty/Cargo.lock
+?? alacritty/Cargo.toml
+?? alacritty/INSTALL.md
+?? alacritty/LICENSE-APACHE
+?? alacritty/Makefile
+?? alacritty/README.md
+?? alacritty/alacritty.yml
+?? alacritty/alacritty/Cargo.toml
+?? alacritty/alacritty/LICENSE-APACHE
+?? alacritty/alacritty/README.md
+?? alacritty/alacritty/alacritty.png
+?? alacritty/alacritty/build.rs
+?? alacritty/alacritty/res/rect.f.glsl
+?? alacritty/alacritty/res/rect.v.glsl
+?? alacritty/alacritty/res/text.f.glsl
+?? alacritty/alacritty/res/text.v.glsl
+?? alacritty/alacritty/src/cli.rs
+?? alacritty/alacritty/src/clipboard.rs
+?? alacritty/alacritty/src/config/bell.rs
+?? alacritty/alacritty/src/config/bindings.rs
+?? alacritty/alacritty/src/config/color.rs
+?? alacritty/alacritty/src/config/debug.rs
+?? alacritty/alacritty/src/config/font.rs
+?? alacritty/alacritty/src/config/mod.rs
+?? alacritty/alacritty/src/config/monitor.rs
+?? alacritty/alacritty/src/config/mouse.rs
+?? alacritty/alacritty/src/config/serde_utils.rs
+?? alacritty/alacritty/src/config/ui_config.rs
+?? alacritty/alacritty/src/config/window.rs
+?? alacritty/alacritty/src/daemon.rs
+?? alacritty/alacritty/src/display/bell.rs
+?? alacritty/alacritty/src/display/color.rs
+?? alacritty/alacritty/src/display/content.rs
+?? alacritty/alacritty/src/display/cursor.rs
+?? alacritty/alacritty/src/display/hint.rs
+?? alacritty/alacritty/src/display/meter.rs
+?? alacritty/alacritty/src/display/mod.rs
+?? alacritty/alacritty/src/display/wayland_theme.rs
+?? alacritty/alacritty/src/display/window.rs
+?? alacritty/alacritty/src/event.rs
+?? alacritty/alacritty/src/input.rs
+?? alacritty/alacritty/src/logging.rs
+?? alacritty/alacritty/src/macos/locale.rs
+?? alacritty/alacritty/src/macos/mod.rs
+?? alacritty/alacritty/src/macos/proc.rs
+?? alacritty/alacritty/src/main.rs
+?? alacritty/alacritty/src/message_bar.rs
+?? alacritty/alacritty/src/panic.rs
+?? alacritty/alacritty/src/renderer/mod.rs
+?? alacritty/alacritty/src/renderer/rects.rs
+?? alacritty/alacritty/src/scheduler.rs
+?? alacritty/alacritty_config_derive/Cargo.toml
+?? alacritty/alacritty_config_derive/LICENSE-APACHE
+?? alacritty/alacritty_config_derive/LICENSE-MIT
+?? alacritty/alacritty_config_derive/src/de_enum.rs
+?? alacritty/alacritty_config_derive/src/de_struct.rs
+?? alacritty/alacritty_config_derive/src/lib.rs
+?? alacritty/alacritty_config_derive/tests/config.rs
+?? alacritty/alacritty_terminal/Cargo.toml
+?? alacritty/alacritty_terminal/LICENSE-APACHE
+?? alacritty/alacritty_terminal/src/ansi.rs
+?? alacritty/alacritty_terminal/src/config/mod.rs
+?? alacritty/alacritty_terminal/src/config/scrolling.rs
+?? alacritty/alacritty_terminal/src/event.rs
+?? alacritty/alacritty_terminal/src/event_loop.rs
+?? alacritty/alacritty_terminal/src/grid/mod.rs
+?? alacritty/alacritty_terminal/src/grid/resize.rs
+?? alacritty/alacritty_terminal/src/grid/row.rs
+?? alacritty/alacritty_terminal/src/grid/storage.rs
+?? alacritty/alacritty_terminal/src/grid/tests.rs
+?? alacritty/alacritty_terminal/src/index.rs
+?? alacritty/alacritty_terminal/src/lib.rs
+?? alacritty/alacritty_terminal/src/selection.rs
+?? alacritty/alacritty_terminal/src/sync.rs
+?? alacritty/alacritty_terminal/src/term/cell.rs
+?? alacritty/alacritty_terminal/src/term/color.rs
+?? alacritty/alacritty_terminal/src/term/mod.rs
+?? alacritty/alacritty_terminal/src/term/search.rs
+?? alacritty/alacritty_terminal/src/thread.rs
+?? alacritty/alacritty_terminal/src/tty/mod.rs
+?? alacritty/alacritty_terminal/src/tty/unix.rs
+?? alacritty/alacritty_terminal/src/tty/windows/child.rs
+?? alacritty/alacritty_terminal/src/tty/windows/conpty.rs
+?? alacritty/alacritty_terminal/src/tty/windows/mod.rs
+?? alacritty/alacritty_terminal/src/vi_mode.rs
+?? alacritty/alacritty_terminal/tests/ref.rs
+?? alacritty/alacritty_terminal/tests/ref/alt_reset/alacritty.recording
+?? alacritty/alacritty_terminal/tests/ref/alt_reset/config.json
+?? alacritty/alacritty_terminal/tests/ref/alt_reset/grid.json
+?? alacritty/alacritty_terminal/tests/ref/alt_reset/size.json
+?? alacritty/alacritty_terminal/tests/ref/clear_underline/alacritty.recording
+?? alacritty/alacritty_terminal/tests/ref/clear_underline/config.json
+?? alacritty/alacritty_terminal/tests/ref/clear_underline/grid.json
+?? alacritty/alacritty_terminal/tests/ref/clear_underline/size.json
+?? alacritty/alacritty_terminal/tests/ref/colored_reset/alacritty.recording
+?? alacritty/alacritty_terminal/tests/ref/colored_reset/config.json
+?? alacritty/alacritty_terminal/tests/ref/colored_reset/grid.json
+?? alacritty/alacritty_terminal/tests/ref/colored_reset/size.json
+?? alacritty/alacritty_terminal/tests/ref/csi_rep/alacritty.recording
+?? alacritty/alacritty_terminal/tests/ref/csi_rep/config.json
+?? alacritty/alacritty_terminal/tests/ref/csi_rep/grid.json
+?? alacritty/alacritty_terminal/tests/ref/csi_rep/size.json
+?? alacritty/alacritty_terminal/tests/ref/decaln_reset/alacritty.recording
+?? alacritty/alacritty_terminal/tests/ref/decaln_reset/config.json
+?? alacritty/alacritty_terminal/tests/ref/decaln_reset/grid.json
+?? alacritty/alacritty_terminal/tests/ref/decaln_reset/size.json
+?? alacritty/alacritty_terminal/tests/ref/deccolm_reset/alacritty.recording
+?? alacritty/alacritty_terminal/tests/ref/deccolm_reset/config.json
+?? alacritty/alacritty_terminal/tests/ref/deccolm_reset/grid.json
+?? alacritty/alacritty_terminal/tests/ref/deccolm_reset/size.json
+?? alacritty/alacritty_terminal/tests/ref/delete_chars_reset/alacritty.recording
+?? alacritty/alacritty_terminal/tests/ref/delete_chars_reset/config.json
+?? alacritty/alacritty_terminal/tests/ref/delete_chars_reset/grid.json
+?? alacritty/alacritty_terminal/tests/ref/delete_chars_reset/size.json
+?? alacritty/alacritty_terminal/tests/ref/delete_lines/alacritty.recording
+?? alacritty/alacritty_terminal/tests/ref/delete_lines/config.json
+?? alacritty/alacritty_terminal/tests/ref/delete_lines/grid.json
+?? alacritty/alacritty_terminal/tests/ref/delete_lines/size.json
+?? alacritty/alacritty_terminal/tests/ref/erase_chars_reset/alacritty.recording
+?? alacritty/alacritty_terminal/tests/ref/erase_chars_reset/config.json
+?? alacritty/alacritty_terminal/tests/ref/erase_chars_reset/grid.json
+?? alacritty/alacritty_terminal/tests/ref/erase_chars_reset/size.json
+?? alacritty/alacritty_terminal/tests/ref/fish_cc/alacritty.recording
+?? alacritty/alacritty_terminal/tests/ref/fish_cc/config.json
+?? alacritty/alacritty_terminal/tests/ref/fish_cc/grid.json
+?? alacritty/alacritty_terminal/tests/ref/fish_cc/size.json
+?? alacritty/alacritty_terminal/tests/ref/grid_reset/alacritty.recording
+?? alacritty/alacritty_terminal/tests/ref/grid_reset/config.json
+?? alacritty/alacritty_terminal/tests/ref/grid_reset/grid.json
+?? alacritty/alacritty_terminal/tests/ref/grid_reset/size.json
+?? alacritty/alacritty_terminal/tests/ref/history/alacritty.recording
+?? alacritty/alacritty_terminal/tests/ref/history/config.json
+?? alacritty/alacritty_terminal/tests/ref/history/grid.json
+?? alacritty/alacritty_terminal/tests/ref/history/size.json
+?? alacritty/alacritty_terminal/tests/ref/indexed_256_colors/alacritty.recording
+?? alacritty/alacritty_terminal/tests/ref/indexed_256_colors/config.json
+?? alacritty/alacritty_terminal/tests/ref/indexed_256_colors/grid.json
+?? alacritty/alacritty_terminal/tests/ref/indexed_256_colors/size.json
+?? alacritty/alacritty_terminal/tests/ref/insert_blank_reset/alacritty.recording
+?? alacritty/alacritty_terminal/tests/ref/insert_blank_reset/config.json
+?? alacritty/alacritty_terminal/tests/ref/insert_blank_reset/grid.json
+?? alacritty/alacritty_terminal/tests/ref/insert_blank_reset/size.json
+?? alacritty/alacritty_terminal/tests/ref/issue_855/alacritty.recording
+?? alacritty/alacritty_terminal/tests/ref/issue_855/config.json
+?? alacritty/alacritty_terminal/tests/ref/issue_855/grid.json
+?? alacritty/alacritty_terminal/tests/ref/issue_855/size.json
+?? alacritty/alacritty_terminal/tests/ref/ll/alacritty.recording
+?? alacritty/alacritty_terminal/tests/ref/ll/config.json
+?? alacritty/alacritty_terminal/tests/ref/ll/grid.json
+?? alacritty/alacritty_terminal/tests/ref/ll/size.json
+?? alacritty/alacritty_terminal/tests/ref/newline_with_cursor_beyond_scroll_region/alacritty.recording
+?? alacritty/alacritty_terminal/tests/ref/newline_with_cursor_beyond_scroll_region/config.json
+?? alacritty/alacritty_terminal/tests/ref/newline_with_cursor_beyond_scroll_region/grid.json
+?? alacritty/alacritty_terminal/tests/ref/newline_with_cursor_beyond_scroll_region/size.json
+?? alacritty/alacritty_terminal/tests/ref/region_scroll_down/alacritty.recording
+?? alacritty/alacritty_terminal/tests/ref/region_scroll_down/config.json
+?? alacritty/alacritty_terminal/tests/ref/region_scroll_down/grid.json
+?? alacritty/alacritty_terminal/tests/ref/region_scroll_down/size.json
+?? alacritty/alacritty_terminal/tests/ref/row_reset/alacritty.recording
+?? alacritty/alacritty_terminal/tests/ref/row_reset/config.json
+?? alacritty/alacritty_terminal/tests/ref/row_reset/grid.json
+?? alacritty/alacritty_terminal/tests/ref/row_reset/size.json
+?? alacritty/alacritty_terminal/tests/ref/saved_cursor/alacritty.recording
+?? alacritty/alacritty_terminal/tests/ref/saved_cursor/config.json
+?? alacritty/alacritty_terminal/tests/ref/saved_cursor/grid.json
+?? alacritty/alacritty_terminal/tests/ref/saved_cursor/size.json
+?? alacritty/alacritty_terminal/tests/ref/saved_cursor_alt/alacritty.recording
+?? alacritty/alacritty_terminal/tests/ref/saved_cursor_alt/config.json
+?? alacritty/alacritty_terminal/tests/ref/saved_cursor_alt/grid.json
+?? alacritty/alacritty_terminal/tests/ref/saved_cursor_alt/size.json
+?? alacritty/alacritty_terminal/tests/ref/scroll_up_reset/alacritty.recording
+?? alacritty/alacritty_terminal/tests/ref/scroll_up_reset/config.json
+?? alacritty/alacritty_terminal/tests/ref/scroll_up_reset/grid.json
+?? alacritty/alacritty_terminal/tests/ref/scroll_up_reset/size.json
+?? alacritty/alacritty_terminal/tests/ref/selective_erasure/alacritty.recording
+?? alacritty/alacritty_terminal/tests/ref/selective_erasure/config.json
+?? alacritty/alacritty_terminal/tests/ref/selective_erasure/grid.json
+?? alacritty/alacritty_terminal/tests/ref/selective_erasure/size.json
+?? alacritty/alacritty_terminal/tests/ref/sgr/alacritty.recording
+?? alacritty/alacritty_terminal/tests/ref/sgr/config.json
+?? alacritty/alacritty_terminal/tests/ref/sgr/grid.json
+?? alacritty/alacritty_terminal/tests/ref/sgr/size.json
+?? alacritty/alacritty_terminal/tests/ref/tab_rendering/alacritty.recording
+?? alacritty/alacritty_terminal/tests/ref/tab_rendering/config.json
+?? alacritty/alacritty_terminal/tests/ref/tab_rendering/grid.json
+?? alacritty/alacritty_terminal/tests/ref/tab_rendering/size.json
+?? alacritty/alacritty_terminal/tests/ref/tmux_git_log/alacritty.recording
+?? alacritty/alacritty_terminal/tests/ref/tmux_git_log/config.json
+?? alacritty/alacritty_terminal/tests/ref/tmux_git_log/grid.json
+?? alacritty/alacritty_terminal/tests/ref/tmux_git_log/size.json
+?? alacritty/alacritty_terminal/tests/ref/tmux_htop/alacritty.recording
+?? alacritty/alacritty_terminal/tests/ref/tmux_htop/config.json
+?? alacritty/alacritty_terminal/tests/ref/tmux_htop/grid.json
+?? alacritty/alacritty_terminal/tests/ref/tmux_htop/size.json
+?? alacritty/alacritty_terminal/tests/ref/underline/alacritty.recording
+?? alacritty/alacritty_terminal/tests/ref/underline/config.json
+?? alacritty/alacritty_terminal/tests/ref/underline/grid.json
+?? alacritty/alacritty_terminal/tests/ref/underline/size.json
+?? alacritty/alacritty_terminal/tests/ref/vim_24bitcolors_bce/alacritty.recording
+?? alacritty/alacritty_terminal/tests/ref/vim_24bitcolors_bce/config.json
+?? alacritty/alacritty_terminal/tests/ref/vim_24bitcolors_bce/grid.json
+?? alacritty/alacritty_terminal/tests/ref/vim_24bitcolors_bce/size.json
+?? alacritty/alacritty_terminal/tests/ref/vim_large_window_scroll/alacritty.recording
+?? alacritty/alacritty_terminal/tests/ref/vim_large_window_scroll/config.json
+?? alacritty/alacritty_terminal/tests/ref/vim_large_window_scroll/grid.json
+?? alacritty/alacritty_terminal/tests/ref/vim_large_window_scroll/size.json
+?? alacritty/alacritty_terminal/tests/ref/vim_simple_edit/alacritty.recording
+?? alacritty/alacritty_terminal/tests/ref/vim_simple_edit/config.json
+?? alacritty/alacritty_terminal/tests/ref/vim_simple_edit/grid.json
+?? alacritty/alacritty_terminal/tests/ref/vim_simple_edit/size.json
+?? alacritty/alacritty_terminal/tests/ref/vttest_cursor_movement_1/alacritty.recording
+?? alacritty/alacritty_terminal/tests/ref/vttest_cursor_movement_1/config.json
+?? alacritty/alacritty_terminal/tests/ref/vttest_cursor_movement_1/grid.json
+?? alacritty/alacritty_terminal/tests/ref/vttest_cursor_movement_1/size.json
+?? alacritty/alacritty_terminal/tests/ref/vttest_insert/alacritty.recording
+?? alacritty/alacritty_terminal/tests/ref/vttest_insert/config.json
+?? alacritty/alacritty_terminal/tests/ref/vttest_insert/grid.json
+?? alacritty/alacritty_terminal/tests/ref/vttest_insert/size.json
+?? alacritty/alacritty_terminal/tests/ref/vttest_origin_mode_1/alacritty.recording
+?? alacritty/alacritty_terminal/tests/ref/vttest_origin_mode_1/config.json
+?? alacritty/alacritty_terminal/tests/ref/vttest_origin_mode_1/grid.json
+?? alacritty/alacritty_terminal/tests/ref/vttest_origin_mode_1/size.json
+?? alacritty/alacritty_terminal/tests/ref/vttest_origin_mode_2/alacritty.recording
+?? alacritty/alacritty_terminal/tests/ref/vttest_origin_mode_2/config.json
+?? alacritty/alacritty_terminal/tests/ref/vttest_origin_mode_2/grid.json
+?? alacritty/alacritty_terminal/tests/ref/vttest_origin_mode_2/size.json
+?? alacritty/alacritty_terminal/tests/ref/vttest_scroll/alacritty.recording
+?? alacritty/alacritty_terminal/tests/ref/vttest_scroll/config.json
+?? alacritty/alacritty_terminal/tests/ref/vttest_scroll/grid.json
+?? alacritty/alacritty_terminal/tests/ref/vttest_scroll/size.json
+?? alacritty/alacritty_terminal/tests/ref/vttest_tab_clear_set/alacritty.recording
+?? alacritty/alacritty_terminal/tests/ref/vttest_tab_clear_set/config.json
+?? alacritty/alacritty_terminal/tests/ref/vttest_tab_clear_set/grid.json
+?? alacritty/alacritty_terminal/tests/ref/vttest_tab_clear_set/size.json
+?? alacritty/alacritty_terminal/tests/ref/wrapline_alt_toggle/alacritty.recording
+?? alacritty/alacritty_terminal/tests/ref/wrapline_alt_toggle/config.json
+?? alacritty/alacritty_terminal/tests/ref/wrapline_alt_toggle/grid.json
+?? alacritty/alacritty_terminal/tests/ref/wrapline_alt_toggle/size.json
+?? alacritty/alacritty_terminal/tests/ref/zerowidth/alacritty.recording
+?? alacritty/alacritty_terminal/tests/ref/zerowidth/config.json
+?? alacritty/alacritty_terminal/tests/ref/zerowidth/grid.json
+?? alacritty/alacritty_terminal/tests/ref/zerowidth/size.json
+?? alacritty/alacritty_terminal/tests/ref/zsh_tab_completion/alacritty.recording
+?? alacritty/alacritty_terminal/tests/ref/zsh_tab_completion/config.json
+?? alacritty/alacritty_terminal/tests/ref/zsh_tab_completion/grid.json
+?? alacritty/alacritty_terminal/tests/ref/zsh_tab_completion/size.json
+?? alacritty/docs/ansicode.txt
+?? alacritty/docs/escape_support.md
+?? alacritty/docs/features.md
+?? alacritty/extra/alacritty.info
+?? alacritty/extra/alacritty.man
+?? alacritty/extra/completions/_alacritty
+?? alacritty/extra/completions/alacritty.bash
+?? alacritty/extra/completions/alacritty.fish
+?? alacritty/extra/linux/Alacritty.desktop
+?? alacritty/extra/linux/io.alacritty.Alacritty.appdata.xml
+?? alacritty/extra/logo/alacritty-simple.svg
+?? alacritty/extra/logo/alacritty-term+scanlines.svg
+?? alacritty/extra/logo/alacritty-term.svg
+?? alacritty/extra/logo/compat/alacritty-simple.svg
+?? alacritty/extra/logo/compat/alacritty-term+scanlines.png
+?? alacritty/extra/logo/compat/alacritty-term+scanlines.svg
+?? alacritty/extra/logo/compat/alacritty-term.png
+?? alacritty/extra/logo/compat/alacritty-term.svg
+?? alacritty/extra/osx/Alacritty.app/Contents/Info.plist
+?? alacritty/extra/osx/Alacritty.app/Contents/Resources/alacritty.icns
+?? alacritty/extra/windows/alacritty.ico
+?? alacritty/extra/windows/alacritty.manifest
+?? alacritty/extra/windows/windows.rc
+?? alacritty/extra/windows/wix/alacritty.wxs
+?? alacritty/extra/windows/wix/license.rtf
+?? alacritty/rustfmt.toml
+?? alacritty/scripts/24-bit-color.sh
+?? alacritty/scripts/README.md
+?? alacritty/scripts/colors.sh
+?? alacritty/scripts/create-flamegraph.sh
+?? alacritty/scripts/fg-bg.sh
+?? bash_profile
+?? bashrc
+?? dotbot/
+?? fonts/.uuid
+?? fonts/InputMono/.uuid
+?? fonts/InputMono/InputMono/.uuid
+?? fonts/InputMono/InputMono/InputMono-Black.ttf
+?? fonts/InputMono/InputMono/InputMono-BlackItalic.ttf
+?? fonts/InputMono/InputMono/InputMono-Bold.ttf
+?? fonts/InputMono/InputMono/InputMono-BoldItalic.ttf
+?? fonts/InputMono/InputMono/InputMono-ExtraLight.ttf
+?? fonts/InputMono/InputMono/InputMono-ExtraLightItalic.ttf
+?? fonts/InputMono/InputMono/InputMono-Italic.ttf
+?? fonts/InputMono/InputMono/InputMono-Light.ttf
+?? fonts/InputMono/InputMono/InputMono-LightItalic.ttf
+?? fonts/InputMono/InputMono/InputMono-Medium.ttf
+?? fonts/InputMono/InputMono/InputMono-MediumItalic.ttf
+?? fonts/InputMono/InputMono/InputMono-Regular.ttf
+?? fonts/InputMono/InputMono/InputMono-Thin.ttf
+?? fonts/InputMono/InputMono/InputMono-ThinItalic.ttf
+?? fonts/InputMono/InputMonoCompressed/.uuid
+?? fonts/InputMono/InputMonoCompressed/InputMonoCompressed-Black.ttf
+?? fonts/InputMono/InputMonoCompressed/InputMonoCompressed-BlackItalic.ttf
+?? fonts/InputMono/InputMonoCompressed/InputMonoCompressed-Bold.ttf
+?? fonts/InputMono/InputMonoCompressed/InputMonoCompressed-BoldItalic.ttf
+?? fonts/InputMono/InputMonoCompressed/InputMonoCompressed-ExtraLight.ttf
+?? fonts/InputMono/InputMonoCompressed/InputMonoCompressed-ExtraLightItalic.ttf
+?? fonts/InputMono/InputMonoCompressed/InputMonoCompressed-Italic.ttf
+?? fonts/InputMono/InputMonoCompressed/InputMonoCompressed-Light.ttf
+?? fonts/InputMono/InputMonoCompressed/InputMonoCompressed-LightItalic.ttf
+?? fonts/InputMono/InputMonoCompressed/InputMonoCompressed-Medium.ttf
+?? fonts/InputMono/InputMonoCompressed/InputMonoCompressed-MediumItalic.ttf
+?? fonts/InputMono/InputMonoCompressed/InputMonoCompressed-Regular.ttf
+?? fonts/InputMono/InputMonoCompressed/InputMonoCompressed-Thin.ttf
+?? fonts/InputMono/InputMonoCompressed/InputMonoCompressed-ThinItalic.ttf
+?? fonts/InputMono/InputMonoCondensed/.uuid
+?? fonts/InputMono/InputMonoCondensed/InputMonoCondensed-Black.ttf
+?? fonts/InputMono/InputMonoCondensed/InputMonoCondensed-BlackItalic.ttf
+?? fonts/InputMono/InputMonoCondensed/InputMonoCondensed-Bold.ttf
+?? fonts/InputMono/InputMonoCondensed/InputMonoCondensed-BoldItalic.ttf
+?? fonts/InputMono/InputMonoCondensed/InputMonoCondensed-ExtraLight.ttf
+?? fonts/InputMono/InputMonoCondensed/InputMonoCondensed-ExtraLightItalic.ttf
+?? fonts/InputMono/InputMonoCondensed/InputMonoCondensed-Italic.ttf
+?? fonts/InputMono/InputMonoCondensed/InputMonoCondensed-Light.ttf
+?? fonts/InputMono/InputMonoCondensed/InputMonoCondensed-LightItalic.ttf
+?? fonts/InputMono/InputMonoCondensed/InputMonoCondensed-Medium.ttf
+?? fonts/InputMono/InputMonoCondensed/InputMonoCondensed-MediumItalic.ttf
+?? fonts/InputMono/InputMonoCondensed/InputMonoCondensed-Regular.ttf
+?? fonts/InputMono/InputMonoCondensed/InputMonoCondensed-Thin.ttf
+?? fonts/InputMono/InputMonoCondensed/InputMonoCondensed-ThinItalic.ttf
+?? fonts/InputMono/InputMonoNarrow/.uuid
+?? fonts/InputMono/InputMonoNarrow/InputMonoNarrow-Black.ttf
+?? fonts/InputMono/InputMonoNarrow/InputMonoNarrow-BlackItalic.ttf
+?? fonts/InputMono/InputMonoNarrow/InputMonoNarrow-Bold.ttf
+?? fonts/InputMono/InputMonoNarrow/InputMonoNarrow-BoldItalic.ttf
+?? fonts/InputMono/InputMonoNarrow/InputMonoNarrow-ExtraLight.ttf
+?? fonts/InputMono/InputMonoNarrow/InputMonoNarrow-ExtraLightItalic.ttf
+?? fonts/InputMono/InputMonoNarrow/InputMonoNarrow-Italic.ttf
+?? fonts/InputMono/InputMonoNarrow/InputMonoNarrow-Light.ttf
+?? fonts/InputMono/InputMonoNarrow/InputMonoNarrow-LightItalic.ttf
+?? fonts/InputMono/InputMonoNarrow/InputMonoNarrow-Medium.ttf
+?? fonts/InputMono/InputMonoNarrow/InputMonoNarrow-MediumItalic.ttf
+?? fonts/InputMono/InputMonoNarrow/InputMonoNarrow-Regular.ttf
+?? fonts/InputMono/InputMonoNarrow/InputMonoNarrow-Thin.ttf
+?? fonts/InputMono/InputMonoNarrow/InputMonoNarrow-ThinItalic.ttf
+?? fonts/InputSans/.uuid
+?? fonts/InputSans/InputSans/.uuid
+?? fonts/InputSans/InputSans/InputSans-Black.ttf
+?? fonts/InputSans/InputSans/InputSans-BlackItalic.ttf
+?? fonts/InputSans/InputSans/InputSans-Bold.ttf
+?? fonts/InputSans/InputSans/InputSans-BoldItalic.ttf
+?? fonts/InputSans/InputSans/InputSans-ExtraLight.ttf
+?? fonts/InputSans/InputSans/InputSans-ExtraLightItalic.ttf
+?? fonts/InputSans/InputSans/InputSans-Italic.ttf
+?? fonts/InputSans/InputSans/InputSans-Light.ttf
+?? fonts/InputSans/InputSans/InputSans-LightItalic.ttf
+?? fonts/InputSans/InputSans/InputSans-Medium.ttf
+?? fonts/InputSans/InputSans/InputSans-MediumItalic.ttf
+?? fonts/InputSans/InputSans/InputSans-Regular.ttf
+?? fonts/InputSans/InputSans/InputSans-Thin.ttf
+?? fonts/InputSans/InputSans/InputSans-ThinItalic.ttf
+?? fonts/InputSans/InputSansCompressed/.uuid
+?? fonts/InputSans/InputSansCompressed/InputSansCompressed-Black.ttf
+?? fonts/InputSans/InputSansCompressed/InputSansCompressed-BlackItalic.ttf
+?? fonts/InputSans/InputSansCompressed/InputSansCompressed-Bold.ttf
+?? fonts/InputSans/InputSansCompressed/InputSansCompressed-BoldItalic.ttf
+?? fonts/InputSans/InputSansCompressed/InputSansCompressed-ExtraLight.ttf
+?? fonts/InputSans/InputSansCompressed/InputSansCompressed-ExtraLightItalic.ttf
+?? fonts/InputSans/InputSansCompressed/InputSansCompressed-Italic.ttf
+?? fonts/InputSans/InputSansCompressed/InputSansCompressed-Light.ttf
+?? fonts/InputSans/InputSansCompressed/InputSansCompressed-LightItalic.ttf
+?? fonts/InputSans/InputSansCompressed/InputSansCompressed-Medium.ttf
+?? fonts/InputSans/InputSansCompressed/InputSansCompressed-MediumItalic.ttf
+?? fonts/InputSans/InputSansCompressed/InputSansCompressed-Regular.ttf
+?? fonts/InputSans/InputSansCompressed/InputSansCompressed-Thin.ttf
+?? fonts/InputSans/InputSansCompressed/InputSansCompressed-ThinItalic.ttf
+?? fonts/InputSans/InputSansCondensed/.uuid
+?? fonts/InputSans/InputSansCondensed/InputSansCondensed-Black.ttf
+?? fonts/InputSans/InputSansCondensed/InputSansCondensed-BlackItalic.ttf
+?? fonts/InputSans/InputSansCondensed/InputSansCondensed-Bold.ttf
+?? fonts/InputSans/InputSansCondensed/InputSansCondensed-BoldItalic.ttf
+?? fonts/InputSans/InputSansCondensed/InputSansCondensed-ExtraLight.ttf
+?? fonts/InputSans/InputSansCondensed/InputSansCondensed-ExtraLightItalic.ttf
+?? fonts/InputSans/InputSansCondensed/InputSansCondensed-Italic.ttf
+?? fonts/InputSans/InputSansCondensed/InputSansCondensed-Light.ttf
+?? fonts/InputSans/InputSansCondensed/InputSansCondensed-LightItalic.ttf
+?? fonts/InputSans/InputSansCondensed/InputSansCondensed-Medium.ttf
+?? fonts/InputSans/InputSansCondensed/InputSansCondensed-MediumItalic.ttf
+?? fonts/InputSans/InputSansCondensed/InputSansCondensed-Regular.ttf
+?? fonts/InputSans/InputSansCondensed/InputSansCondensed-Thin.ttf
+?? fonts/InputSans/InputSansCondensed/InputSansCondensed-ThinItalic.ttf
+?? fonts/InputSans/InputSansNarrow/.uuid
+?? fonts/InputSans/InputSansNarrow/InputSansNarrow-Black.ttf
+?? fonts/InputSans/InputSansNarrow/InputSansNarrow-BlackItalic.ttf
+?? fonts/InputSans/InputSansNarrow/InputSansNarrow-Bold.ttf
+?? fonts/InputSans/InputSansNarrow/InputSansNarrow-BoldItalic.ttf
+?? fonts/InputSans/InputSansNarrow/InputSansNarrow-ExtraLight.ttf
+?? fonts/InputSans/InputSansNarrow/InputSansNarrow-ExtraLightItalic.ttf
+?? fonts/InputSans/InputSansNarrow/InputSansNarrow-Italic.ttf
+?? fonts/InputSans/InputSansNarrow/InputSansNarrow-Light.ttf
+?? fonts/InputSans/InputSansNarrow/InputSansNarrow-LightItalic.ttf
+?? fonts/InputSans/InputSansNarrow/InputSansNarrow-Medium.ttf
+?? fonts/InputSans/InputSansNarrow/InputSansNarrow-MediumItalic.ttf
+?? fonts/InputSans/InputSansNarrow/InputSansNarrow-Regular.ttf
+?? fonts/InputSans/InputSansNarrow/InputSansNarrow-Thin.ttf
+?? fonts/InputSans/InputSansNarrow/InputSansNarrow-ThinItalic.ttf
+?? fonts/InputSerif/.uuid
+?? fonts/InputSerif/InputSerif/.uuid
+?? fonts/InputSerif/InputSerif/InputSerif-Black.ttf
+?? fonts/InputSerif/InputSerif/InputSerif-BlackItalic.ttf
+?? fonts/InputSerif/InputSerif/InputSerif-Bold.ttf
+?? fonts/InputSerif/InputSerif/InputSerif-BoldItalic.ttf
+?? fonts/InputSerif/InputSerif/InputSerif-ExtraLight.ttf
+?? fonts/InputSerif/InputSerif/InputSerif-ExtraLightItalic.ttf
+?? fonts/InputSerif/InputSerif/InputSerif-Italic.ttf
+?? fonts/InputSerif/InputSerif/InputSerif-Light.ttf
+?? fonts/InputSerif/InputSerif/InputSerif-LightItalic.ttf
+?? fonts/InputSerif/InputSerif/InputSerif-Medium.ttf
+?? fonts/InputSerif/InputSerif/InputSerif-MediumItalic.ttf
+?? fonts/InputSerif/InputSerif/InputSerif-Regular.ttf
+?? fonts/InputSerif/InputSerif/InputSerif-Thin.ttf
+?? fonts/InputSerif/InputSerif/InputSerif-ThinItalic.ttf
+?? fonts/InputSerif/InputSerifCompressed/.uuid
+?? fonts/InputSerif/InputSerifCompressed/InputSerifCompressed-Black.ttf
+?? fonts/InputSerif/InputSerifCompressed/InputSerifCompressed-BlackItalic.ttf
+?? fonts/InputSerif/InputSerifCompressed/InputSerifCompressed-Bold.ttf
+?? fonts/InputSerif/InputSerifCompressed/InputSerifCompressed-BoldItalic.ttf
+?? fonts/InputSerif/InputSerifCompressed/InputSerifCompressed-ExtraLight.ttf
+?? fonts/InputSerif/InputSerifCompressed/InputSerifCompressed-ExtraLightItalic.ttf
+?? fonts/InputSerif/InputSerifCompressed/InputSerifCompressed-Italic.ttf
+?? fonts/InputSerif/InputSerifCompressed/InputSerifCompressed-Light.ttf
+?? fonts/InputSerif/InputSerifCompressed/InputSerifCompressed-LightItalic.ttf
+?? fonts/InputSerif/InputSerifCompressed/InputSerifCompressed-Medium.ttf
+?? fonts/InputSerif/InputSerifCompressed/InputSerifCompressed-MediumItalic.ttf
+?? fonts/InputSerif/InputSerifCompressed/InputSerifCompressed-Regular.ttf
+?? fonts/InputSerif/InputSerifCompressed/InputSerifCompressed-Thin.ttf
+?? fonts/InputSerif/InputSerifCompressed/InputSerifCompressed-ThinItalic.ttf
+?? fonts/InputSerif/InputSerifCondensed/.uuid
+?? fonts/InputSerif/InputSerifCondensed/InputSerifCondensed-Black.ttf
+?? fonts/InputSerif/InputSerifCondensed/InputSerifCondensed-BlackItalic.ttf
+?? fonts/InputSerif/InputSerifCondensed/InputSerifCondensed-Bold.ttf
+?? fonts/InputSerif/InputSerifCondensed/InputSerifCondensed-BoldItalic.ttf
+?? fonts/InputSerif/InputSerifCondensed/InputSerifCondensed-ExtraLight.ttf
+?? fonts/InputSerif/InputSerifCondensed/InputSerifCondensed-ExtraLightItalic.ttf
+?? fonts/InputSerif/InputSerifCondensed/InputSerifCondensed-Italic.ttf
+?? fonts/InputSerif/InputSerifCondensed/InputSerifCondensed-Light.ttf
+?? fonts/InputSerif/InputSerifCondensed/InputSerifCondensed-LightItalic.ttf
+?? fonts/InputSerif/InputSerifCondensed/InputSerifCondensed-Medium.ttf
+?? fonts/InputSerif/InputSerifCondensed/InputSerifCondensed-MediumItalic.ttf
+?? fonts/InputSerif/InputSerifCondensed/InputSerifCondensed-Regular.ttf
+?? fonts/InputSerif/InputSerifCondensed/InputSerifCondensed-Thin.ttf
+?? fonts/InputSerif/InputSerifCondensed/InputSerifCondensed-ThinItalic.ttf
+?? fonts/InputSerif/InputSerifNarrow/.uuid
+?? fonts/InputSerif/InputSerifNarrow/InputSerifNarrow-Black.ttf
+?? fonts/InputSerif/InputSerifNarrow/InputSerifNarrow-BlackItalic.ttf
+?? fonts/InputSerif/InputSerifNarrow/InputSerifNarrow-Bold.ttf
+?? fonts/InputSerif/InputSerifNarrow/InputSerifNarrow-BoldItalic.ttf
+?? fonts/InputSerif/InputSerifNarrow/InputSerifNarrow-ExtraLight.ttf
+?? fonts/InputSerif/InputSerifNarrow/InputSerifNarrow-ExtraLightItalic.ttf
+?? fonts/InputSerif/InputSerifNarrow/InputSerifNarrow-Italic.ttf
+?? fonts/InputSerif/InputSerifNarrow/InputSerifNarrow-Light.ttf
+?? fonts/InputSerif/InputSerifNarrow/InputSerifNarrow-LightItalic.ttf
+?? fonts/InputSerif/InputSerifNarrow/InputSerifNarrow-Medium.ttf
+?? fonts/InputSerif/InputSerifNarrow/InputSerifNarrow-MediumItalic.ttf
+?? fonts/InputSerif/InputSerifNarrow/InputSerifNarrow-Regular.ttf
+?? fonts/InputSerif/InputSerifNarrow/InputSerifNarrow-Thin.ttf
+?? fonts/InputSerif/InputSerifNarrow/InputSerifNarrow-ThinItalic.ttf
+?? fonts/OTF/.uuid
+?? fonts/OTF/SourceCodePro-Black.otf
+?? fonts/OTF/SourceCodePro-BlackIt.otf
+?? fonts/OTF/SourceCodePro-Bold.otf
+?? fonts/OTF/SourceCodePro-BoldIt.otf
+?? fonts/OTF/SourceCodePro-ExtraLight.otf
+?? fonts/OTF/SourceCodePro-ExtraLightIt.otf
+?? fonts/OTF/SourceCodePro-It.otf
+?? fonts/OTF/SourceCodePro-Light.otf
+?? fonts/OTF/SourceCodePro-LightIt.otf
+?? fonts/OTF/SourceCodePro-Medium.otf
+?? fonts/OTF/SourceCodePro-MediumIt.otf
+?? fonts/OTF/SourceCodePro-Regular.otf
+?? fonts/OTF/SourceCodePro-Semibold.otf
+?? fonts/OTF/SourceCodePro-SemiboldIt.otf
+?? fonts/OpenDyslexic 3 (Beta - Windows, MacOS, Linux TTF)/.uuid
+?? fonts/OpenDyslexic 3 (Beta - Windows, MacOS, Linux TTF)/OpenDyslexic3-Bold.ttf
+?? fonts/OpenDyslexic 3 (Beta - Windows, MacOS, Linux TTF)/OpenDyslexic3-Regular.ttf
+?? fonts/OpenDyslexic Mono (Windows, MacOS, Linux OTF)/.uuid
+?? fonts/OpenDyslexic Mono (Windows, MacOS, Linux OTF)/OpenDyslexicMono-Regular.otf
+?? fonts/OpenDyslexic2 (Windows, MacOS, Linux OTF)/.uuid
+?? fonts/OpenDyslexic2 (Windows, MacOS, Linux OTF)/OpenDyslexic-Bold.otf
+?? fonts/OpenDyslexic2 (Windows, MacOS, Linux OTF)/OpenDyslexic-BoldItalic.otf
+?? fonts/OpenDyslexic2 (Windows, MacOS, Linux OTF)/OpenDyslexic-Italic.otf
+?? fonts/OpenDyslexic2 (Windows, MacOS, Linux OTF)/OpenDyslexic-Regular.otf
+?? fonts/OpenDyslexic2 Alt-A (Windows, MacOS, Linux OTF)/.uuid
+?? fonts/OpenDyslexic2 Alt-A (Windows, MacOS, Linux OTF)/OpenDyslexicAlta-Bold.otf
+?? fonts/OpenDyslexic2 Alt-A (Windows, MacOS, Linux OTF)/OpenDyslexicAlta-BoldItalic.otf
+?? fonts/OpenDyslexic2 Alt-A (Windows, MacOS, Linux OTF)/OpenDyslexicAlta-Italic.otf
+?? fonts/OpenDyslexic2 Alt-A (Windows, MacOS, Linux OTF)/OpenDyslexicAlta-Regular.otf
+?? fonts/TTF/.uuid
+?? fonts/TTF/SourceCodePro-Black.ttf
+?? fonts/TTF/SourceCodePro-BlackIt.ttf
+?? fonts/TTF/SourceCodePro-Bold.ttf
+?? fonts/TTF/SourceCodePro-BoldIt.ttf
+?? fonts/TTF/SourceCodePro-ExtraLight.ttf
+?? fonts/TTF/SourceCodePro-ExtraLightIt.ttf
+?? fonts/TTF/SourceCodePro-It.ttf
+?? fonts/TTF/SourceCodePro-Light.ttf
+?? fonts/TTF/SourceCodePro-LightIt.ttf
+?? fonts/TTF/SourceCodePro-Medium.ttf
+?? fonts/TTF/SourceCodePro-MediumIt.ttf
+?? fonts/TTF/SourceCodePro-Regular.ttf
+?? fonts/TTF/SourceCodePro-Semibold.ttf
+?? fonts/TTF/SourceCodePro-SemiboldIt.ttf
+?? fonts/fonts-master/.gitignore
+?? fonts/fonts-master/3270/3270Medium.ttf
+?? fonts/fonts-master/3270/3270Narrow.ttf
+?? fonts/fonts-master/3270/3270SemiNarrow.ttf
+?? fonts/fonts-master/3270/README.rst
+?? fonts/fonts-master/AnonymousPro/Anonymice Powerline Bold Italic.ttf
+?? fonts/fonts-master/AnonymousPro/Anonymice Powerline Bold.ttf
+?? fonts/fonts-master/AnonymousPro/Anonymice Powerline Italic.ttf
+?? fonts/fonts-master/AnonymousPro/Anonymice Powerline.ttf
+?? fonts/fonts-master/AnonymousPro/LICENSE.txt
+?? fonts/fonts-master/AnonymousPro/README.rst
+?? fonts/fonts-master/AnonymousPro/fonts.dir
+?? fonts/fonts-master/AnonymousPro/fonts.scale
+?? fonts/fonts-master/Arimo/Arimo Bold Italic for Powerline.ttf
+?? fonts/fonts-master/Arimo/Arimo Bold for Powerline.ttf
+?? fonts/fonts-master/Arimo/Arimo Italic for Powerline.ttf
+?? fonts/fonts-master/Arimo/Arimo for Powerline.ttf
+?? fonts/fonts-master/Arimo/LICENSE.txt
+?? fonts/fonts-master/Arimo/README.rst
+?? fonts/fonts-master/Cousine/Cousine Bold Italic for Powerline.ttf
+?? fonts/fonts-master/Cousine/Cousine Bold for Powerline.ttf
+?? fonts/fonts-master/Cousine/Cousine Italic for Powerline.ttf
+?? fonts/fonts-master/Cousine/Cousine for Powerline.ttf
+?? fonts/fonts-master/Cousine/LICENSE.txt
+?? fonts/fonts-master/Cousine/README.rst
+?? fonts/fonts-master/D2Coding/README.rst
+?? fonts/fonts-master/DejaVuSansMono/DejaVu Sans Mono Bold Oblique for Powerline.ttf
+?? fonts/fonts-master/DejaVuSansMono/DejaVu Sans Mono Bold for Powerline.ttf
+?? fonts/fonts-master/DejaVuSansMono/DejaVu Sans Mono Oblique for Powerline.ttf
+?? fonts/fonts-master/DejaVuSansMono/DejaVu Sans Mono for Powerline.ttf
+?? fonts/fonts-master/DejaVuSansMono/LICENSE.txt
+?? fonts/fonts-master/DejaVuSansMono/README.rst
+?? fonts/fonts-master/DejaVuSansMono/fonts.dir
+?? fonts/fonts-master/DejaVuSansMono/fonts.scale
+?? fonts/fonts-master/DroidSansMono/Droid Sans Mono for Powerline.otf
+?? fonts/fonts-master/DroidSansMono/LICENSE.txt
+?? fonts/fonts-master/DroidSansMono/README.rst
+?? fonts/fonts-master/DroidSansMono/fonts.dir
+?? fonts/fonts-master/DroidSansMono/fonts.scale
+?? fonts/fonts-master/DroidSansMonoDotted/Droid Sans Mono Dotted for Powerline.ttf
+?? fonts/fonts-master/DroidSansMonoDotted/LICENSE.txt
+?? fonts/fonts-master/DroidSansMonoDotted/README.rst
+?? fonts/fonts-master/DroidSansMonoDotted/fonts.dir
+?? fonts/fonts-master/DroidSansMonoDotted/fonts.scale
+?? fonts/fonts-master/DroidSansMonoSlashed/Droid Sans Mono Slashed for Powerline.ttf
+?? fonts/fonts-master/DroidSansMonoSlashed/LICENSE.txt
+?? fonts/fonts-master/DroidSansMonoSlashed/README.rst
+?? fonts/fonts-master/DroidSansMonoSlashed/fonts.dir
+?? fonts/fonts-master/DroidSansMonoSlashed/fonts.scale
+?? fonts/fonts-master/FiraMono/FuraMono-Bold Powerline.otf
+?? fonts/fonts-master/FiraMono/FuraMono-Medium Powerline.otf
+?? fonts/fonts-master/FiraMono/FuraMono-Regular Powerline.otf
+?? fonts/fonts-master/FiraMono/LICENSE.txt
+?? fonts/fonts-master/FiraMono/README.rst
+?? fonts/fonts-master/FiraMono/fonts.dir
+?? fonts/fonts-master/FiraMono/fonts.scale
+?? fonts/fonts-master/GoMono/Go Mono Bold Italic for Powerline.ttf
+?? fonts/fonts-master/GoMono/Go Mono Bold for Powerline.ttf
+?? fonts/fonts-master/GoMono/Go Mono Italic for Powerline.ttf
+?? fonts/fonts-master/GoMono/Go Mono for Powerline.ttf
+?? fonts/fonts-master/GoMono/LICENCE.TXT
+?? fonts/fonts-master/GoMono/README.rst
+?? fonts/fonts-master/Hack/Hack-Bold.ttf
+?? fonts/fonts-master/Hack/Hack-BoldItalic.ttf
+?? fonts/fonts-master/Hack/Hack-Italic.ttf
+?? fonts/fonts-master/Hack/Hack-Regular.ttf
+?? fonts/fonts-master/Hack/LICENSE.txt
+?? fonts/fonts-master/Hack/README.rst
+?? fonts/fonts-master/Hack/hack-specimen-for-Powerline.png
+?? fonts/fonts-master/Inconsolata-g/Inconsolata-g for Powerline.otf
+?? fonts/fonts-master/Inconsolata-g/LICENSE.txt
+?? fonts/fonts-master/Inconsolata-g/README.rst
+?? fonts/fonts-master/Inconsolata-g/fonts.dir
+?? fonts/fonts-master/Inconsolata-g/fonts.scale
+?? fonts/fonts-master/Inconsolata/Inconsolata Bold for Powerline.ttf
+?? fonts/fonts-master/Inconsolata/Inconsolata for Powerline.otf
+?? fonts/fonts-master/Inconsolata/LICENSE.txt
+?? fonts/fonts-master/Inconsolata/README.rst
+?? fonts/fonts-master/Inconsolata/fonts.dir
+?? fonts/fonts-master/Inconsolata/fonts.scale
+?? fonts/fonts-master/InconsolataDz/Inconsolata-dz for Powerline.otf
+?? fonts/fonts-master/InconsolataDz/LICENSE.txt
+?? fonts/fonts-master/InconsolataDz/README.rst
+?? fonts/fonts-master/InconsolataDz/fonts.dir
+?? fonts/fonts-master/InconsolataDz/fonts.scale
+?? fonts/fonts-master/InputMono/README.rst
+?? fonts/fonts-master/LiberationMono/LICENSE.txt
+?? fonts/fonts-master/LiberationMono/Literation Mono Powerline Bold Italic.ttf
+?? fonts/fonts-master/LiberationMono/Literation Mono Powerline Bold.ttf
+?? fonts/fonts-master/LiberationMono/Literation Mono Powerline Italic.ttf
+?? fonts/fonts-master/LiberationMono/Literation Mono Powerline.ttf
+?? fonts/fonts-master/LiberationMono/README.rst
+?? fonts/fonts-master/LiberationMono/fonts.dir
+?? fonts/fonts-master/LiberationMono/fonts.scale
+?? fonts/fonts-master/Meslo Dotted/LICENSE.txt
+?? fonts/fonts-master/Meslo Dotted/Meslo LG L DZ Bold Italic for Powerline.ttf
+?? fonts/fonts-master/Meslo Dotted/Meslo LG L DZ Bold for Powerline.ttf
+?? fonts/fonts-master/Meslo Dotted/Meslo LG L DZ Italic for Powerline.ttf
+?? fonts/fonts-master/Meslo Dotted/Meslo LG L DZ Regular for Powerline.ttf
+?? fonts/fonts-master/Meslo Dotted/Meslo LG M DZ Bold Italic for Powerline.ttf
+?? fonts/fonts-master/Meslo Dotted/Meslo LG M DZ Bold for Powerline.ttf
+?? fonts/fonts-master/Meslo Dotted/Meslo LG M DZ Italic for Powerline.ttf
+?? fonts/fonts-master/Meslo Dotted/Meslo LG M DZ Regular for Powerline.ttf
+?? fonts/fonts-master/Meslo Dotted/Meslo LG S DZ Bold Italic for Powerline.ttf
+?? fonts/fonts-master/Meslo Dotted/Meslo LG S DZ Bold for Powerline.ttf
+?? fonts/fonts-master/Meslo Dotted/Meslo LG S DZ Italic for Powerline.ttf
+?? fonts/fonts-master/Meslo Dotted/Meslo LG S DZ Regular for Powerline.ttf
+?? fonts/fonts-master/Meslo Dotted/README.rst
+?? fonts/fonts-master/Meslo Dotted/fonts.dir
+?? fonts/fonts-master/Meslo Dotted/fonts.scale
+?? fonts/fonts-master/Meslo Slashed/LICENSE.txt
+?? fonts/fonts-master/Meslo Slashed/Meslo LG L Bold Italic for Powerline.ttf
+?? fonts/fonts-master/Meslo Slashed/Meslo LG L Bold for Powerline.ttf
+?? fonts/fonts-master/Meslo Slashed/Meslo LG L Italic for Powerline.ttf
+?? fonts/fonts-master/Meslo Slashed/Meslo LG L Regular for Powerline.ttf
+?? fonts/fonts-master/Meslo Slashed/Meslo LG M Bold Italic for Powerline.ttf
+?? fonts/fonts-master/Meslo Slashed/Meslo LG M Bold for Powerline.ttf
+?? fonts/fonts-master/Meslo Slashed/Meslo LG M Italic for Powerline.ttf
+?? fonts/fonts-master/Meslo Slashed/Meslo LG M Regular for Powerline.ttf
+?? fonts/fonts-master/Meslo Slashed/Meslo LG S Bold Italic for Powerline.ttf
+?? fonts/fonts-master/Meslo Slashed/Meslo LG S Bold for Powerline.ttf
+?? fonts/fonts-master/Meslo Slashed/Meslo LG S Italic for Powerline.ttf
+?? fonts/fonts-master/Meslo Slashed/Meslo LG S Regular for Powerline.ttf
+?? fonts/fonts-master/Meslo Slashed/README.rst
+?? fonts/fonts-master/Meslo Slashed/fonts.dir
+?? fonts/fonts-master/Meslo Slashed/fonts.scale
+?? fonts/fonts-master/Monofur/LICENSE.txt
+?? fonts/fonts-master/Monofur/Monofur Bold for Powerline.ttf
+?? fonts/fonts-master/Monofur/Monofur Italic for Powerline.ttf
+?? fonts/fonts-master/Monofur/Monofur for Powerline.ttf
+?? fonts/fonts-master/NotoMono/LICENSE_OFL.txt
+?? fonts/fonts-master/NotoMono/Noto Mono for Powerline.ttf
+?? fonts/fonts-master/NotoMono/README.rst
+?? fonts/fonts-master/NovaMono/LICENSE.txt
+?? fonts/fonts-master/NovaMono/NovaMono for Powerline.ttf
+?? fonts/fonts-master/NovaMono/README.rst
+?? fonts/fonts-master/ProFont/LICENSE
+?? fonts/fonts-master/ProFont/ProFont Bold For Powerline.ttf
+?? fonts/fonts-master/ProFont/ProFont For Powerline.ttf
+?? fonts/fonts-master/ProFont/README.rst
+?? fonts/fonts-master/README.rst
+?? fonts/fonts-master/RobotoMono/LICENSE.txt
+?? fonts/fonts-master/RobotoMono/README.rst
+?? fonts/fonts-master/RobotoMono/Roboto Mono Bold Italic for Powerline.ttf
+?? fonts/fonts-master/RobotoMono/Roboto Mono Bold for Powerline.ttf
+?? fonts/fonts-master/RobotoMono/Roboto Mono Italic for Powerline.ttf
+?? fonts/fonts-master/RobotoMono/Roboto Mono Light Italic for Powerline.ttf
+?? fonts/fonts-master/RobotoMono/Roboto Mono Light for Powerline.ttf
+?? fonts/fonts-master/RobotoMono/Roboto Mono Medium Italic for Powerline.ttf
+?? fonts/fonts-master/RobotoMono/Roboto Mono Medium for Powerline.ttf
+?? fonts/fonts-master/RobotoMono/Roboto Mono Thin Italic for Powerline.ttf
+?? fonts/fonts-master/RobotoMono/Roboto Mono Thin for Powerline.ttf
+?? fonts/fonts-master/RobotoMono/Roboto Mono for Powerline.ttf
+?? fonts/fonts-master/RobotoMono/fonts.dir
+?? fonts/fonts-master/RobotoMono/fonts.scale
+?? fonts/fonts-master/SourceCodePro/LICENSE.txt
+?? fonts/fonts-master/SourceCodePro/README.rst
+?? fonts/fonts-master/SourceCodePro/Source Code Pro Black for Powerline.otf
+?? fonts/fonts-master/SourceCodePro/Source Code Pro Bold for Powerline.otf
+?? fonts/fonts-master/SourceCodePro/Source Code Pro ExtraLight for Powerline.otf
+?? fonts/fonts-master/SourceCodePro/Source Code Pro Light for Powerline.otf
+?? fonts/fonts-master/SourceCodePro/Source Code Pro Medium for Powerline.otf
+?? fonts/fonts-master/SourceCodePro/Source Code Pro Powerline BlackItalic.otf
+?? fonts/fonts-master/SourceCodePro/Source Code Pro Powerline BoldItalic.otf
+?? fonts/fonts-master/SourceCodePro/Source Code Pro Powerline ExtraLightItalic.otf
+?? fonts/fonts-master/SourceCodePro/Source Code Pro Powerline Italic.otf
+?? fonts/fonts-master/SourceCodePro/Source Code Pro Powerline LightItalic.otf
+?? fonts/fonts-master/SourceCodePro/Source Code Pro Powerline MediumItalic.otf
+?? fonts/fonts-master/SourceCodePro/Source Code Pro Powerline SemiboldItalic.otf
+?? fonts/fonts-master/SourceCodePro/Source Code Pro Semibold for Powerline.otf
+?? fonts/fonts-master/SourceCodePro/Source Code Pro for Powerline.otf
+?? fonts/fonts-master/SourceCodePro/fonts.dir
+?? fonts/fonts-master/SourceCodePro/fonts.scale
+?? fonts/fonts-master/SpaceMono/LICENSE.txt
+?? fonts/fonts-master/SpaceMono/README.rst
+?? fonts/fonts-master/SpaceMono/Space Mono Bold Italic for Powerline.ttf
+?? fonts/fonts-master/SpaceMono/Space Mono Bold for Powerline.ttf
+?? fonts/fonts-master/SpaceMono/Space Mono Italic for Powerline.ttf
+?? fonts/fonts-master/SpaceMono/Space Mono for Powerline.ttf
+?? fonts/fonts-master/SpaceMono/SpaceMono-Bold.ttf
+?? fonts/fonts-master/SpaceMono/SpaceMono-BoldItalic.ttf
+?? fonts/fonts-master/SpaceMono/SpaceMono-Italic.ttf
+?? fonts/fonts-master/SpaceMono/SpaceMono-Regular.ttf
+?? fonts/fonts-master/SymbolNeu/LICENSE.txt
+?? fonts/fonts-master/SymbolNeu/README.rst
+?? fonts/fonts-master/SymbolNeu/Symbol Neu for Powerline.ttf
+?? fonts/fonts-master/Terminus/BDF/fonts.dir
+?? fonts/fonts-master/Terminus/BDF/ter-powerline-x12b.bdf
+?? fonts/fonts-master/Terminus/BDF/ter-powerline-x12n.bdf
+?? fonts/fonts-master/Terminus/BDF/ter-powerline-x14b.bdf
+?? fonts/fonts-master/Terminus/BDF/ter-powerline-x14n.bdf
+?? fonts/fonts-master/Terminus/BDF/ter-powerline-x16b.bdf
+?? fonts/fonts-master/Terminus/BDF/ter-powerline-x16n.bdf
+?? fonts/fonts-master/Terminus/BDF/ter-powerline-x18b.bdf
+?? fonts/fonts-master/Terminus/BDF/ter-powerline-x18n.bdf
+?? fonts/fonts-master/Terminus/BDF/ter-powerline-x20b.bdf
+?? fonts/fonts-master/Terminus/BDF/ter-powerline-x20n.bdf
+?? fonts/fonts-master/Terminus/BDF/ter-powerline-x22b.bdf
+?? fonts/fonts-master/Terminus/BDF/ter-powerline-x22n.bdf
+?? fonts/fonts-master/Terminus/BDF/ter-powerline-x24b.bdf
+?? fonts/fonts-master/Terminus/BDF/ter-powerline-x24n.bdf
+?? fonts/fonts-master/Terminus/BDF/ter-powerline-x28b.bdf
+?? fonts/fonts-master/Terminus/BDF/ter-powerline-x28n.bdf
+?? fonts/fonts-master/Terminus/BDF/ter-powerline-x32b.bdf
+?? fonts/fonts-master/Terminus/BDF/ter-powerline-x32n.bdf
+?? fonts/fonts-master/Terminus/LICENSE.txt
+?? fonts/fonts-master/Terminus/PCF/fonts.dir
+?? fonts/fonts-master/Terminus/PCF/ter-powerline-x12b.pcf.gz
+?? fonts/fonts-master/Terminus/PCF/ter-powerline-x12n.pcf.gz
+?? fonts/fonts-master/Terminus/PCF/ter-powerline-x14b.pcf.gz
+?? fonts/fonts-master/Terminus/PCF/ter-powerline-x14n.pcf.gz
+?? fonts/fonts-master/Terminus/PCF/ter-powerline-x16b.pcf.gz
+?? fonts/fonts-master/Terminus/PCF/ter-powerline-x16n.pcf.gz
+?? fonts/fonts-master/Terminus/PCF/ter-powerline-x18b.pcf.gz
+?? fonts/fonts-master/Terminus/PCF/ter-powerline-x18n.pcf.gz
+?? fonts/fonts-master/Terminus/PCF/ter-powerline-x20b.pcf.gz
+?? fonts/fonts-master/Terminus/PCF/ter-powerline-x20n.pcf.gz
+?? fonts/fonts-master/Terminus/PCF/ter-powerline-x22b.pcf.gz
+?? fonts/fonts-master/Terminus/PCF/ter-powerline-x22n.pcf.gz
+?? fonts/fonts-master/Terminus/PCF/ter-powerline-x24b.pcf.gz
+?? fonts/fonts-master/Terminus/PCF/ter-powerline-x24n.pcf.gz
+?? fonts/fonts-master/Terminus/PCF/ter-powerline-x28b.pcf.gz
+?? fonts/fonts-master/Terminus/PCF/ter-powerline-x28n.pcf.gz
+?? fonts/fonts-master/Terminus/PCF/ter-powerline-x32b.pcf.gz
+?? fonts/fonts-master/Terminus/PCF/ter-powerline-x32n.pcf.gz
+?? fonts/fonts-master/Terminus/PSF/README.markdown
+?? fonts/fonts-master/Terminus/PSF/ter-powerline-v12n.psf.gz
+?? fonts/fonts-master/Terminus/PSF/ter-powerline-v14b.psf.gz
+?? fonts/fonts-master/Terminus/PSF/ter-powerline-v14n.psf.gz
+?? fonts/fonts-master/Terminus/PSF/ter-powerline-v14v.psf.gz
+?? fonts/fonts-master/Terminus/PSF/ter-powerline-v16b.psf.gz
+?? fonts/fonts-master/Terminus/PSF/ter-powerline-v16n.psf.gz
+?? fonts/fonts-master/Terminus/PSF/ter-powerline-v16v.psf.gz
+?? fonts/fonts-master/Terminus/PSF/ter-powerline-v18b.psf.gz
+?? fonts/fonts-master/Terminus/PSF/ter-powerline-v18n.psf.gz
+?? fonts/fonts-master/Terminus/PSF/ter-powerline-v20b.psf.gz
+?? fonts/fonts-master/Terminus/PSF/ter-powerline-v20n.psf.gz
+?? fonts/fonts-master/Terminus/PSF/ter-powerline-v22b.psf.gz
+?? fonts/fonts-master/Terminus/PSF/ter-powerline-v22n.psf.gz
+?? fonts/fonts-master/Terminus/PSF/ter-powerline-v24b.psf.gz
+?? fonts/fonts-master/Terminus/PSF/ter-powerline-v24n.psf.gz
+?? fonts/fonts-master/Terminus/PSF/ter-powerline-v28b.psf.gz
+?? fonts/fonts-master/Terminus/PSF/ter-powerline-v28n.psf.gz
+?? fonts/fonts-master/Terminus/PSF/ter-powerline-v32b.psf.gz
+?? fonts/fonts-master/Terminus/PSF/ter-powerline-v32n.psf.gz
+?? fonts/fonts-master/Terminus/README.rst
+?? fonts/fonts-master/Tinos/LICENSE.txt
+?? fonts/fonts-master/Tinos/README.rst
+?? fonts/fonts-master/Tinos/Tinos Bold Italic for Powerline.ttf
+?? fonts/fonts-master/Tinos/Tinos Bold for Powerline.ttf
+?? fonts/fonts-master/Tinos/Tinos Italic for Powerline.ttf
+?? fonts/fonts-master/Tinos/Tinos for Powerline.ttf
+?? fonts/fonts-master/UbuntuMono/LICENCE.txt
+?? fonts/fonts-master/UbuntuMono/README.rst
+?? fonts/fonts-master/UbuntuMono/Ubuntu Mono derivative Powerline Bold Italic.ttf
+?? fonts/fonts-master/UbuntuMono/Ubuntu Mono derivative Powerline Bold.ttf
+?? fonts/fonts-master/UbuntuMono/Ubuntu Mono derivative Powerline Italic.ttf
+?? fonts/fonts-master/UbuntuMono/Ubuntu Mono derivative Powerline.ttf
+?? fonts/fonts-master/UbuntuMono/fonts.dir
+?? fonts/fonts-master/UbuntuMono/fonts.scale
+?? fonts/fonts-master/fontconfig/50-enable-terminess-powerline.conf
+?? fonts/fonts-master/install.ps1
+?? fonts/fonts-master/install.sh
+?? fonts/fonts-master/samples/All.md
+?? fonts/fonts-master/samples/AnonymousPro.md
+?? fonts/fonts-master/samples/DejaVuSansMono.md
+?? fonts/fonts-master/samples/DroidSansMono.md
+?? fonts/fonts-master/samples/FiraMono.md
+?? fonts/fonts-master/samples/Hack.md
+?? fonts/fonts-master/samples/Inconsolata-g.md
+?? fonts/fonts-master/samples/Inconsolata.md
+?? fonts/fonts-master/samples/InconsolataDz.md
+?? fonts/fonts-master/samples/InputMono.md
+?? fonts/fonts-master/samples/LiberationMono.md
+?? fonts/fonts-master/samples/Meslo.md
+?? fonts/fonts-master/samples/Monofur.md
+?? fonts/fonts-master/samples/SourceCodePro.md
+?? fonts/fonts-master/samples/UbuntuMono.md
+?? fonts/fonts-master/uninstall.sh
+?? init_dotfiles.sh
+?? init_submodules.sh
+?? install
+?? install.conf.yaml
+?? plugins/zsh-syntax-highlighting/
+?? python.json
+?? src/reset_super_shortcuts_pop.sh
+?? terminal-config/bash_profile
+?? terminal-config/bash_profile2
+?? terminal-config/bashrc
+?? terminal-config/git-completion.bash
+?? terminal-config/git-prompt.sh
+?? vimrc
+?? vscode.settings/keybindings.json
+?? vscode.settings/python.json
+?? vscode.settings/settings.json
+?? vscode.settings/symlink_path_python.sh
+?? zshrc
+in:\n/home/dorf/pR1sM/dotfiles

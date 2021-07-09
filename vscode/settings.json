@@ -1,0 +1,24 @@
+{
+    "workbench.editorAssociations": {
+        "*.ipynb": "jupyter.notebook.ipynb"
+    },
+    "terminal.integrated.tabs.enabled": true,
+    "explorer.confirmDragAndDrop": false,
+    "explorer.confirmDelete": false,
+    "security.workspace.trust.untrustedFiles": "open",
+    "github.copilot.autocomplete.enable": true,
+    "git.autofetch": true,
+    "debug.javascript.resourceRequestOptions": {
+    
+    },
+    "[python]": {
+
+        "editor.autoClosingBrackets": "never",
+        "editor.wordBasedSuggestions": true,
+        "editor.snippetSuggestions": "inline"
+    },
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "workbench.iconTheme": "vscode-icons",
+    "workbench.colorTheme": "GitHub Dark"
+}
