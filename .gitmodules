@@ -1,3 +1,6 @@
 [submodule "ohmyzsh"]
 	path = ohmyzsh
 	url = git@github.com:ohmyzsh/ohmyzsh.git
+[submodule "alacritty"]
+	path = alacritty
+	url = git@github.com:alacritty/alacritty.git
