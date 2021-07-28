@@ -6,10 +6,11 @@
     ~/.ohmyzsh: ohmyzsh/
     ~/.bash_profile: bash_profile
     ~/.fonts: fonts 
+    ~/.vimrc: vimrc
+    ~/.vim: vim/ 
 - create:
     - ~/
     - ~/.vim/undo-history 
-
 
 - shell:
 # REINIT SUBMODULES

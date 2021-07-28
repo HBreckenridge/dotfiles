@@ -115,10 +115,9 @@ trap keychain_cleanup_on_exit EXIT
 
 ###Add path variable to bash shell
 export PATH="$PATH:$PZ/bin/sbin"
-alias wally="$PZ/bin/wally/wally"
-#alias code=".$PZ/bin/VSCode/VSCode-linux-x64/code"
 alias lsa="ls -la"
 # Directory Shortcuts
+alias p="cd $PZ"
 alias practice="cd $PZ/practice"
 alias production="cd $PZ/production"
 alias sandbox="cd $PZ/sandbox"
@@ -129,7 +128,7 @@ alias keychain-on="keychain -n ssh -T enable"
 # git repo aliases
 alias ga="git add"
 alias gc="git commit -m"
-alias gpom="git push origin master"
+alias gp="git push -u origin"
 alias gs="git status"
 alias gl="git log"
 ################
@@ -139,3 +138,23 @@ alias gl="git log"
 ##########################
 ##### Remove to here  #######
 ##########################
+
+
+###
+# End of ZSHRC
+#
+#SSH LOGIN
+# Logon to user : root @ 138.68.63.8 system : svr-microservice-staging ssh root@138.68.63.8
+alias svrstage-root='''ssh root@138.68.63.8'''
+alias svrstage-svrms='''ssh svr-ms@138.68.63.8'''
+# soundscapeVR
+alias ssh-svr='''eval $(ssh-agent -s) && ssh-add $PZ/.etc/.keys/.ssh/soundscape'''
+# git
+alias ssh-git='''eval $(ssh-agent -s) && ssh-add $PZ/.etc/.keys/.ssh/ssh.git'''
+#
+alias ssh-deploy'''eval $(ssh-agent -s) && ssh-add $PZ/.etc/.keys/.ssh/ssh.remote-deployment'''
+#
+alias api-plusPlusGit='''ApiGit=`cat pR1sM/.etc/.keys/.api/.plusPlusGit` && echo "Loaded api key: " $ApiGit" '''
+
+# End of Keychain
+# EOF
