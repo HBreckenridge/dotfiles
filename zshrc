@@ -142,3 +142,19 @@ alias gl="git log"
 
 ###
 # End of ZSHRC
+#
+#SSH LOGIN
+# Logon to user : root @ 138.68.63.8 system : svr-microservice-staging ssh root@138.68.63.8
+alias svrstage-root='''ssh root@138.68.63.8'''
+alias svrstage-svrms='''ssh svr-ms@138.68.63.8'''
+# soundscapeVR
+alias ssh-svr='''eval $(ssh-agent -s) && ssh-add $PZ/.etc/.keys/.ssh/soundscape'''
+# git
+alias ssh-git='''eval $(ssh-agent -s) && ssh-add $PZ/.etc/.keys/.ssh/ssh.git'''
+#
+alias ssh-deploy'''eval $(ssh-agent -s) && ssh-add $PZ/.etc/.keys/.ssh/ssh.remote-deployment'''
+#
+alias api-plusPlusGit='''ApiGit=`cat pR1sM/.etc/.keys/.api/.plusPlusGit` && echo "Loaded api key: " $ApiGit" '''
+
+# End of Keychain
+# EOF
