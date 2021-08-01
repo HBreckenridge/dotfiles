@@ -1,4 +1,4 @@
-export PATH="$PATH:$PZ/bin/sbin"
+t PATH="$PATH:$PZ/bin/sbin"
 export PATH
 
 # Enable tab completion

@@ -125,8 +125,8 @@ source ~/.terminal-config/git-completion.bash
 source ~/.terminal-config/git-prompt.sh
 
 # colors!
-#teal="\[\034[38;5;203m\]"
-#yellow="\[\034[38;5;203m\]"
+teal="\[\034[38;5;203m\]"
+yellow="\[\034[38;5;203m\]"
 red="\[\033[38;5;201m\]"
 green="\[\033[38;05;38m\]"
 blue="\[\033[0;34m\]"
@@ -141,7 +141,6 @@ export PS1="$red\u$green\$(__git_ps1)$blue \W
 $ $reset"
 
 ###Add path variable to bash shell
-#export PATH="$PATH:$PZ/bin/VSCode/VSCode-linux-x64/bin/code"
 export PATH="$PATH:$PZ/bin/sbin"
 
 ###___###__Add my shortcut aliases to bash shell config file

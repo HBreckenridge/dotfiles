@@ -72,7 +72,7 @@ window:
 
   # Window class (Linux/BSD only):
   #class:
-    # Application instance name
+    # Application instance name/bin/bash
     #instance: Alacritty
     # General application class
     #general: Alacritty

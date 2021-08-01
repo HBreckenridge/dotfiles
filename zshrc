@@ -64,10 +64,13 @@ DISABLE_UPDATE_PROMPT="true"
 # or set a custom format using the strftime function format specifications,
 # see 'man strftime' for details.
 # HIST_STAMPS="mm/dd/yyyy"
+# Kebindings:
+# runs "workmode" into current terminal
+bindkey -s "^|" 'workmode^M' 
+# Would you like to use another custom folder than $ZSH/custom?Z
+SH_CUSTOM=
 
-# Would you like to use another custom folder than $ZSH/custom?
-# ZSH_CUSTOM=/path/to/new-custom-folder
-
+# runs "workmode" into current terminal
 # Which plugins would you like to load?
 # Standard plugins can be found in $ZSH/plugins/
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
@@ -84,12 +87,11 @@ source ~/.ohmyzsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
 # Load zsh-autosuggestions.
 source ~/.ohmyzsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
-
 # Enable autosuggestions automatically.
-#zle-line-init() {
-#    zle autosuggest-start
-#    }
-#    zle -N zle-line-init
+zle-line-init() {
+	zle autosuggest-start
+}
+	zle -N zle-line-init
 
 source $ZSH/oh-my-zsh.sh
 trap keychain_cleanup_on_exit EXIT
@@ -118,9 +120,13 @@ export PATH="$PATH:$PZ/bin/sbin"
 alias lsa="ls -la"
 # Directory Shortcuts
 alias p="cd $PZ"
-alias practice="cd $PZ/practice"
-alias production="cd $PZ/production"
-alias sandbox="cd $PZ/sandbox"
+alias pb="cd $PZ/bin/sbin"
+alias pd="cd $PZ/dotfiles"
+alias pp="cd $PZ/Practice"
+alias pP="cd $PZ/Projects"
+alias ps="cd $PZ/Sandbox"
+alias lss="cd $PZ/Library/snippets/shell"
+alias lss="cd $PZ/Library/snippets/python"
 # Other Dir/File Shortcuts
 alias ..="cd .."
 alias keychain-off="keychain -n ssh -T disable"
@@ -139,22 +145,9 @@ alias gl="git log"
 ##### Remove to here  #######
 ##########################
 
-
-###
+####
+#
+#
+#
 # End of ZSHRC
-#
-#SSH LOGIN
-# Logon to user : root @ 138.68.63.8 system : svr-microservice-staging ssh root@138.68.63.8
-alias svrstage-root='''ssh root@138.68.63.8'''
-alias svrstage-svrms='''ssh svr-ms@138.68.63.8'''
-# soundscapeVR
-alias ssh-svr='''eval $(ssh-agent -s) && ssh-add $PZ/.etc/.keys/.ssh/soundscape'''
-# git
-alias ssh-git='''eval $(ssh-agent -s) && ssh-add $PZ/.etc/.keys/.ssh/ssh.git'''
-#
-alias ssh-deploy'''eval $(ssh-agent -s) && ssh-add $PZ/.etc/.keys/.ssh/ssh.remote-deployment'''
-#
-alias api-plusPlusGit='''ApiGit=`cat pR1sM/.etc/.keys/.api/.plusPlusGit` && echo "Loaded api key: " $ApiGit" '''
 
-# End of Keychain
-# EOF
