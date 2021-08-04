@@ -8,9 +8,15 @@
 	path = dotbot
 	url = https://github.com/anishathalye/dotbot
 	ignore = dirty
-[submodule "vim/pack/vendor/start/vim-colors-solarized"]
-	path = vim/pack/vendor/start/vim-colors-solarized
+[submodule "/home/z/pR1sM/dotfiles/vim/bundle/vim-airline"]
+	path = /home/z/pR1sM/dotfiles/vim/bundle/vim-airline
+	url = https://github.com/vim-airline/vim-airline.git
+[submodule "/home/z/pR1sM/dotfiles/vim/bundle/vim-colors-solarized"]
+	path = /home/z/pR1sM/dotfiles/vim/bundle/vim-colors-solarized
 	url = https://github.com/altercation/vim-colors-solarized.git
-[submodule "vim/pack/vendor/start/nerdtree"]
-	path = vim/pack/vendor/start/nerdtree
-	url = https://github.com/scrooloose/nerdtree
+[submodule "/home/z/pR1sM/dotfiles/vim/bundle/nerdtree"]
+	path = /home/z/pR1sM/dotfiles/vim/bundle/nerdtree
+	url = https://github.com/preservim/nerdtree.git
+[submodule "/home/z/pR1sM/dotfiles/vim/bundle/ctrlp.vim"]
+	path = /home/z/pR1sM/dotfiles/vim/bundle/ctrlp.vim
+	url = https://github.com/kien/ctrlp.vim.git

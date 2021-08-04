@@ -1,7 +1,8 @@
 " pathogen.vim - path option manipulation
 " Maintainer:   Tim Pope <http://tpo.pe/>
 " Version:      2.4
-
+" https://raw.githubusercontent.com/tpope/vim-pathogen/master/autoload/pathogen.vim
+" 
 " Install in ~/.vim/autoload (or ~\vimfiles\autoload).
 "
 " For management of individually installed plugins in ~/.vim/bundle (or

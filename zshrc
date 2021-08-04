@@ -150,4 +150,3 @@ alias gl="git log"
 #
 #
 # End of ZSHRC
-

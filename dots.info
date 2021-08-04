@@ -1,0 +1,158 @@
+# my dots!
+# 
+# MY DOTS AND CUSTOMIZATIONS FOR MY *NI### template
+#
+vim
+-------
+# Software: 
+vim
+# description
+Text editor  
+## 
+Install Primary Resource
+------------------
+# name
+vim
+# remote 
+dots/vim
+dots/vim
+# apt install 
+vim
+# Configuration file:
+vimrc ==> dots/vimrc
+SUBMODULES ==> dots/vim
+##
+##
+Install Submodules
+-----------------
+mkdir -p vim/autoload vim/bundle 
+# name
+vim-pathogen
+# local 
+vim/auto
+# remote
+dots/vim/bundle/startify 
+# description
+"Start [up]tions for vim"
+# special instructions 
+mkdir -p vim/autoload vim/bundle
+echo "ALL packages maintained by pathogen or externalally"# vimrc
+#
+execute pathogen#infect(0)   # TMUX
+ 
+#----------------   
+# End of Resource   
+#------------
+"----------------
+# name
+starify
+# local 
+dots/vim/bundle/startify
+# remote
+https://github.com/mhinz/vim-startify.git
+# description
+"Start [up]tions for "
+"----------------
+# name
+fzf.vim
+# local z
+dots/vim/bundle/fzf
+# remote
+https://github.com/junegunn/fzf.vim.git
+# description
+"Because you can and you love fzf.
+------------------
+# name
+vim-airline
+# local 
+dots/vim/bundle/vim-airline
+# remote
+https://github.com/vim-airline/vim-airline.git
+# description
+"Lean & mean status/tabline for vim that's light as air."
+------------------
+# name
+ycm-core/YouCompleteMe
+# local 
+dots/vim/bundle/ycm-core/YouCompleteMe
+# remote
+https://github.com/ycm-core/YouCompleteMe.git
+# description
+"A code-completion engine for Vimm"
+
+---------------------
+# TMUX
+https://github.com/ericpruitt/tmux.vim/blob/master/vim/ftdetect/tmux.vim
+# local 
+sts/vim/bundle/This repository provides a 
+Vim syntax highlighting file for tmux configurations.startify
+# remote
+https://github.com/ericpruitt/tmux.vim/blob/master/vim/ftdetect/tmux.vim
+# description
+"Start [up]tions for vim"
+# # # # # # # # # # #
+#  end of submodule #
+# # # # # # # # # # #
+
+
+
+
+p
+
+YouCompleteMe
+http://ycm-core.github.io/YouCompleteMe
+https://github.com/ycm-core/YouCompleteMe/wiki/Full-Installation-Guide
+http://ycm-core.github.io/YouCompleteMe/#quick-feature-summary
+
+lightlinec
+https://github.com/itchyny/lightline
+===========================================================================================
+============================================================================================
+# # # # # 
+C.A.V.A. 
+-------
+# Software: 
+cava
+# description
+C.A.V.A. is a bar spectrum audio visualizer for the Linux terminal using ALSA, pulseaudio or fifo buffer for input.
+This program is not intended for scientific use. It's written to look responsive and aesthetic when used to visualize music. 
+## 
+Install Primary Resource
+------------------
+# name
+cava
+# install local
+dots/cava
+# remote 
+https://github.com/karlstav/cava.git
+# apt install 
+libfftw3-dev libasound2-dev libncursesw5-dev libpulse-dev libtool automake libiniparser-dev
+export CPPFLAGS=-I/usr/include/iniparser
+## 
+Install Dependencies
+------------------
+Required Github Repositories:
+FFTW
+http://www.fftw.org/
+iniparser
+https://github.com/ndevilla/iniparser
+
+Reccomended Github Repositories:
+ncursesw dev files
+http://www.gnu.org/software/ncurses/
+ALSA dev files
+http://alsa-project.org
+Pulseaudio dev files
+http://freedesktop.org/software/pulseaudio/doxygen/
+
+Required components:
+libtool automake build-essentials
+
+Recomended components:
+Portaudio Sndio
+
+# # # # # 
+============================================================================================
+============================================================================================
+============================================================================================
+# # # # # 
