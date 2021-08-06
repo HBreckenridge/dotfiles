@@ -101,7 +101,7 @@ font:
     #   - (macOS) Menlo
     #   - (Linux/BSD) monospace
     #   - (Windows) Consolas
-    family: Input Mono Black
+    family: Input Mono  
 
     # The `style` can be specified to pick a specific face.
     style: Regular
@@ -140,13 +140,12 @@ font:
     style: Bold Italic
 
   # Point size
-  size: 11.5
-
+  size: 10.5
   # Offset is the extra space around each character. `offset.y` can be thought of
   # as modifying the line spacing, and `offset.x` as modifying the letter spacing.
   offset:
     x: 0
-    y: 4
+    y: 1
 
   # Glyph offset determines the locations of the glyphs within their cells with
   # the default being at the bottom. Increasing `x` moves the glyph to the right,
@@ -162,14 +161,13 @@ font:
   #use_thin_strokes: true
 
 # If `true`, bold text is drawn using the bright color variants.
-#draw_bold_text_with_bright_colors: false
+draw_bold_text_with_bright_colors: true 
 
 # Colors (Tomorrow Night)
 colors:
     primary:
         background: '#24272e'
         foreground: '#abb2bf'
-
     cursor:
         text: '#0b0b0b'    # black
         cursor: '#528bff'
@@ -213,7 +211,7 @@ colors:
 #
 # Window opacity as a floating point number from `0.0` to `1.0`.
 # The value `0.0` is completely transparent and `1.0` is opaque.
-background_opacity: .7
+background_opacity: .94
 
 mouse:
     hide_when_typing: true
@@ -230,7 +228,7 @@ selection:
 
 cursor:
     # Thickness of the cursor (number from `0.0` to `1.0`)
-    thickness: 0.18
+    thickness: 0.26
     # Vi mode cursor style
     vi_mode_style: Block
 
@@ -240,7 +238,7 @@ cursor:
   # the style of the active value of the normal cursor.
   #
   # See `cursor.style` for available options.
-  #vi_mode_style: None
+  # vi_mode_style: None
 
   # If this is `true`, the cursor will be rendered as a hollow box when the
   # window is not focused.

@@ -143,23 +143,4 @@ $ $reset"
 ###Add path variable to bash shell
 export PATH="$PATH:$PZ/bin/sbin"
 
-###___###__Add my shortcut aliases to bash shell config file
-# Directory Shortcuts
-alias todo="gedit $PZ/todo.txt"
-alias practice="cd $PZ/practice"
-alias tools="cd $PZ/myTools"
-alias production="cd $PZ/production"
-alias sandbox="cd $PZ/sandbox"
-# Other Dir/File Shortcuts
-alias ..="cd .."
-# TURN touchpad on/off
-alias touchoff='''xinput set-prop 16 "Device Enabled" 0'''
-alias touchon='''xinput set-prop 16 "Device Enabled" 1'''
-# 
-# git repo aliases
-alias ga="git add"
-alias gc="git commit -m"
-alias gpom="git push origin master"
-alias gs="git status"
-alias gl="git log"
-#Print aliases for reminder
+###___###__Add my shortcut aliases to bash shell config fil# Directory Shortcuts

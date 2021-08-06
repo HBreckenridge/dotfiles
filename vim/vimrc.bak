@@ -31,7 +31,25 @@ set background=dark
 let g:solarized_menu=0
 colorscheme solarized
 
-                                           
+if has('gui_running')                                        
+    colorscheme solarized                                    
+    let g:lightline = {'colorscheme': 'solarized'}           
+elseif &t_Co < 256
+    colorscheme                                 
+    set nocursorline                                         
+else
+    set background=dark
+    let g:solarized_termcolors=256                           
+    colorscheme solarized                                    
+    "customized colors
+    highlight SignColumn ctermbg=234                         
+    highlight StatusLine cterm=bold ctermfg=245 ctermbg=235  
+    highlight StatusLineNC cterm=bold ctermfg=245 ctermbg=235
+    let g:lightline = {'colorscheme': 'dark'}                
+    highlight SpellBad cterm=underline                       
+    "patches"                                                
+    highlight CursorLineNr cterm=NONE                        
+endif                                                   
 
 "---------------------                                
 " Basic editing confi                               
@@ -76,17 +94,39 @@ set nofoldenable " disable folding by default
 " Misc configurations"
 "--------------------"
 
-"--------------------
+"unbind keys"
+map <C-a> <Nop>
+map <C-x> <Nop>
+nmap Q <Nop>
+
+
+" Open new split panes to right and bottom, which feels more natural"
+set splitbelow
+set splitright
+
+" quicker window movement"
+nnoremap <C-j> <C-w>j
+nnoremap <C-k> <C-w>k
+nnoremap <C-h> <C-w>h
+nnoremap <C-l> <C-w>l
+
+" toggle relative numbering "
+nnoremap <C-n> :set rnu!<CR>
+
+" save read-only files "
+command -nargs=0 Sudow w !sudo tee % >/dev/null
+
+"---------------------
 " Plugin configuration
 "---------------------
 " NERDTree 
-" autocmd VimEnter * NERDTree 
-" autocmd VimEnter * NERDTree | wincmd p
+autocmd VimEnter * NERDTree 
+autocmd VimEnter * NERDTree | wincmd p
 autocmd StdinReadPre * let s:std_in=1
 autocmd VimEnter * if argc() == 0 && !exists('s:std_in') | NERDTree | endif
 "
 nnoremap <leader>n :NERDTreeFocus<CR>
-
+nnoremap <C-n> :NERDTree<CR>
 nnoremap <C-t> :NERDTreeToggle<CR>
 nnoremap <C-f> :NERDTreeFind<CR>
 " NERDTress File highlighting
@@ -99,7 +139,7 @@ endfunction
 let g:ycm_autoclose_preview_window_after_completion=1
 map <leader>g  :YcmCompleter GoToDefinitionElseDeclaration<CR>
 " ctrlp "
-set runtimepath^=~/.vim/bundle/ctrlp.vim
+set runtimepath^=~/vim/bundle/ctrlp.vim
 nnoremap ; :CtrlPBuffer<CR>
 let g:ctrlp_switch_buffer = 0
 let g:ctrlp_show_hidden = 1
@@ -140,7 +180,7 @@ endif
 " custom colors 
 "---------------------"
 
-call NERDTreeHighlightFile('py', 'green', 'none', 'green', '#151515')
+call NERDTreeHighlightFile('jade', 'green', 'none', 'green', '#151515')
 call NERDTreeHighlightFile('ini', 'yellow', 'none', 'yellow', '#151515')
 call NERDTreeHighlightFile('md', 'blue', 'none', '#3366FF', '#151515')
 call NERDTreeHighlightFile('yml', 'yellow', 'none', 'yellow', '#151515')
@@ -213,6 +253,6 @@ nnoremap <space> za
 "
 " F9 runs python file
 autocmd FileType python map <buffer> <F9> :w<CR>:exec '!python3' shellescape(@%, 1)<CR>
-"autocmd FileType python imap <buffer> <F9> <esc>:w<CR>:exec '!python3' shellescape(@%, 1)<CR>
+autocmd FileType python imap <buffer> <F9> <esc>:w<CR>:exec '!python3' shellescape(@%, 1)<CR>
 autocmd Filetype python nnoremap <buffer> <F8> :w<CR>:vert ter python3 "%"<CR>
 
