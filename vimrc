@@ -31,7 +31,27 @@ set background=dark
 let g:solarized_menu=0
 colorscheme solarized
 
-                                           
+ if has('gui_running')                                        
+    colorscheme solarized                                    
+    let g:lightline = {'colorscheme': 'solarized'}           
+elseif &t_Co < 256
+    colorscheme                                 
+    set nocursorline                                         
+else
+    set background=dark
+    let g:solarized_termcolors=256                           
+    colorscheme solarized                                    
+    "customized colors
+    highlight SignColumn ctermbg=234                         
+    highlight StatusLine cterm=bold ctermfg=245 ctermbg=235  
+    highlight StatusLineNC cterm=bold ctermfg=245 ctermbg=235
+    let g:lightline = {'colorscheme': 'dark'}                
+    highlight SpellBad cterm=underline                       
+    "patches"                                                
+    highlight CursorLineNr cterm=NONE                        
+endif                                                   
+
+                                          
 
 "---------------------                                
 " Basic editing confi                               
@@ -71,7 +91,8 @@ if &term =~ '^screen'
     set ttymouse=xterm2
 endif
 set nofoldenable " disable folding by default
-
+set splitright
+set splitbelow
 "--------------------"
 " Misc configurations"
 "--------------------"
@@ -80,19 +101,19 @@ set nofoldenable " disable folding by default
 " Plugin configuration
 "---------------------
 " NERDTree 
-" autocmd VimEnter * NERDTree 
-" autocmd VimEnter * NERDTree | wincmd p
+" Exit Vim if NERDTree is the only window remaining in the only tab.
+autocmd BufEnter * if tabpagenr('$') == 1 && winnr('$') == 1 && exists('b:NERDTree') && b:NERDTree.isTabTree() | quit | endif
+ 
+" Start NERDTree. If a file is specified, move the cursor to its window.
 autocmd StdinReadPre * let s:std_in=1
-autocmd VimEnter * if argc() == 0 && !exists('s:std_in') | NERDTree | endif
-"
+autocmd VimEnter * NERDTree | if argc() > 0 || exists("s:std_in") | wincmd p | endif"
 nnoremap <leader>n :NERDTreeFocus<CR>
-
 nnoremap <C-t> :NERDTreeToggle<CR>
 nnoremap <C-f> :NERDTreeFind<CR>
 " NERDTress File highlighting
 function! NERDTreeHighlightFile(extension, fg, bg, guifg, guibg)
- exec 'autocmd filetype nerdtree highlight ' . a:extension .' ctermbg='. a:bg .' ctermfg='. a:fg .' guibg='. a:guibg .' guifg='. a:guifg
- exec 'autocmd filetype nerdtree syn match ' . a:extension .' #^\s\+.*'. a:extension .'$#'
+    exec 'autocmd filetype nerdtree highlight ' . a:extension .' ctermbg='. a:bg .' ctermfg='. a:fg .' guibg='. a:guibg .' guifg='. a:guifg
+    exec 'autocmd filetype nerdtree syn match ' . a:extension .' #^\s\+.*'. a:extension .'$#'
 endfunction
 
 " YCM
@@ -213,6 +234,6 @@ nnoremap <space> za
 "
 " F9 runs python file
 autocmd FileType python map <buffer> <F9> :w<CR>:exec '!python3' shellescape(@%, 1)<CR>
-"autocmd FileType python imap <buffer> <F9> <esc>:w<CR>:exec '!python3' shellescape(@%, 1)<CR>
+" autocmd FileType python imap <buffer> <F9> <esc>:w<CR>:exec '!python3' shellescape(@%, 1)<CR>
 autocmd Filetype python nnoremap <buffer> <F8> :w<CR>:vert ter python3 "%"<CR>
 
