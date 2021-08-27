@@ -150,11 +150,13 @@ alias gl="git log"
 #
 #
 # End of ZSHRC
-#
+##
+##
+##
 #SSH LOGIN
-# Logon to user: oot @ 138.68.63.8 system : svr-microservice-staging ssh root@138.68.63.8
+# Logon to user: root @ 138.68.63.8 system : svr-microservice-staging ssh root@138.68.63.8
 alias svrstage-root='''ssh root@138.68.63.8'''
-alias upstrem-web='''ssh root@143.198.49.25'''
+alias upstrem-web=eval $(ssh-agent -s) && ssh-add $PZ/.etc/.keys/.ssh/ssh.giteval $(ssh-agent -s) && ssh-add $PZ/.etc/.keys/.ssh/ssh.git'''ssh root@143.198.49.25'''
 alias upstrem-uti='''ssh root@164.90.144.51'''
 alias upstrem-uti-worker='''ssh uputi0@164.90.144.51'''
 alias upstrem-web-worker='''ssh upweb0@143.198.49.25'''
@@ -167,6 +169,8 @@ alias ssh-upstrem-web='''eval $(ssh-agent -s) && ssh-add $PZ/.etc/.keys/.ssh/ups
 alias ssh-git='''eval $(ssh-agent -s) && ssh-add $PZ/.etc/.keys/.ssh/ssh.git'''
 alias ssh-deploy='''eval $(ssh-agent -s) && ssh-add $PZ/.etc/.keys/.ssh/ssh.remote-deployment'''
 alias api-plusPlusGit='''ApiGit=`cat pR1sM/.etc/.keys/.api/.plusPlusGit` '''
-
+# Bitbucket
+alias ssh-bit='''eval $(ssh-agent -s) && ssh-add $PZ/.etc/.keys/.ssh/ssh-bit'''
+#
 # End of Keychain
 # EOF

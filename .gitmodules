@@ -62,3 +62,6 @@
 [submodule "vim/bundle/nord-vim"]
 	path = vim/bundle/nord-vim
 	url = https://github.com/arcticicestudio/nord-vim.git
+[submodule "vim/bundle/jellybeans-vim"]
+	path = vim/bundle/jellybeans-vim
+	url = https://github.com/nanotech/jellybeans.vim.git
