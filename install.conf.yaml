@@ -7,7 +7,8 @@
     ~/.bash_profile: bash_profile
     ~/.fonts: fonts 
     ~/.vimrc: vimrc
-    ~/.vim: vim/ 
+    ~/.vim: vim/
+    ~/.cava: cava
 - create:
     - ~/
     - ~/.vim/undo-history 

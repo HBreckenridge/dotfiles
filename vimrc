@@ -53,6 +53,15 @@ endif
 
                                           
 
+
+"---------------------                                
+" Basic editing confi                               
+"---------------------  
+" Save All
+nnoremap <C-w> :w<CR>
+nnoremap <C-s> :wall<CR>
+nnoremap <C-o> :wqall<CR>
+nnoremap <F10> :qa!<CR>
 "---------------------                                
 " Basic editing confi                               
 "---------------------        
