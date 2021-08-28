@@ -1,0 +1,102 @@
+# Dots:
+# MY DOTS AND CUSTOMIZATIONS FOR 'NIX
+
+
+# Software: 
+vim
+# submodule
+dots/vim/bundle/starify
+# description
+"start options for vim"
+# remote
+https://github.com/mhinz/vim-startify
+f
+YouCompleteMe
+A code-completion engine for VimT
+http://ycm-core.github.io/YouCompleteMe
+https://github.com/ycm-core/YouCompleteMe/wiki/Full-Installation-Guidehttps://github.com/ycm-core/YouCompleteMe/wiki/Full-Installation-Guide
+https://github.com/ycm-core/YouCompleteMe/wiki/Full-Installation-Guide
+http://ycm-core.github.io/YouCompleteMe/#quick-feature-summary
+
+TMUX
+https://github.com/ericpruitt/tmux.vim/blob/master/vim/ftdetect/tmux.vim
+
+fzf
+junegunn/fzfair
+https://github.com:/junegunn/fzf
+
+vim-airlint
+https://github.com/vim-airline/vim-airlinea
+ttps://github.com/vim-airline/vim-airline.git
+https://github.com/neovim/neovim.git
+
+lightlinec
+https://github.com/itchyny/lightline
+
+webrrot
+
+httpm -r https://github.com/gcmt/taboo.vim
+taboo.txt
+
+
+
+
+
+C.A.V.A. 
+-------
+
+C.A.V.A. is a bar spectrum audio visualizer for the Linux terminal using ALSA, pulseaudio or fifo buffer for input.
+
+This program is not intended for scientific use. It's written to look responsive and aesthetic when used to visualize music. 
+
+remote: 
+https://github.com/karlstav/cava.git
+local:
+dots/cava
+
+# Required components:
+
+FFTW
+libtool
+automake
+build-essentials
+iniparser
+:
+# Recomended components:
+
+ncursesw # dev files (bundled in ncurses in arch)
+ALSA dev files, or
+Pulseaudio dev files, or
+Portaudio, or
+Sndio
+
+# install packages
+
+apt install libfftw3-dev libasound2-dev libncursesw5-dev libpulse-dev libtool automake libiniparser-dev
+export CPPFLAGS=-I/usr/include/iniparser
+
+
+
+
+Installing
+------------------
+
+### From Source
+
+#### Installing Build Requirements
+
+Required components:
+FFTW](http://www.fftw.org/)
+* libtool
+* automake
+* build-essentials
+iniparser](https://github.com/ndevilla/iniparser)
+
+
+Recomended components:
+* [ncursesw dev files](http://www.gnu.org/software/ncurses/) (bundled in ncurses in arch)
+* [ALSA dev files](http://alsa-project.org/), or
+* [Pulseaudio dev files](http://freedesktop.org/software/pulseaudio/doxygen/), or
+* Portaudio, or
+* Sndio
+
